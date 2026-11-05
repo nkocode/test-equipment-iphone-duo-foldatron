@@ -1,0 +1,392 @@
+[
+  {
+    "title": "Inventory and measure the specimen",
+    "phase": "PREPARATION",
+    "figure": "inventory",
+    "parts": "BOM T01 caliper/angle gauge; T05 two-leaf dummy; all 60 BOM lines; actual phone for measurements only.",
+    "tools": "Caliper, straightedge, camera, parts trays",
+    "actions": [
+      "Sort purchased parts by BOM ID. Mark fabricated pieces FAB-M01 through FAB-M14; these are drawing IDs, not the similarly numbered BOM stock items. Keep vendor screws with their component.",
+      "Record each phone half's width, thickness, rigid contact lands, camera projection, USB and button keep-outs. Measure actual relaxed closed/open angles. Nominal exterior dimensions are not drilling dimensions.",
+      "Make a two-leaf clearance dummy from those measurements. Mark stationary USB half, moving half and hinge center. A simple dummy does not reproduce the real hinge path or torque.",
+      "Obtain the actual bearing, horn, hub, slide and clutch drawings. Resolve the release register on page 3 before machining their interfaces."
+    ],
+    "check": "All parts identified; specimen measurement sheet completed; unresolved interfaces assigned to an engineer. No phone is installed during mechanical assembly.",
+    "record": "Phone/dummy drawing rev: ______   Vendor drawing pack rev: ______"
+  },
+  {
+    "title": "Prepare the fabricated parts",
+    "phase": "PREPARATION",
+    "figure": "fabricate",
+    "parts": "BOM M01 base, M02 plate-stock set, M03 shoe blanks x8; FAB-M01 to M13; F04 shims/witness paint.",
+    "tools": "Mill/drill, deburr tools, caliper, square",
+    "actions": [
+      "Machine the base 500 x 400 x 8 mm. With origin at its center, the reference grid is X=-175 to +175 and Y=-125 to +125 in 25 mm increments, holes diameter 6.6 mm. Foot centers are X=+/-230, Y=+/-180.",
+      "Make plate blanks to the fabrication register. Transfer mounting patterns from accepted vendor drawings; keep adjustment slots within adequate edge distances. Do not use this booklet or the envelope SVG as a drill template.",
+      "Hold FAB-M03/M04 yoke drilling until the joint is corrected: the old crossbar and arm envelope dimensions do not leave reliable edge distance at all fasteners. Use a released detail drawing with two M4 fasteners per outer joint.",
+      "Deburr; break general edges at least 0.5 mm and round phone-adjacent corners to at least R2. Clean all chips and mark each part away from contact surfaces."
+    ],
+    "check": "Noncritical stock dimensions within +/-0.5 mm; hole positions within +/-0.2 mm or the released tighter requirement. Bearing fits follow the bearing supplier.",
+    "record": "Fabrication drawing rev: ______   Inspection initials: ______"
+  },
+  {
+    "title": "Build the base and support structure",
+    "phase": "MECHANICAL",
+    "figure": "base",
+    "parts": "FAB-M01 x1; BOM M07 rubber feet x4; F03 M6 hardware; G01 guard-support material per released H3 drawing.",
+    "tools": "Hex keys, square, straightedge, torque tool",
+    "actions": [
+      "Place the base on a protected surface. Fit one M6 foot at each corner hole with a washer and locking arrangement compatible with the delivered foot. Select bolt/stud length using the fastener worksheet.",
+      "Turn upright and level on a rigid bench. Keep X left/right, Y along the hinge, Z upward; negative Y is the operator/front side. Mark the centerline and the two support stations at Y=-95 and +95 mm.",
+      "Attach the released guard outriggers or support plinth. The guard is wider and deeper than the base; do not leave it supported only by its plastic panels. Exact supports are an unresolved design interface H3.",
+      "Trial-place the electrical enclosure outside the swept envelope. Leave access to the E-stop, reset, power plugs, service cover and front door."
+    ],
+    "check": "Base is stable with no rocking. Support diagonals differ by no more than 1 mm. Guard and enclosure loads have a positive load path to the bench.",
+    "record": "Foot fixing torque/source: ______   Base level check: ______"
+  },
+  {
+    "title": "Align the two bearing towers",
+    "phase": "MECHANICAL",
+    "figure": "towers",
+    "parts": "FAB-M02 towers x2 with angle feet/adapters; BOM D08 bearings x2; F03 M6 fixings; F04 shims; temporary 6 mm alignment rod.",
+    "tools": "Height gauge or caliper, indicator, hex keys",
+    "actions": [
+      "Bolt each tower foot loosely to the base. Place bearing centers at Y=-95 and +95 mm. Use the tower slots to bring both centers to X=0 and Z=140 mm above the base top.",
+      "Insert a straight temporary rod through both bearings. Adjust feet and bearing adapters until the rod slides freely without levering either tower. Measure center height and lateral alignment at both ends.",
+      "Tighten progressively, rechecking after each stage. Target bearing-axis mismatch no greater than 0.2 mm. Do not use tightening force to bend the alignment rod into position.",
+      "Remove the alignment rod and label it SETUP ONLY. It must never remain across the phone hinge space."
+    ],
+    "check": "Alignment remains within target after tightening; rod removed. Mounting screws do not bottom or deform bearing housings.",
+    "record": "Front X/Z: ______   Rear X/Z: ______   Rod removed: [ ]"
+  },
+  {
+    "title": "Install stubs and the rotating yoke",
+    "phase": "MECHANICAL",
+    "figure": "yoke",
+    "parts": "BOM D09 shaft stock cut to accepted stack; D10 collars x4; D11 arm hubs x2; FAB-M03 arms x2, FAB-M04 crossbar x1; four M4 outer-joint fasteners.",
+    "tools": "Hex keys, caliper, indicator, torque tool",
+    "actions": [
+      "Use two separate 6 mm stubs. The front stub projects toward the drive; the rear is an idler. Derive cut lengths from the delivered bearing, collar, hub and clutch engagements. The SCAD lengths are envelope references only.",
+      "Install a collar on each side of each bearing support, allowing free rotation without axial clamping of the bearing. Keep shaft ends and all drive hardware outside the phone keep-out region Y=-70 to +70 mm.",
+      "Fit the two split-clamp hubs and released radial arms. Join the outer crossbar at nominal X=115 mm using two M4 fasteners per joint. Close H1 before drilling; align the real hub centers with the shaft axes.",
+      "Rotate the empty yoke by hand through its planned arc. Recheck collar clearance, screw engagement and rigidity, then add witness marks."
+    ],
+    "check": "Empty hinge space; free motion without a tight spot; no axial escape. Both hub/arm joints follow a released drawing, not the old envelope model.",
+    "record": "Stub lengths front/rear: ______   Yoke drawing rev: ______"
+  },
+  {
+    "title": "Fit the motor and slip clutch",
+    "phase": "MECHANICAL",
+    "figure": "drive",
+    "parts": "BOM D01 XM430-W350-T; D04 horn/bracket; D07 confirmed EAS12 clutch; D09 input link; D10 remaining collars as required; FAB-M09 shelf, FAB-M11 adapter.",
+    "tools": "Indicator, hex keys, low-range torque tool",
+    "actions": [
+      "Install the horn with the supplied ROBOTIS screws and instructions. Transfer its actual bolt pattern to FAB-M11. Verify 6 mm bore fit, clamp retention, screw depth and clearance; never invent spline dimensions.",
+      "Attach the motor bracket to the slotted shelf outside the front tower. Arrange the axial chain: motor/horn, adapter, short input link, clutch, front stub, supported yoke.",
+      "With the clutch disconnected, align the drive axis to the supported stub; target no more than 0.1 mm offset. Connect without forcing the shafts sideways. Do not use the servo output bearing as the sole fixture support.",
+      "Keep the clutch horizontal. The EAS12-6MM-6MM is a requested configuration: verify supplier acceptance, shaft engagement, both-direction adjustment and mounting instructions before fitting. Leave mechanically uncoupled for electrical/indexing steps."
+    ],
+    "check": "All clamp engagements measured and recorded. The adapter and clutch turn without binding; coupling remains open until step 23.",
+    "record": "Clutch serial/configuration: ______   Alignment: ______ mm"
+  },
+  {
+    "title": "Build the radial floating carriage",
+    "phase": "MECHANICAL",
+    "figure": "rails",
+    "parts": "BOM D12 MGN7 rails/carriages x2; FAB-M12 carriers x2; FAB-M05 moving plate x1; vendor rail screws; F02 M4 plate hardware.",
+    "tools": "Straightedge, caliper, hex keys",
+    "actions": [
+      "Fit the two guide carriers across the yoke. Orient both 100 mm rails radially, toward/away from the hinge in the moving half's plane. Use the delivered rail hole pattern and prescribed screws, not assumed M4 rail screws.",
+      "Mount one rail as the reference; leave the second slightly loose. Attach the plate to both carriages through its adjustment slots. Move the plate gently and tighten the second rail without introducing a tight spot.",
+      "Center the available float and fit positive end retention so no carriage can leave its rail. Use released retainers; screws in a rail hole are acceptable only if they cannot strike rolling elements or violate the rail instructions.",
+      "Check at least +/-6 mm of usable radial float. During the eventual phone sweep, preserve at least 2 mm travel reserve at each end; revise the mount if the hinge consumes that reserve."
+    ],
+    "check": "Plate moves freely by hand, without appreciable preload, binding or loose carriage retention. H2 carrier and retention drawing is released.",
+    "record": "Measured radial stroke: ______   Rail fixing torque/source: ______"
+  },
+  {
+    "title": "Install the fixed cradle",
+    "phase": "MECHANICAL",
+    "figure": "cradle",
+    "parts": "FAB-M06 fixed plate x1; FAB-M07 risers/feet x2; F02/F03 hardware; F04 shims; BOM T05 dummy.",
+    "tools": "Caliper, straightedge, angle gauge, shims",
+    "actions": [
+      "Attach the two risers on the negative-X side of the hinge. Loosely mount the fixed plate using its four 4.5 x 20 mm slots. The USB-port half is stationary.",
+      "Use the dummy and measured back-surface offsets to shim the fixed backing plane relative to the moving cradle at the open position. Z=140 mm is the hinge-axis datum, not automatically the top of either pad.",
+      "Machine camera, button and connector relief from the actual measurements. Keep support on rigid exterior frame/back lands. Do not copy one phone half's relief onto the other.",
+      "Manually sweep the empty/dummy mechanism. Check the fixed plate and risers against the rotating yoke, moving plate and screw ends throughout the arc, then tighten and mark."
+    ],
+    "check": "No interference at any angle; the plates do not force either leaf out of its natural plane. USB plug/strain relief space remains available.",
+    "record": "Backing-plane offsets: ______   Minimum observed clearance: ______"
+  },
+  {
+    "title": "Fit compliant shoes and pads",
+    "phase": "MECHANICAL",
+    "figure": "shoes",
+    "parts": "FAB-M08 acetal shoes x8 (BOM M03); BOM M04 1 mm silicone pad sheet; BOM M05 four shoulder screws, spacers, eight bushings and retainers.",
+    "tools": "Caliper, knife, hex keys, force gauge",
+    "actions": [
+      "Machine four shoe contact contours for each half from the actual frame map. Add 1 mm silicone pads, Shore A 30-40. Keep all shoes away from screen, hinge gap, buttons, lens glass and connectors.",
+      "Fix four shoes to the stationary plate. At the moving plate, assemble each of the four compliant mounts with the released shoulder-screw/spacer/bushing stack. The shoulder/spacer carries tightening load; do not crush the bushings solid.",
+      "Set approximately +/-2 mm tangential compliance with positive capture. Spacer length, shoulder length and washer diameters are H2 release items. A conceptual exploded stack is shown; it is not a dimensioned production joint.",
+      "Fit the dummy; check a 10 N tangential retention pull without slip. Later repeat phone fit gently within approved contact forces. If retention requires screen loading or excessive clamp pressure, redesign the shoes."
+    ],
+    "check": "All eight pads secure; moving mounts float and remain captive. Clamp witness marks can be seen with the guard shut.",
+    "record": "Shoe drawing rev: ______   Dummy retention result: ______"
+  },
+  {
+    "title": "Set stops and endpoint switches",
+    "phase": "MECHANICAL",
+    "figure": "stops",
+    "parts": "FAB-M10 brackets x4; BOM M06 bumper stops x2; S01 D2F-01L switches x2; FAB-M13 cams x2; F01/F02 mounting hardware.",
+    "tools": "Angle gauge, multimeter, hex keys",
+    "actions": [
+      "Fit one mechanical stop at each end of yoke travel. Both act on fixture structure, never on the phone. With a dummy, set an initial 5-175 degree operating span; place stops about 1 degree beyond endpoints only if that remains within safe free travel.",
+      "Mount switches independently of the stops. Use output-side cams on the yoke after the clutch; motor rotation alone must not prove that the phone moved.",
+      "Adjust each cam to actuate only close to its endpoint, leaving switch overtravel within its datasheet. The closed switch must release before the open switch can operate, and vice versa.",
+      "Lock all adjustments, add witness marks and measure physical stop/switch angles. Re-set for the real specimen before any full-range operation."
+    ],
+    "check": "Neither switch is a mechanical stop. Both cannot be active together. The yoke cannot drive the specimen into negative opening or overextension.",
+    "record": "Closed switch/stop: ______   Open switch/stop: ______ degrees"
+  },
+  {
+    "title": "Install and qualify the damper",
+    "phase": "MECHANICAL",
+    "figure": "damper",
+    "parts": "BOM D13 bidirectional damper; released H4 reaction bracket/coupling; dummy; fasteners specified on accepted damper drawing.",
+    "tools": "Force gauge, angle gauge, video/time reference",
+    "actions": [
+      "Select the damper from measured moving mass/inertia and expected gravity settling. The BOM contains an allowance, not a validated make/model or mounting pattern. Release H4 and procure its bracket/adapter before proceeding.",
+      "Attach the damper reaction member to a stationary support and its moving member to the yoke output side. Keep it clear of the phone and rails; confirm it resists both directions without becoming a hard stop.",
+      "With the motor mechanically uncoupled and a restrained dummy, release at several angles. Record gravity movement and time until stationary; keep hands outside the swept area.",
+      "Check added friction against the available clutch/current range. Excessive drag requires a different damper or counterbalance design, not a higher unqualified motor limit."
+    ],
+    "check": "Motion under power loss is measured. The damper is not credited as a safety-rated brake; guard access depends on the later stopping test.",
+    "record": "Damper model/rev: ______   Worst settling angle/time: ______"
+  },
+  {
+    "title": "Assemble the guard frame and panels",
+    "phase": "GUARDING",
+    "figure": "guard",
+    "parts": "BOM G01 2020 frame; G02 brackets x24; G03 five 4 mm panels/FAB-M14; G04 clips/fasteners; released H3 supports.",
+    "tools": "Square, tape, hex keys, plastic drill/deburr tools",
+    "actions": [
+      "Dry-build the frame using matching slot-series parts. Stock schedule: four 560, four 460 and four 360 mm members. Confirm the chosen joint arrangement before cutting: these lengths alone do not define every overlap or final opening.",
+      "Mount the frame to the released support structure. Nominal external envelope is 600 x 500 x 400 mm. Sweep the complete mechanism by hand; maintain at least 25 mm to every moving item, including cable loops.",
+      "Fit rear, sides and top panels with captive clips and thermal-expansion clearance per the panel/fastener supplier. Nominal panels: 560 x 360 x2, 460 x 360 x2, 560 x 460 x1; trial-fit before final drilling.",
+      "Reserve the front panel for the door. Keep edges covered or rounded; assess all seams, ventilation slots and cable entries for reach-through."
+    ],
+    "check": "Frame square within 1 mm diagonal difference, securely supported; panels do not carry frame loads. 25 mm motion clearance is not a finger-access safety rating.",
+    "record": "H3 drawing rev: ______   Smallest swept clearance: ______ mm"
+  },
+  {
+    "title": "Hang the door and fit controls",
+    "phase": "GUARDING",
+    "figure": "door",
+    "parts": "BOM G04 hinges x2, handle/latch; E05 D4NS-1BF; E06 D4DS-K2 key; E04 two-NC E-stop; E07 NO reset; mounting panel/brackets per H3.",
+    "tools": "Drill, hex keys, screwdriver, multimeter",
+    "actions": [
+      "Hang the front panel on two hinges. Install a positive door stop and latch; the switch body/key must not serve as the door's mechanical stop. Confirm smooth closing without bending the key.",
+      "Secure the tongue key captively to the door, and the switch to the fixed frame. Verify the delivered D4NS entry direction and operating stroke against its drawing. Use its specified gland and tightening values. [R4]",
+      "Mount the red/yellow E-stop and labeled physical reset outside the guard, reachable from the operator position with a clear view of the fixture. Record both E-stop NC contact labels before wiring.",
+      "With power absent, verify both guard NC paths open when the door opens and both E-stop NC paths open when pressed. Final access timing is tested in step 24."
+    ],
+    "check": "Closing the door or releasing the E-stop cannot start motion. If coast-down allows access to moving parts, a validated guard-locking redesign is required.",
+    "record": "Switch/key alignment: ______   Contact IDs verified: ______"
+  },
+  {
+    "title": "Mount the electrical enclosure",
+    "phase": "ELECTRICAL",
+    "figure": "enclosure",
+    "parts": "BOM E10 enclosure; E11 DIN/terminals; E03 PNOZ X3 774310; E08 DC disconnect; E09 F1/F2; W03 glands/ferrules; D02/D03 interface/hub.",
+    "tools": "Screwdriver, crimper, drill, label printer",
+    "actions": [
+      "Mount the nominal 300 x 250 x 150 mm covered enclosure outside the motion envelope. Arrange DIN rail, relay, fuse holders and labeled terminals with wiring space and access to every screw.",
+      "Define three labeled wiring zones: switched 12 V motor, 24 V safety, and 3.3 V Pi signal. Mount the optocoupler board on insulated standoffs with a physical gap between its 24 V and Pi sides.",
+      "Provide strain-relieved entries for two external SELV bricks, motor/USB, door/E-stop/reset, and sensors. Use external enclosed supplies; no exposed mains terminations are part of this design.",
+      "Mark the 2-pole disconnect as MOTOR + SAFETY DC ISOLATOR: one pole interrupts +12 V, the other +24 V. The separately powered Pi remains live; isolate all three supplies before internal service."
+    ],
+    "check": "Cover can close without crushing wires; service isolation is clear. All unused relay terminals insulated; no loose conductive debris.",
+    "record": "Panel drawing rev: ______   Terminal/fuse labels checked: ______"
+  },
+  {
+    "title": "Wire motor and relay power",
+    "phase": "ELECTRICAL",
+    "figure": "power",
+    "parts": "BOM E01 12 V/5 A, E02 24 V/1 A supplies; E08 disconnect; F1 3 A fast DC, F2 0.5 A DC; E03 relay; D03 hub; W01/W02 wire.",
+    "tools": "Crimper, insulated screwdriver, multimeter",
+    "actions": [
+      "With bricks unplugged, wire +12 V through disconnect pole A, F1 and relay terminal 13. Jumper 14 to 23; connect 24 to the hub + input. Connect 12 V negative directly to hub motor ground. Use 18 AWG for this branch.",
+      "Wire +24 V through disconnect pole B and F2 to relay B1. Wire 24 V negative to B2. B1/B2 are the DC supply terminals for this relay variant; do not substitute A1/A2. [R1]",
+      "Branch fused +24 V to relay 33. Relay 34 feeds the isolated permit board in step 17. The two series motor contacts remove +12 V; status contact 33-34 only reports relay state.",
+      "Keep the servo unplugged. Verify connector pin numbers/polarity at the delivered hub and confirm there is no alternate unswitched supply path. Record actual fuse part numbers and check contact/load/inrush coordination."
+    ],
+    "check": "Positive motor supply passes through both 13-14 and 23-24. No 24 V conductor reaches the Pi or motor positive input.",
+    "record": "F1/F2 part numbers: ______   Continuity/polarity initials: ______"
+  },
+  {
+    "title": "Wire the two safety channels",
+    "phase": "ELECTRICAL",
+    "figure": "safety",
+    "parts": "BOM E03 PNOZ X3; E04 E-stop contacts A/B; E05 guard NC contacts A/B; E07 NO reset; W02 22 AWG safety wire.",
+    "tools": "Multimeter, ferrule crimper, insulated screwdriver",
+    "actions": [
+      "Use the two-channel cross-short-detection input arrangement in Pilz 20547-EN-10 page 12, with the monitored-start arrangement on page 13. Retain the S11-S12 link for this selected circuit. Verify against the delivered relay revision. [R1]",
+      "Channel A: S21 -> E-stop NC-A -> guard NC-A -> S22. Channel B: S31 -> E-stop NC-B -> guard NC-B -> S32. Keep the channels separately labeled; verify actual switch contact markings with the meter.",
+      "Wire the momentary NO reset between S33 and S34. Leave S13/S14 unlinked. Do not apply external 24 V to these input terminals or substitute an API reset for the physical pushbutton.",
+      "Record this as a project adaptation using series-connected safeguards, not a certified whole-machine circuit. Have the electrical reviewer assess fault masking, short detection and reset behavior; test each device and channel separately."
+    ],
+    "check": "Both devices interrupt both channels. No automatic-start link. H5 electrical review and a point-to-point check are complete before step 21.",
+    "record": "Relay manual revision: ______   Electrical reviewer: ______"
+  },
+  {
+    "title": "Build the isolated permit input",
+    "phase": "ELECTRICAL",
+    "figure": "opto",
+    "parts": "BOM S03: LTV-817C; 2 kohm 0.5 W; 1N4148; one 10 kohm and one 1 kohm; insulated board/terminals; W04 breakout.",
+    "tools": "Soldering tools, magnifier, multimeter",
+    "actions": [
+      "On the 24 V side, connect relay 34 through the 2 kohm resistor to LED anode; LED cathode returns to 24 V negative. Put the 1N4148 across the LED in reverse: diode cathode at LED anode, diode anode at LED cathode.",
+      "On the Pi side, connect phototransistor collector to 3.3 V. Connect emitter to the PERMIT node, 10 kohm from node to Pi ground, then 1 kohm from node to GPIO17 (physical pin 11).",
+      "For the LTV-817 four-pin package, the manufacturer identifies 1=anode, 2=cathode, 3=emitter and 4=collector. Locate the pin-1 mark and verify the actual package drawing before soldering; do not mirror the bottom view. Attach the checked pin map to H5. [R8]",
+      "Keep the two domains separated without a ground jumper. At 24 V the LED current is approximately 11 mA and resistor loss about 0.26 W. Confirm the actual resistor rating, CTR and temperature before closing the board cover."
+    ],
+    "check": "With the Pi signal pin disconnected, powered node is >2.0 V and <=3.3 V when permitted, <0.8 V when off. No 24 V path to the Pi side.",
+    "record": "Optocoupler pin map/rev: ______   Node high/low: ______ V"
+  },
+  {
+    "title": "Wire endpoints and temperature probes",
+    "phase": "ELECTRICAL",
+    "figure": "sensors",
+    "parts": "BOM S01 switches x2; S02 DS18B20 probes x2; remaining S03 resistors: 2 x 10 kohm, 2 x 1 kohm, 1 x 4.7 kohm; S04 attachments; W04 breakout.",
+    "tools": "Multimeter, screwdriver, labels, thermal tape",
+    "actions": [
+      "For each endpoint, connect switch COM to Pi 3.3 V and NO to its signal node; add 10 kohm node-to-ground and 1 kohm node-to-GPIO. OPEN uses GPIO27/pin 13; CLOSED uses GPIO22/pin 15. Insulate unused NC contacts.",
+      "Power both DS18B20 probes from 3.3 V and Pi ground. Join both data wires to GPIO4/pin 7 and use one shared 4.7 kohm pullup to 3.3 V. Use powered three-wire mode. Identify probe wire functions from its supplier, not cable color. [R5]",
+      "Attach the case probe to the stationary exterior frame/back with removable thermal tape. Place the ambient probe nearby in shaded free air. Keep both clear of the hinge, lens, flexible display and moving clamp.",
+      "Label both probe serials after software identification. Confirm wiring includes a service loop and fixed strain relief without a loop entering the swept envelope."
+    ],
+    "check": "Broken endpoint wire reads low. Each switch is high only at its own endpoint. Case probe stays attached throughout a manual sweep.",
+    "record": "Case serial: ______   Ambient serial: ______   Wiring checked: ______"
+  },
+  {
+    "title": "Install the Pi and finish the harness",
+    "phase": "ELECTRICAL",
+    "figure": "pi",
+    "parts": "BOM C01-C05 Pi/cooler/card/supply/network; D02 U2D2, D03 hub, D05 USB, D06 TTL cables x2; W03 strain relief; W04 breakout.",
+    "tools": "Screwdriver, multimeter, cable labels",
+    "actions": [
+      "Install the active cooler and storage, then secure the Pi case outside the motion envelope with ventilation clear. Feed it only from its independent official USB-C supply.",
+      "With all power off, connect the keyed breakout and verify physical pin 1 orientation against the Pi board. Used pins: 1=3.3 V, 6=ground, 7=GPIO4, 11=GPIO17, 13=GPIO27, 15=GPIO22. Do not use 5 V pins for these circuits. [R6]",
+      "Connect Pi USB to U2D2, and its 3-pin TTL port to the power hub and XM430-T cable path. U2D2 does not power the motor; verify the keyed cable mapping and leave the motor end disconnected for now. [R3]",
+      "Bundle motor, safety and signal wiring separately. Label both ends; clamp the fixed side of every service loop. Keep cables away from collar screws, clutch, rail ends and stop bumpers."
+    ],
+    "check": "No connector can be pulled into motion. Pi remains powered independently of the motor contacts. Do not hot-plug DYNAMIXEL cables. [R3]",
+    "record": "Header orientation checked: ______   USB/TTL continuity: ______"
+  },
+  {
+    "title": "Inspect with every supply isolated",
+    "phase": "COMMISSIONING",
+    "figure": "meter",
+    "parts": "Assembled bench; BOM T03 meter; wire schedule and released H1-H5 drawings.",
+    "tools": "Multimeter, torque tool, inspection light",
+    "actions": [
+      "Unplug 12 V, 24 V and Pi supplies. Verify zero voltage before using continuity mode. Keep servo and Pi GPIO connector disconnected while checking the harness.",
+      "Check each wire against the wire schedule, including contact pairs, fuses, disconnect poles, negative returns and signal series resistors. Inspect ferrules for loose strands and tug each termination gently.",
+      "Verify there is no intentional connection between the isolated 24 V circuit and Pi signal ground. Account for any ground connection through USB on the 12 V motor side; do not infer whole-system galvanic isolation.",
+      "Inspect every fastener, collar, pad, cover and cable gland. Record measured fastener engagement/torque from approved sources. Close the electrical enclosure before energizing."
+    ],
+    "check": "Signed point-to-point inspection; no direct 12/24 V path to a Pi GPIO. All H1-H5 release items closed for the build phase being tested.",
+    "record": "Electrical inspector/date: ______   Mechanical inspector/date: ______"
+  },
+  {
+    "title": "Prove power removal with no motor",
+    "phase": "COMMISSIONING",
+    "figure": "power_test",
+    "parts": "Servo disconnected; closed enclosure; meter at keyed motor-hub output; completed safety circuits.",
+    "tools": "Multimeter, test record, second observer",
+    "actions": [
+      "Apply power to the supplies with the servo unplugged. Verify relay supply polarity and voltage. With an open guard or pressed E-stop, motor-hub voltage must be near zero and permit low; investigate residual or alternate feed paths.",
+      "Close guard and release E-stop: motor supply must remain off until a valid physical reset. Reset should restore nominal 12 V at the hub and a valid permit level; it must not issue a motion command.",
+      "Operate E-stop and guard independently, then test each input channel by the approved electrical procedure. Verify motor voltage disappears. Check held-reset and power-restoration behavior; neither may bypass the intended monitored reset.",
+      "Isolate all supplies after testing. Only then connect the Pi signal harness and motor cable. Keep the drive mechanically uncoupled and the phone absent."
+    ],
+    "check": "All rows of the static power-removal record pass. Failure means stop and correct wiring; a software status bit is not proof of disconnected motor power.",
+    "record": "Hub enabled/off voltage: ______   Reset/E-stop/guard results: ______"
+  },
+  {
+    "title": "Install and verify the controller",
+    "phase": "COMMISSIONING",
+    "figure": "software",
+    "parts": "BOM SW01 source repository; Pi OS 64-bit; Python 3.12; Pipenv; deploy/ service and environment examples.",
+    "tools": "Network terminal, repository README, commissioning log",
+    "actions": [
+      "Install the repository at /opt/foldbench and create its in-project virtual environment with Pipenv. Use the locked dependencies. First run simulation and confirm /health, authenticated /v1/status and the interactive /docs page.",
+      "Create a dedicated foldbench service account with dialout/gpio access and /var/lib/foldbench ownership. Configure the supplied single-worker systemd unit. Keep it stopped during probe/index work; do not run a second controller.",
+      "Set a random API key, persistent serial path, real GPIO chip path, data path and calibration path in the protected environment file. Enable the w1-gpio overlay for BCM4 using the OS instructions; reboot and identify both probe serials by warming one gently.",
+      "Check header-chip identity and Linux GPIO v1 ABI availability. Start with commissioned=false; use hardware mode only after verifying settings. Observe each input/probe; an unsupported kernel or missing probe is a stop condition, not permission to bypass a check."
+    ],
+    "check": "Simulation API works; serial/GPIO/probe identities are recorded. Hardware remains unable to command runs with the example uncommissioned calibration.",
+    "record": "Git commit/OS/kernel: ______   Serial path/GPIO chip: ______"
+  },
+  {
+    "title": "Index the uncoupled motor and align ticks",
+    "phase": "COMMISSIONING",
+    "figure": "index",
+    "parts": "Uncoupled XM430-W350-T; empty fixture; probe utility; angle gauge; clutch connection still open.",
+    "tools": "Terminal, angle gauge, witness marks",
+    "actions": [
+      "Stop the service. Confirm the phone is absent and the motor is mechanically disconnected from the fixture. With guard/permit healthy, run the read-only probe and verify model 1020, firmware >=38, ID 1 and 57600 baud. Use vendor recovery for other ID/baud settings. [R2]",
+      "Only in that uncoupled condition, use the local probe indexing option shown in the software appendix to select a closed tick (example 1024). The command briefly enables low-current motion; --uncoupled is your declaration, not a coupling sensor.",
+      "Disable/isolate drive power, set the yoke at the measured closed endpoint, and reconnect the clutch without moving either side. Record closed angle/tick and provisional open tick = closed tick + angle span x 4096/360.",
+      "Verify positive ticks open the mechanism. For 5-175 degrees, 1024/2958 is only a starting example. Keep both ticks in 256-3839, their difference in 1500-2100 and angular agreement within 2 degrees as required by this software."
+    ],
+    "check": "No coupled indexing command used. Independent angle measurements and switches agree with the recorded stroke; direction is correct before cycling.",
+    "record": "Closed angle/tick: ______   Open angle/tick: ______"
+  },
+  {
+    "title": "Qualify empty and dummy motion",
+    "phase": "COMMISSIONING",
+    "figure": "dummy",
+    "parts": "Empty fixture, then BOM T05 dummy; completed guard; qualified clutch/damper; temporary EMPTY-FIXTURE calibration record.",
+    "tools": "Angle/force gauges, independent tally/video, log",
+    "actions": [
+      "After static checks, create a signed dummy-only calibration with 5 degrees/s and the lowest current that moves the empty fixture within the installation ceiling. Only that supervised test record may set commissioned=true; it is not a phone release.",
+      "With guard closed, perform one endpoint jog at a time. Check direction, switch arrival and physical clearance. Operate E-stop and guard during motion; measure worst stopping/settling time and distance, then prove access is prevented until motion stops.",
+      "Test USB disconnection, Pi process/power loss, each endpoint/probe disconnection and a gentle instrumented dummy jam. Require faults, no false cycle increments and no automatic resumption. A watchdog fault requires inspection and motor power cycling.",
+      "Complete 100 dummy cycles, inspect, then 1,000. Record temperatures, cable wear, rail condition, witness marks, count agreement and clutch repeatability. Stop on any drift or wear."
+    ],
+    "check": "All fault injections and dummy runs recorded. If guard access precedes motion cessation, redesign guarding/locking before real-phone trials.",
+    "record": "Dummy record ID: ______   Worst stop time/distance: ______"
+  },
+  {
+    "title": "Fit the phone and measure protection",
+    "phase": "COMMISSIONING",
+    "figure": "force",
+    "parts": "Actual phone; qualified shoes; BOM T02 force gauge/100 mm arm; thermal probe; clutch adjustment tools.",
+    "tools": "Force gauge, angle gauge, caliper, camera",
+    "actions": [
+      "With power isolated and clutch disengaged, install the stationary USB half first, then the moving half. Support both halves while fitting shoes. Hand-sweep through the intended range; verify no display contact, cable tug, clamp shift or forced hinge path.",
+      "Record radial carriage position and tangential float at 0, 45, 90, 135 and 180 degrees only where freely reachable. Preserve >=2 mm radial end reserve. Record actual safe endpoint angles rather than forcing mathematical 0/180.",
+      "Measure phone hinge load and empty-fixture gravity/friction separately. With the phone removed, set the clutch using the restrained fixture and calibrated 100 mm arm: torque = force x 0.100 m. Start near 0.20 N m only if compatible with measured loads; never exceed the 0.50 N m design ceiling.",
+      "Repeat breakaway measurements in both directions, initially targeting +/-10% repeatability. Lock/mark adjustment. Select the minimum successful current with measured protective margin; current is not a torque calibration. If limits are inadequate, revise the mechanics."
+    ],
+    "check": "Phone-specific fit and force record completed. Neither 0.20 N m nor 150 mA is presumed safe for every specimen.",
+    "record": "Clutch CW/CCW torque: ______   Fit/load record: ______"
+  },
+  {
+    "title": "Run the first phone trial and release",
+    "phase": "COMMISSIONING",
+    "figure": "release",
+    "parts": "Phone-specific supervised-trial record; calibrated bench; API client; inspection log and baseline photographs.",
+    "tools": "Terminal, camera, touch/display test procedure",
+    "actions": [
+      "Archive the dummy calibration. Under a signed supervised-trial authorization, install a new phone-specific record with measured endpoints and limits. The software requires commissioned=true for motion; that flag is not evidence of routine-release approval.",
+      "Start one partial-fold cycle, normally 5-175 degrees, 5 degrees/s and 2-second endpoint dwells, using the measured current limit. Keep the guard closed and an operator at the E-stop. Inspect display, touch, frame, hinge, pads and cable after completion.",
+      "If acceptable, repeat ten cycles, inspect, then 100 and inspect. Record pass/fail through the API at pauses. Reconcile counted cycles independently; mechanical completion does not certify phone function.",
+      "Sign the final build record for supervised operation, with inspection intervals and remaining restrictions. Routine inspection starts at every 1,000 cycles. Any new shoes, stops, servo, firmware or safety wiring requires recommissioning; unattended service needs a separate release."
+    ],
+    "check": "Build records, as-built wiring, vendor drawings, software commit and backups delivered with the bench. Routine release is separate from temporary trial authorization.",
+    "record": "Trial record: ______   Routine release/restrictions: ______"
+  }
+]

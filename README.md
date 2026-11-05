@@ -6,6 +6,8 @@ foldatron is the repository name; `foldbench` is the Python package and service 
 
 **Default mode is simulation. Hardware has not been physically validated.** The design is for supervised commissioning and testing; read the guide before fabrication or connecting an actuator. A mechanically completed run is not an automatic phone-function pass.
 
+Start physical assembly with the separate [illustrated assembly manual](docs/Foldatron-illustrated-assembly-manual.pdf): 26 numbered operations, part callouts, wiring diagrams and acceptance worksheets. Its H1-H5 release register identifies unresolved yoke geometry, mounting details, guard supports and electrical verification that must be closed before the affected work. The earlier envelope model is not a fabrication release.
+
 ## Files
 
 - `docs/DESIGN_AND_ASSEMBLY.md`: design rationale, dimensions, wiring and assembly.
@@ -22,6 +24,8 @@ foldatron is the repository name; `foldbench` is the Python package and service 
 - `tests/`: simulation/API and register-level driver tests.
 - `scripts/`: BOM/manual generation, live HTTP check, wheel check and ZIP packaging.
 - [Printable manual](docs/FoldBench-design-and-assembly.pdf): design, BOM, assembly and operation in one document.
+- [Illustrated assembly companion](docs/Foldatron-illustrated-assembly-manual.pdf): 36-page step-by-step bench construction and commissioning booklet.
+- [Assembly source and editable SVGs](docs/assembly/README.md): illustrated operations, part register, wire schedule and manufacturer references.
 
 ## Source layout
 
@@ -66,5 +70,7 @@ Run `pipenv run test`, `pipenv run lint`, and `pipenv run schema`. Compare a reg
 Edit `hardware/BOM.json`, then run `pipenv run bom` to update totals and the readable table. Run `pipenv run manual` to rebuild the PDF from the repository documentation and `docs/assets/` images. The generator uses fonts distributed with ReportLab and has no machine-specific font paths. If an SVG changes, regenerate its matching PNG in `docs/assets/` using `rsvg-convert` or another SVG renderer before rebuilding the manual, then visually review the PDF.
 
 `pipenv run bundle` creates `artifacts/FoldBench-complete-package.zip` from Git-tracked files, including the PDF. Stage new files before bundling. GitHub's **Code > Download ZIP** also provides the complete repository. Virtual environments, credentials, test databases, caches and generated distribution archives are excluded from version control.
+
+`pipenv run assembly-manual` rebuilds the separate illustrated assembly PDF, Markdown instructions and SVG drawings from `docs/assembly/steps.json` and `scripts/build_assembly_guide.py`. It uses the existing development dependencies. Review all rendered pages after changes; the generator checks text/table space, not mechanical fit or electrical correctness.
 
 The code logs motor-derived angle and current as observations, not calibrated hinge torque or display-health measurements. Complete the commissioning checklist with an empty rig and dummy before testing the phone.

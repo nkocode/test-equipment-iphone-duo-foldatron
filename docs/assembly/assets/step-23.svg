@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 520 280"><rect width="520" height="280" fill="white"/><text x="12" y="18" font-family="sans-serif" font-size="10" fill="#a33335" font-weight="bold">INDEXING SETUP: MOTOR DISCONNECTED FROM FIXTURE</text>
+<polygon points="20,150 110,150 110,70 20,70" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="28" y="86" font-family="sans-serif" font-size="8.5" fill="#182f3c">D01 motor</text>
+<text x="28" y="99" font-family="sans-serif" font-size="8.5" fill="#182f3c">Torque enabled</text>
+<text x="28" y="112" font-family="sans-serif" font-size="8.5" fill="#182f3c">only by local</text>
+<text x="28" y="125" font-family="sans-serif" font-size="8.5" fill="#182f3c">index command</text>
+<polygon points="115,135 127,135 127,85 115,85" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<polygon points="135,128 157,128 157,92 135,92" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<line x1="157" y1="110" x2="185" y2="110" stroke="#087f83" stroke-width="5"/>
+<polygon points="265,134 325,134 325,86 265,86" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<text x="273" y="102" font-family="sans-serif" font-size="8.5" fill="#182f3c">D07</text>
+<text x="273" y="115" font-family="sans-serif" font-size="8.5" fill="#182f3c">clutch</text>
+<line x1="325" y1="110" x2="440" y2="110" stroke="#182f3c" stroke-width="5"/>
+<polygon points="355,145 385,145 385,75 355,75" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<line x1="440" y1="110" x2="485" y2="65" stroke="#182f3c" stroke-width="5"/>
+<line x1="193" y1="110" x2="255" y2="110" stroke="#b35d1c" stroke-width="1.6"/>
+<polygon points="255,110 248.5525730419798,107.27407160383945 248.5525730419798,112.72592839616055" fill="#b35d1c" stroke="#b35d1c" stroke-width="1"/>
+<polygon points="193,110 199.4474269580202,112.72592839616055 199.4474269580202,107.27407160383945" fill="#b35d1c" stroke="#b35d1c" stroke-width="1"/>
+<text x="185" y="145" font-family="sans-serif" font-size="10" fill="#b35d1c" font-weight="bold">OPEN GAP</text>
+<line x1="15" y1="50" x2="138" y2="92" stroke="#657782" stroke-width="0.8"/>
+<circle cx="138" cy="92" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="13,47 154.90234375,47 154.90234375,35 13,35" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="15" y="45" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">D04 horn / FAB-M11 adapter</text>
+<line x1="335" y1="50" x2="369" y2="76" stroke="#657782" stroke-width="0.8"/>
+<circle cx="369" cy="76" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="333,47 468.9310546875,47 468.9310546875,35 333,35" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="335" y="45" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">D08 supported output stub</text>
+<polygon points="20,255 240,255 240,185 20,185" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="28" y="201" font-family="sans-serif" font-size="8.5" fill="#182f3c">MOTOR ONLY: example tick 1024</text>
+<text x="28" y="214" font-family="sans-serif" font-size="8.5" fill="#182f3c">No phone; coupling visibly open</text>
+<text x="28" y="227" font-family="sans-serif" font-size="8.5" fill="#182f3c">Guard and safety permit healthy</text>
+<polygon points="265,255 510,255 510,185 265,185" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="273" y="201" font-family="sans-serif" font-size="8.5" fill="#182f3c">FIXTURE: closed-angle reference</text>
+<text x="273" y="214" font-family="sans-serif" font-size="8.5" fill="#182f3c">After indexing: isolate power, then</text>
+<text x="273" y="227" font-family="sans-serif" font-size="8.5" fill="#182f3c">reconnect without shifting either side</text></svg>
