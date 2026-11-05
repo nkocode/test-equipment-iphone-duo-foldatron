@@ -1,8 +1,8 @@
-# Foldertron / FoldBench - iPhone Duo endurance tester
+# foldatron / FoldBench - iPhone Duo endurance tester
 
 An original prototype inspired by CNET's Fold-A-Phone video. Includes hardware design, a complete procurement/fabrication BOM, assembly and commissioning instructions, Python Raspberry Pi controller, FastAPI REST API, generated OpenAPI 3.1 specification and automated tests.
 
-Foldertron is the repository name; `foldbench` is the Python package and service name. The project is licensed under the existing [MIT license](LICENSE).
+foldatron is the repository name; `foldbench` is the Python package and service name. The project is licensed under the existing [MIT license](LICENSE).
 
 **Default mode is simulation. Hardware has not been physically validated.** The design is for supervised commissioning and testing; read the guide before fabrication or connecting an actuator. A mechanically completed run is not an automatic phone-function pass.
 
