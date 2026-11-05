@@ -223,3 +223,6 @@ __marimo__/
 data/
 artifacts/
 .DS_Store
+
+# JavaScript viewer dependencies
+node_modules/

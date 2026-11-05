@@ -8,6 +8,10 @@ foldatron is the repository name; `foldbench` is the Python package and service 
 
 Start physical assembly with the separate [illustrated assembly manual](docs/Foldatron-illustrated-assembly-manual.pdf): 26 numbered operations, part callouts, wiring diagrams and acceptance worksheets. Its H1-H5 release register identifies unresolved yoke geometry, mounting details, guard supports and electrical verification that must be closed before the affected work. The earlier envelope model is not a fabrication release.
 
+## Interactive 3D explorer
+
+Download and open [visualization/index.html](visualization/index.html) in a browser. The single-file viewer works offline and includes orbit/zoom, six selectable assemblies, scripted folding motion, an exploded view and eight build stages linked to the illustrated manual. It is a design visualization, not validated CAD, physics simulation or a live machine interface. See the [viewer guide](visualization/README.md) for scope and rebuilding.
+
 ## Files
 
 - `docs/DESIGN_AND_ASSEMBLY.md`: design rationale, dimensions, wiring and assembly.

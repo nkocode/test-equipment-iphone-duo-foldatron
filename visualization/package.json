@@ -1,0 +1,1 @@
+{"name":"foldatron-explorer","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node --check src/app.js && node --check src/model.js && node --check build.mjs"},"dependencies":{"three":"0.187.0"},"devDependencies":{"esbuild":"0.28.2"}}

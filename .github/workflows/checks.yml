@@ -36,3 +36,17 @@ jobs:
           pipenv run python scripts/check_wheel.py
       - name: Exercise live simulator API
         run: pipenv run smoke
+  viewer:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: visualization
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install locked viewer dependencies
+        run: npm ci
+      - name: Validate and reproduce offline viewer
+        run: |
+          npm run check
+          npm run build
+          git diff --exit-code -- index.html
