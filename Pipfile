@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+foldbench = {path = ".", editable = true}
+fastapi = "*"
+uvicorn = "*"
+dynamixel-sdk = "*"
+
+[dev-packages]
+pytest = "*"
+httpx = "*"
+ruff = "*"
+build = "*"
+reportlab = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+serve = "python -m foldbench"
+test = "pytest -q"
+lint = "ruff check ."
+schema = "python -m foldbench.export_schema"
+package = "python -m build"
+smoke = "python scripts/http_smoke.py"
+bom = "python scripts/build_bom.py"
+manual = "python scripts/build_manual.py"
+bundle = "python scripts/build_bundle.py"

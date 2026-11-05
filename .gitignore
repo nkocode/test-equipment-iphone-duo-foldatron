@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# FoldBench local data and generated archives
+data/
+artifacts/
+.DS_Store
