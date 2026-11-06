@@ -1,0 +1,623 @@
+{
+  "currency": "USD",
+  "basis": "planning allowances, not quotations",
+  "date": "2026-11-04",
+  "station_total": 2510.0,
+  "tools_total": 415,
+  "optional_total": 115,
+  "category_totals": {
+    "Control": 143,
+    "Drive": 904,
+    "Structure": 334,
+    "Guard": 315.0,
+    "Electrical": 627,
+    "Sensing": 52,
+    "Wiring": 75,
+    "Fasteners": 60,
+    "Tools": 415,
+    "Optional": 115,
+    "Software": 0
+  },
+  "items": [
+    {
+      "id": "C01",
+      "category": "Control",
+      "quantity": 1,
+      "item": "Raspberry Pi 5",
+      "specification": "4 GB; 64-bit Raspberry Pi OS",
+      "unit_estimate_usd": 70,
+      "extended_estimate_usd": 70,
+      "source_or_procurement": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+    },
+    {
+      "id": "C02",
+      "category": "Control",
+      "quantity": 1,
+      "item": "Pi 27 W USB-C supply",
+      "specification": "Official supply; regional mains plug",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "https://www.raspberrypi.com/products/27w-power-supply/"
+    },
+    {
+      "id": "C03",
+      "category": "Control",
+      "quantity": 1,
+      "item": "Active cooler and vented case",
+      "specification": "Pi 5 compatible; outside moving envelope",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "https://www.raspberrypi.com/products/raspberry-pi-5/"
+    },
+    {
+      "id": "C04",
+      "category": "Control",
+      "quantity": 1,
+      "item": "64 GB high-endurance microSD",
+      "specification": "Genuine industrial/high-endurance card; retain backup image",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "Authorized memory distributor"
+    },
+    {
+      "id": "C05",
+      "category": "Control",
+      "quantity": 1,
+      "item": "Ethernet cable",
+      "specification": "Cat6, 2 m",
+      "unit_estimate_usd": 8,
+      "extended_estimate_usd": 8,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "D01",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "XM430-W350-T actuator",
+      "specification": "ROBOTIS TTL variant; firmware 38+; ID 1; 57600 baud",
+      "unit_estimate_usd": 330,
+      "extended_estimate_usd": 330,
+      "source_or_procurement": "https://en.robotis.com/shop_en/item.php?it_id=902-0124-000"
+    },
+    {
+      "id": "D02",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "U2D2",
+      "specification": "ROBOTIS USB to TTL/RS-485 interface; use TTL",
+      "unit_estimate_usd": 50,
+      "extended_estimate_usd": 50,
+      "source_or_procurement": "https://emanual.robotis.com/docs/en/parts/interface/u2d2/"
+    },
+    {
+      "id": "D03",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "U2D2 power hub board set",
+      "specification": "12 V motor power distribution; keyed 3-pin TTL cables",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "https://www.robotis.us/row-l-u2d2/"
+    },
+    {
+      "id": "D04",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "X430 horn/bracket set",
+      "specification": "Compatible metal horn, motor bracket and vendor screws; verify package contents",
+      "unit_estimate_usd": 35,
+      "extended_estimate_usd": 35,
+      "source_or_procurement": "https://en.robotis.com/shop_en/item.php?it_id=902-0124-000"
+    },
+    {
+      "id": "D05",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "USB cable",
+      "specification": "Pi USB-A to U2D2 connector, 0.5 m; match delivered interface",
+      "unit_estimate_usd": 8,
+      "extended_estimate_usd": 8,
+      "source_or_procurement": "ROBOTIS or cable distributor"
+    },
+    {
+      "id": "D06",
+      "category": "Drive",
+      "quantity": 2,
+      "item": "DYNAMIXEL TTL cable",
+      "specification": "3-pin keyed X-series, 200-300 mm, match delivered hub",
+      "unit_estimate_usd": 8,
+      "extended_estimate_usd": 16,
+      "source_or_procurement": "https://en.robotis.com/shop_en/item.php?it_id=902-0124-000"
+    },
+    {
+      "id": "D07",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "Slip-Ease EAS12 configured clutch",
+      "specification": "Request EAS12-6MM-6MM; horizontal; vendor-confirmed bidirectional 0.20-0.50 N m setting; quote required",
+      "unit_estimate_usd": 220,
+      "extended_estimate_usd": 220,
+      "source_or_procurement": "https://www.dynatect.de/en/product/slip-ease-slip-clutches/"
+    },
+    {
+      "id": "D08",
+      "category": "Drive",
+      "quantity": 2,
+      "item": "6 mm bearing pillow block",
+      "specification": "Ball bearing; split shaft support; rated >=50 N radial; vendor mounting drawing",
+      "unit_estimate_usd": 20,
+      "extended_estimate_usd": 40,
+      "source_or_procurement": "Bearing supplier; select matched pair"
+    },
+    {
+      "id": "D09",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "6 mm ground shaft stock",
+      "specification": "300 mm stock cut into front/rear stubs and input link; no shaft through phone",
+      "unit_estimate_usd": 20,
+      "extended_estimate_usd": 20,
+      "source_or_procurement": "Shaft supplier; lengths matched to clutch/support layout"
+    },
+    {
+      "id": "D10",
+      "category": "Drive",
+      "quantity": 6,
+      "item": "6 mm split shaft collar",
+      "specification": "Two per support plus input/assembly retention as needed",
+      "unit_estimate_usd": 5,
+      "extended_estimate_usd": 30,
+      "source_or_procurement": "Shaft supplier"
+    },
+    {
+      "id": "D11",
+      "category": "Drive",
+      "quantity": 2,
+      "item": "6 mm split-clamp arm hub",
+      "specification": "Bolt-on flange, >=1 N m rating; match M03 arms",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 30,
+      "source_or_procurement": "Mechanical distributor"
+    },
+    {
+      "id": "D12",
+      "category": "Drive",
+      "quantity": 2,
+      "item": "MGN7 linear guide with carriage",
+      "specification": "100 mm rail; two matched rails; limited to +/-6 mm working float",
+      "unit_estimate_usd": 30,
+      "extended_estimate_usd": 60,
+      "source_or_procurement": "Linear motion supplier; inspect free movement"
+    },
+    {
+      "id": "D13",
+      "category": "Drive",
+      "quantity": 1,
+      "item": "Adjustable friction damper",
+      "specification": "Rotary/hinge damper, bidirectional; qualify gravity settling; no claimed safety rating",
+      "unit_estimate_usd": 40,
+      "extended_estimate_usd": 40,
+      "source_or_procurement": "Mechanical supplier; select from measured fixture inertia"
+    },
+    {
+      "id": "M01",
+      "category": "Structure",
+      "quantity": 1,
+      "item": "Base plate",
+      "specification": "6061-T6 500 x 400 x 8 mm; drawing M01",
+      "unit_estimate_usd": 100,
+      "extended_estimate_usd": 100,
+      "source_or_procurement": "Metal supplier / machine shop"
+    },
+    {
+      "id": "M02",
+      "category": "Structure",
+      "quantity": 1,
+      "item": "Fabricated plate stock set",
+      "specification": "All M02-M07 and M09-M13 parts in design table; machining labor excluded",
+      "unit_estimate_usd": 130,
+      "extended_estimate_usd": 130,
+      "source_or_procurement": "Machine shop; dimension/slot schedule in guide"
+    },
+    {
+      "id": "M03",
+      "category": "Structure",
+      "quantity": 8,
+      "item": "Phone shoe blank",
+      "specification": "Acetal 20 x 15 x 8 mm; machine actual phone contours; M08",
+      "unit_estimate_usd": 4,
+      "extended_estimate_usd": 32,
+      "source_or_procurement": "Plastics supplier / machine shop"
+    },
+    {
+      "id": "M04",
+      "category": "Structure",
+      "quantity": 1,
+      "item": "Silicone pad sheet",
+      "specification": "200 x 200 x 1 mm, Shore A 30-40; removable adhesive if compatible",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "Industrial silicone supplier"
+    },
+    {
+      "id": "M05",
+      "category": "Structure",
+      "quantity": 1,
+      "item": "Compliant mount kit",
+      "specification": "4 M4 shoulder screws, spacers, 8 silicone bushings, retaining washers; +/-2 mm travel",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "Mechanical distributor"
+    },
+    {
+      "id": "M06",
+      "category": "Structure",
+      "quantity": 2,
+      "item": "Adjustable mechanical stop",
+      "specification": "M6 screw, locknut, polyurethane bumper and M10 bracket",
+      "unit_estimate_usd": 8,
+      "extended_estimate_usd": 16,
+      "source_or_procurement": "Mechanical distributor"
+    },
+    {
+      "id": "M07",
+      "category": "Structure",
+      "quantity": 4,
+      "item": "Rubber foot",
+      "specification": "M6 mounting, >=5 kg rating each",
+      "unit_estimate_usd": 4,
+      "extended_estimate_usd": 16,
+      "source_or_procurement": "Mechanical distributor"
+    },
+    {
+      "id": "G01",
+      "category": "Guard",
+      "quantity": 1,
+      "item": "2020 aluminum extrusion frame",
+      "specification": "4 x 560, 4 x 460, 4 x 360 mm plus base outriggers; 6 m stock allowance",
+      "unit_estimate_usd": 90,
+      "extended_estimate_usd": 90,
+      "source_or_procurement": "Extrusion supplier; same slot series throughout"
+    },
+    {
+      "id": "G02",
+      "category": "Guard",
+      "quantity": 24,
+      "item": "2020 corner bracket",
+      "specification": "Matching M5 T-nuts and screws included",
+      "unit_estimate_usd": 2.5,
+      "extended_estimate_usd": 60.0,
+      "source_or_procurement": "Extrusion supplier"
+    },
+    {
+      "id": "G03",
+      "category": "Guard",
+      "quantity": 1,
+      "item": "Polycarbonate panel set",
+      "specification": "Five 4 mm panels to M14 dimensions; allow cutting waste",
+      "unit_estimate_usd": 120,
+      "extended_estimate_usd": 120,
+      "source_or_procurement": "Plastics supplier"
+    },
+    {
+      "id": "G04",
+      "category": "Guard",
+      "quantity": 1,
+      "item": "Door hardware set",
+      "specification": "2 hinges, handle, latch, 24 panel clips and captive fasteners",
+      "unit_estimate_usd": 45,
+      "extended_estimate_usd": 45,
+      "source_or_procurement": "Extrusion supplier"
+    },
+    {
+      "id": "E01",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Enclosed 12 V DC supply",
+      "specification": "5 A, SELV, listed brick, regional AC cord; matching locking DC inlet",
+      "unit_estimate_usd": 35,
+      "extended_estimate_usd": 35,
+      "source_or_procurement": "Authorized power supply distributor"
+    },
+    {
+      "id": "E02",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Enclosed 24 V DC supply",
+      "specification": "1 A or greater, SELV, listed brick and regional AC cord",
+      "unit_estimate_usd": 30,
+      "extended_estimate_usd": 30,
+      "source_or_procurement": "Authorized power supply distributor"
+    },
+    {
+      "id": "E03",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "PNOZ X3 774310",
+      "specification": "24 V AC/DC safety relay; use B1/B2 for DC supply",
+      "unit_estimate_usd": 300,
+      "extended_estimate_usd": 300,
+      "source_or_procurement": "https://www.pilz.com/en-INT/eshop/product/774310"
+    },
+    {
+      "id": "E04",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Emergency-stop assembly",
+      "specification": "40 mm red mushroom/yellow background, twist release, 2 direct-opening NC contacts, 22 mm panel",
+      "unit_estimate_usd": 45,
+      "extended_estimate_usd": 45,
+      "source_or_procurement": "Safety-component distributor; certified contact assembly"
+    },
+    {
+      "id": "E05",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "OMRON D4NS-1BF guard switch",
+      "specification": "2 NC direct-opening, tongue operated; matching PG13.5 gland",
+      "unit_estimate_usd": 60,
+      "extended_estimate_usd": 60,
+      "source_or_procurement": "https://industrial.omron.co.uk/en/products/D4NS-1BF"
+    },
+    {
+      "id": "E06",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "OMRON D4DS-K2 actuator key",
+      "specification": "Match switch and chosen door entry direction; captive mounting",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "https://www.ia.omron.com/products/family/1465/dimension.html"
+    },
+    {
+      "id": "E07",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Reset pushbutton",
+      "specification": "Momentary NO, 22 mm, blue label; physical monitored reset only",
+      "unit_estimate_usd": 12,
+      "extended_estimate_usd": 12,
+      "source_or_procurement": "Industrial controls distributor"
+    },
+    {
+      "id": "E08",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "DC disconnect",
+      "specification": "2 pole, rated >=24 V DC 5 A; isolate low-voltage equipment for service",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "E09",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Fuse/holder kit",
+      "specification": "3 A fast DC F1, 0.5 A DC F2, covered holders plus 2 spares each; verify inrush and relay coordination",
+      "unit_estimate_usd": 20,
+      "extended_estimate_usd": 20,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "E10",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "Covered electrical enclosure",
+      "specification": "300 x 250 x 150 mm nominal; mounting plate; outside guard sweep",
+      "unit_estimate_usd": 60,
+      "extended_estimate_usd": 60,
+      "source_or_procurement": "Electrical enclosure supplier"
+    },
+    {
+      "id": "E11",
+      "category": "Electrical",
+      "quantity": 1,
+      "item": "DIN/terminal kit",
+      "specification": "300 mm DIN rail, end stops, 20 terminals, 10 jumpers, labels",
+      "unit_estimate_usd": 35,
+      "extended_estimate_usd": 35,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "S01",
+      "category": "Sensing",
+      "quantity": 2,
+      "item": "OMRON D2F-01L endpoint switch",
+      "specification": "Gold-contact low-load SPDT; use COM/NO; adjustable output-side cams",
+      "unit_estimate_usd": 5,
+      "extended_estimate_usd": 10,
+      "source_or_procurement": "https://components.omron.com/sg-en/faq/switches/FAQE20005"
+    },
+    {
+      "id": "S02",
+      "category": "Sensing",
+      "quantity": 2,
+      "item": "DS18B20 probe",
+      "specification": "Genuine 3-wire powered probe; 3.3 V; one case and one ambient",
+      "unit_estimate_usd": 10,
+      "extended_estimate_usd": 20,
+      "source_or_procurement": "Authorized semiconductor/sensor distributor"
+    },
+    {
+      "id": "S03",
+      "category": "Sensing",
+      "quantity": 1,
+      "item": "Isolated permit board parts",
+      "specification": "LTV-817C, 2 kohm 0.5 W, 1N4148, 3 x 10 kohm, 3 x 1 kohm, 4.7 kohm, covered perfboard and terminals",
+      "unit_estimate_usd": 12,
+      "extended_estimate_usd": 12,
+      "source_or_procurement": "Electronics distributor; verify optocoupler pinout"
+    },
+    {
+      "id": "S04",
+      "category": "Sensing",
+      "quantity": 1,
+      "item": "Probe attachment kit",
+      "specification": "Thin removable thermal tape, cable anchors, ambient standoff",
+      "unit_estimate_usd": 10,
+      "extended_estimate_usd": 10,
+      "source_or_procurement": "Electronics distributor"
+    },
+    {
+      "id": "W01",
+      "category": "Wiring",
+      "quantity": 1,
+      "item": "18 AWG wire",
+      "specification": "Red/black, 3 m each, stranded, appropriately rated insulation",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "W02",
+      "category": "Wiring",
+      "quantity": 1,
+      "item": "Signal/safety wire set",
+      "specification": "22 AWG 4-core 5 m; 24-26 AWG twisted pair 5 m",
+      "unit_estimate_usd": 20,
+      "extended_estimate_usd": 20,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "W03",
+      "category": "Wiring",
+      "quantity": 1,
+      "item": "Terminations and strain relief",
+      "specification": "100 ferrules, 8 glands, 20 heat-shrink pieces, 20 tie bases, 50 ties",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "Electrical distributor"
+    },
+    {
+      "id": "W04",
+      "category": "Wiring",
+      "quantity": 1,
+      "item": "Pi header breakout",
+      "specification": "40-pin cable/breakout with screw terminals and standoffs",
+      "unit_estimate_usd": 15,
+      "extended_estimate_usd": 15,
+      "source_or_procurement": "Electronics distributor"
+    },
+    {
+      "id": "F01",
+      "category": "Fasteners",
+      "quantity": 1,
+      "item": "M3 kit",
+      "specification": "40 M3x8, 20 M3x12, 40 washers, 40 locknuts",
+      "unit_estimate_usd": 10,
+      "extended_estimate_usd": 10,
+      "source_or_procurement": "Fastener distributor"
+    },
+    {
+      "id": "F02",
+      "category": "Fasteners",
+      "quantity": 1,
+      "item": "M4 kit",
+      "specification": "40 M4x10, 20 M4x16, 80 washers, 40 locknuts",
+      "unit_estimate_usd": 12,
+      "extended_estimate_usd": 12,
+      "source_or_procurement": "Fastener distributor"
+    },
+    {
+      "id": "F03",
+      "category": "Fasteners",
+      "quantity": 1,
+      "item": "M5/M6 kit",
+      "specification": "40 M5x10/T-nuts, 20 M6x16, 40 M6 washers, 20 M6 locknuts",
+      "unit_estimate_usd": 18,
+      "extended_estimate_usd": 18,
+      "source_or_procurement": "Fastener distributor"
+    },
+    {
+      "id": "F04",
+      "category": "Fasteners",
+      "quantity": 1,
+      "item": "Consumables",
+      "specification": "Low-strength threadlocker, witness paint, 0.1/0.2/0.5 mm shims",
+      "unit_estimate_usd": 20,
+      "extended_estimate_usd": 20,
+      "source_or_procurement": "Industrial supplier"
+    },
+    {
+      "id": "T01",
+      "category": "Tools",
+      "quantity": 1,
+      "item": "Digital caliper and angle gauge",
+      "specification": "0.1 mm fit measurement; angle resolution <=0.5 degrees",
+      "unit_estimate_usd": 70,
+      "extended_estimate_usd": 70,
+      "source_or_procurement": "Metrology supplier"
+    },
+    {
+      "id": "T02",
+      "category": "Tools",
+      "quantity": 1,
+      "item": "Force gauge and 100 mm arm",
+      "specification": "0-20 N, resolution <=0.1 N; documented calibration; custom arm",
+      "unit_estimate_usd": 180,
+      "extended_estimate_usd": 180,
+      "source_or_procurement": "Metrology supplier; verify accuracy for acceptance"
+    },
+    {
+      "id": "T03",
+      "category": "Tools",
+      "quantity": 1,
+      "item": "Multimeter",
+      "specification": "DC voltage, continuity, adequate probe insulation",
+      "unit_estimate_usd": 40,
+      "extended_estimate_usd": 40,
+      "source_or_procurement": "Authorized instrument distributor"
+    },
+    {
+      "id": "T04",
+      "category": "Tools",
+      "quantity": 1,
+      "item": "Assembly tools",
+      "specification": "Hex keys, low-range torque screwdriver, drill/taps/deburr tool access",
+      "unit_estimate_usd": 100,
+      "extended_estimate_usd": 100,
+      "source_or_procurement": "Workshop allowance; machine tools excluded"
+    },
+    {
+      "id": "T05",
+      "category": "Tools",
+      "quantity": 1,
+      "item": "Two-leaf phone dummy",
+      "specification": "Match measured envelope and hinge path sufficiently for clearance trials",
+      "unit_estimate_usd": 25,
+      "extended_estimate_usd": 25,
+      "source_or_procurement": "Fabricate; no claim to reproduce phone hinge torque"
+    },
+    {
+      "id": "O01",
+      "category": "Optional",
+      "quantity": 1,
+      "item": "Observation camera and mount",
+      "specification": "USB UVC camera for external recording; no camera control in delivered API",
+      "unit_estimate_usd": 70,
+      "extended_estimate_usd": 70,
+      "source_or_procurement": "Camera supplier"
+    },
+    {
+      "id": "O02",
+      "category": "Optional",
+      "quantity": 1,
+      "item": "Phone charger/cable",
+      "specification": "Genuine compatible charger; strain relief; charging is separate qualified test condition",
+      "unit_estimate_usd": 45,
+      "extended_estimate_usd": 45,
+      "source_or_procurement": "Apple / authorized distributor"
+    },
+    {
+      "id": "SW01",
+      "category": "Software",
+      "quantity": 1,
+      "item": "Python control stack",
+      "specification": "FastAPI, Uvicorn, dynamixel-sdk; Pipenv lock; OS and Python 3.12",
+      "unit_estimate_usd": 0,
+      "extended_estimate_usd": 0,
+      "source_or_procurement": "Delivered source; no paid license allowance"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 520 280"><rect width="520" height="280" fill="white"/><text x="55" y="25" font-family="sans-serif" font-size="10" fill="#087f83" font-weight="bold">FIXED</text>
+<polygon points="50.0,238 180.0,238 180.0,226 50.0,226" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<polygon points="94.0,195 136.0,195 136.0,185 94.0,185" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<polygon points="80.0,150 150.0,150 150.0,125 80.0,125" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<polygon points="116,100 150,100 150,94 116,94" fill="#087f83" stroke="#182f3c" stroke-width="1"/>
+<line x1="93" y1="75" x2="93" y2="225" stroke="#182f3c" stroke-width="4"/>
+<polygon points="83,73 103,73 103,66 83,66" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<line x1="175" y1="85" x2="175" y2="220" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="175,220 177.72592839616055,213.5525730419798 172.27407160383945,213.5525730419798" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<text x="280" y="25" font-family="sans-serif" font-size="10" fill="#087f83" font-weight="bold">MOVING / H2</text>
+<polygon points="275.0,238 405.0,238 405.0,226 275.0,226" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<polygon points="319.0,195 361.0,195 361.0,185 319.0,185" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<polygon points="305.0,150 375.0,150 375.0,125 305.0,125" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<polygon points="341,100 375,100 375,94 341,94" fill="#087f83" stroke="#182f3c" stroke-width="1"/>
+<line x1="318" y1="75" x2="318" y2="225" stroke="#182f3c" stroke-width="4"/>
+<polygon points="308,73 328,73 328,66 308,66" fill="#dde3e6" stroke="#182f3c" stroke-width="1"/>
+<polygon points="305,170 331,170 331,162 305,162" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<polygon points="305,213 331,213 331,205 305,205" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<line x1="295" y1="140" x2="385" y2="140" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="385,140 378.5525730419798,137.27407160383945 378.5525730419798,142.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="295,140 301.4474269580202,142.72592839616055 301.4474269580202,137.27407160383945" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<line x1="400" y1="85" x2="400" y2="220" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="400,220 402.72592839616055,213.5525730419798 397.27407160383945,213.5525730419798" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<line x1="25" y1="60" x2="132" y2="95" stroke="#657782" stroke-width="0.8"/>
+<circle cx="132" cy="95" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="23,57 93.81796875,57 93.81796875,45 23,45" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="25" y="55" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">1 mm silicone</text>
+<line x1="20" y1="173" x2="90" y2="135" stroke="#657782" stroke-width="0.8"/>
+<circle cx="90" cy="135" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="18,170 97.770703125,170 97.770703125,158 18,158" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="20" y="168" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">FAB-M08 acetal</text>
+<line x1="230" y1="263" x2="340" y2="190" stroke="#657782" stroke-width="0.8"/>
+<circle cx="340" cy="190" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="228,260 401.060546875,260 401.060546875,248 228,248" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="258" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">Spacer / bushings / captive washer</text>
+<text x="230" y="42" font-family="sans-serif" font-size="8" fill="#a33335">Shoulder must not crush compliance</text>
+<text x="20" y="277" font-family="sans-serif" font-size="8" fill="#182f3c">Exploded concept; H2 defines shoulder, spacer and retention dimensions.</text></svg>

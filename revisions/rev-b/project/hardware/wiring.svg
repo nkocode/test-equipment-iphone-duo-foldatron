@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#547083"/></marker></defs>
+<rect width="1200" height="800" fill="#f7f9fa"/>
+<g font-family="Arial,sans-serif" fill="#172d3d" font-size="17">
+<text x="40" y="48" font-size="29" font-weight="bold">FoldBench / power and control architecture</text>
+<text x="40" y="78" font-size="16">Functional wiring diagram. Relay input terminals follow the current manufacturer schematic.</text>
+<g fill="#e6eff2" stroke="#8aa2ae" stroke-width="2">
+<rect x="50" y="130" width="180" height="70" rx="6"/>
+<rect x="300" y="130" width="180" height="70" rx="6"/>
+<rect x="560" y="130" width="220" height="70" rx="6"/>
+<rect x="870" y="130" width="260" height="70" rx="6"/>
+<rect x="50" y="290" width="180" height="80" rx="6"/>
+<rect x="300" y="280" width="220" height="100" rx="6"/>
+<rect x="590" y="290" width="190" height="80" rx="6"/>
+<rect x="900" y="290" width="230" height="80" rx="6"/>
+<rect x="50" y="460" width="180" height="80" rx="6"/>
+<rect x="300" y="460" width="220" height="80" rx="6"/>
+<rect x="590" y="460" width="190" height="80" rx="6"/>
+<rect x="900" y="460" width="230" height="80" rx="6"/>
+</g>
+<text x="71" y="158">12 V / 5 A</text><text x="71" y="183">enclosed supply</text>
+<text x="320" y="158">DC disconnect</text><text x="320" y="183">+ 3 A fuse</text>
+<text x="578" y="157">PNOZ safety outputs</text><text x="578" y="183">13–14 → 23–24</text>
+<text x="891" y="158">U2D2 hub → XM430-T</text><text x="891" y="183">switched +12 V</text>
+<text x="71" y="321">24 V supply</text><text x="71" y="348">+ 0.5 A fuse</text>
+<text x="319" y="310">PNOZ X3 774310</text><text x="319" y="336">DC supply B1 / B2</text><text x="319" y="361">monitored reset</text>
+<text x="607" y="321">2-channel E-stop</text><text x="607" y="348">and guard NCs</text>
+<text x="918" y="322">Physical RESET button</text><text x="918" y="349">outside guard</text>
+<text x="69" y="490">27 W USB-C</text><text x="69" y="518">Pi supply</text>
+<text x="319" y="491">Raspberry Pi 5</text><text x="319" y="518">Python + FastAPI</text>
+<text x="608" y="491">U2D2 USB / TTL</text><text x="608" y="518">data interface</text>
+<text x="917" y="491">Isolated permit input</text><text x="917" y="518">PNOZ 33–34 → GPIO17</text>
+<g fill="none" stroke="#547083" stroke-width="3" marker-end="url(#a)">
+<path d="M230 165 H300"/><path d="M480 165 H560"/><path d="M780 165 H870"/>
+<path d="M230 330 H300"/><path d="M590 330 H520"/><path d="M900 330 H850 V405 H450 V380"/>
+<path d="M230 500 H300"/><path d="M520 500 H590"/><path d="M690 460 V440 H550 V230 H1000 V200"/>
+<path d="M520 355 H540 V425 H1015 V460"/>
+<path d="M900 510 H840 V570 H410 V540"/>
+</g>
+<rect x="300" y="615" width="480" height="70" rx="6" fill="#d5ebe8" stroke="#8aa2ae"/>
+<text x="321" y="643">Open/closed switches → GPIO27 / GPIO22</text>
+<text x="321" y="669">Case + ambient DS18B20 → GPIO4 (3.3 V)</text>
+<path d="M410 615 V545" stroke="#547083" stroke-width="3" marker-end="url(#a)"/>
+<text x="50" y="735" font-size="16">Pi remains powered after a physical stop. GPIO signals are 3.3 V only; isolate the 24 V permit circuit.</text>
+<text x="50" y="763" font-size="16">API stop is not an emergency stop. Confirm power removal, stopping time and manual-reset behavior on the actual rig.</text>
+</g></svg>

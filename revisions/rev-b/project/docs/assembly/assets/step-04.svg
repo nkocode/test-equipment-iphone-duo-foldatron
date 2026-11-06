@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 520 280"><rect width="520" height="280" fill="white"/><polygon points="47.5,183.95999999999998 322.5,273.96 322.5,269.0 47.5,179.0" fill="#f3f6f7" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="322.5,273.96 462.5,185.95999999999998 462.5,181.0 322.5,269.0" fill="#f3f6f7" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="47.5,179.0 322.5,269.0 462.5,181.0 187.5,91.0" fill="#f3f6f7" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="195.6,193.68 245.1,209.88 245.1,98.28 195.6,82.08000000000001" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="245.1,209.88 247.9,208.12 247.9,96.51999999999998 245.1,98.28" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="195.6,82.08000000000001 245.1,98.28 247.9,96.51999999999998 198.4,80.32" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<circle cx="221.75" cy="114.10000000000002" r="9" fill="#ffffff" stroke="#182f3c"/>
+<circle cx="221.75" cy="114.10000000000002" r="3" fill="#ffffff" stroke="#182f3c"/>
+<polygon points="262.1,151.88 311.6,168.07999999999998 311.6,56.48000000000002 262.1,40.28" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="311.6,168.07999999999998 314.4,166.32 314.4,54.72 311.6,56.48000000000002" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<polygon points="262.1,40.28 311.6,56.48000000000002 314.4,54.72 264.9,38.52000000000001" fill="#dceff0" stroke="#182f3c" stroke-width="0.8"/>
+<circle cx="288.25" cy="72.30000000000001" r="9" fill="#ffffff" stroke="#182f3c"/>
+<circle cx="288.25" cy="72.30000000000001" r="3" fill="#ffffff" stroke="#182f3c"/>
+<line x1="192.0" y1="132.8" x2="318.0" y2="53.60000000000002" stroke="#b35d1c" stroke-width="5"/>
+<line x1="20" y1="35" x2="199.0" y2="128.4" stroke="#657782" stroke-width="0.8"/>
+<circle cx="199.0" cy="128.4" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="18,32 144.36943359375,32 144.36943359375,20 18,20" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="20" y="30" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">Temporary rod - REMOVE</text>
+<line x1="340" y1="40" x2="288.25" y2="72.30000000000001" stroke="#657782" stroke-width="0.8"/>
+<circle cx="288.25" cy="72.30000000000001" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="338,37 415.88525390625,37 415.88525390625,25 338,25" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="340" y="35" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">D08 bearing x2</text>
+<line x1="310" y1="255" x2="238.25" y2="178.4" stroke="#657782" stroke-width="0.8"/>
+<circle cx="238.25" cy="178.4" r="2" fill="#087f83" stroke="#087f83"/>
+<polygon points="308,252 405.85673828125,252 405.85673828125,240 308,240" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="310" y="250" font-family="sans-serif" font-size="8.6" fill="#182f3c" font-weight="bold">FAB-M02 towers x2</text>
+<line x1="95" y1="200" x2="95" y2="112" stroke="#657782" stroke-width="1.6"/>
+<polygon points="95,112 92.27407160383945,118.4474269580202 97.72592839616055,118.4474269580202" fill="#657782" stroke="#657782" stroke-width="1"/>
+<polygon points="95,200 97.72592839616055,193.55257304197983 92.27407160383945,193.5525730419798" fill="#657782" stroke="#657782" stroke-width="1"/>
+<text x="75.0" y="149.0" font-family="sans-serif" font-size="8" fill="#657782">Z 140</text>
+<text x="20" y="70" font-family="sans-serif" font-size="9" fill="#087f83">Centers: X=0, Y=+/-95 mm</text></svg>

@@ -1,0 +1,11 @@
+*.pdf binary
+*.png binary
+
+# Bundled shader strings retain upstream whitespace.
+visualization/index.html -whitespace linguist-generated=true
+visualization/src/rev-b-model.json -diff linguist-generated=true
+
+# Generated CAD exchanges retain exporter formatting.
+hardware/rev-b/cad/** -diff -text -whitespace
+# Preserve third-party attribution and license text as received.
+hardware/rev-b/third-party/** -whitespace

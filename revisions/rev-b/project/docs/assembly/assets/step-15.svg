@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 520 280"><rect width="520" height="280" fill="white"/><polygon points="7,87 83,87 83,55 7,55" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="15" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">12 V +</text>
+<line x1="83" y1="71" x2="91" y2="71" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="91,71 84.5525730419798,68.27407160383945 84.5525730419798,73.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="92,87 168,87 168,55 92,55" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="100" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">pole A</text>
+<line x1="168" y1="71" x2="176" y2="71" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="176,71 169.5525730419798,68.27407160383945 169.5525730419798,73.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="177,87 253,87 253,55 177,55" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="185" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">F1 3 A</text>
+<line x1="253" y1="71" x2="261" y2="71" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="261,71 254.5525730419798,68.27407160383945 254.5525730419798,73.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="262,87 338,87 338,55 262,55" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="270" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">13 / 14</text>
+<line x1="338" y1="71" x2="346" y2="71" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="346,71 339.5525730419798,68.27407160383945 339.5525730419798,73.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="347,87 423,87 423,55 347,55" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="355" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">23 / 24</text>
+<line x1="423" y1="71" x2="431" y2="71" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="431,71 424.5525730419798,68.27407160383945 424.5525730419798,73.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="432,87 508,87 508,55 432,55" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="440" y="71" font-family="sans-serif" font-size="8.5" fill="#182f3c">HUB +</text>
+<polygon points="7,172 83,172 83,140 7,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="15" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">24 V +</text>
+<line x1="83" y1="156" x2="91" y2="156" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="91,156 84.5525730419798,153.27407160383945 84.5525730419798,158.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="92,172 168,172 168,140 92,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="100" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">pole B</text>
+<line x1="168" y1="156" x2="176" y2="156" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="176,156 169.5525730419798,153.27407160383945 169.5525730419798,158.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="177,172 253,172 253,140 177,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="185" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">F2 0.5 A</text>
+<line x1="253" y1="156" x2="261" y2="156" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="261,156 254.5525730419798,153.27407160383945 254.5525730419798,158.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="262,172 338,172 338,140 262,140" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="270" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">B1</text>
+<line x1="338" y1="156" x2="346" y2="156" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="346,156 339.5525730419798,153.27407160383945 339.5525730419798,158.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="347,172 423,172 423,140 347,140" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="355" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">33 / 34</text>
+<line x1="423" y1="156" x2="431" y2="156" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="431,156 424.5525730419798,153.27407160383945 424.5525730419798,158.72592839616055" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<polygon points="432,172 508,172 508,140 432,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="440" y="156" font-family="sans-serif" font-size="8.5" fill="#182f3c">PERMIT</text>
+<polygon points="338,160 350,160 350,151 338,151" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<line x1="250" y1="156" x2="250" y2="115" stroke="#087f83" stroke-width="1.2"/>
+<line x1="250" y1="115" x2="370" y2="115" stroke="#087f83" stroke-width="1.2"/>
+<line x1="370" y1="115" x2="370" y2="138" stroke="#087f83" stroke-width="1.6"/>
+<polygon points="370,138 372.72592839616055,131.5525730419798 367.27407160383945,131.5525730419798" fill="#087f83" stroke="#087f83" stroke-width="1"/>
+<text x="10" y="102" font-family="sans-serif" font-size="9" fill="#182f3c">12 V negative ---------------------------------&gt; HUB GND</text>
+<text x="10" y="190" font-family="sans-serif" font-size="9" fill="#182f3c">24 V negative -------------------------&gt; B2 / opto LED return</text>
+<polygon points="10,260 245,260 245,212 10,212" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="18" y="228" font-family="sans-serif" font-size="8.5" fill="#182f3c">Pi 27 W USB-C supply -&gt; Pi</text>
+<text x="18" y="241" font-family="sans-serif" font-size="8.5" fill="#182f3c">Independent of motor contacts</text>
+<polygon points="265,260 508,260 508,212 265,212" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<text x="273" y="228" font-family="sans-serif" font-size="8.5" fill="#182f3c">PNOZ contacts 13-14 + 23-24</text>
+<text x="273" y="241" font-family="sans-serif" font-size="8.5" fill="#182f3c">Series motor-power interruption</text>
+<text x="7" y="17" font-family="sans-serif" font-size="9" fill="#182f3c">Power paths / keyed hub pinout checked on delivered part</text></svg>

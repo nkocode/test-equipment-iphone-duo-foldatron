@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#426173"/></marker></defs>
+<rect width="1200" height="900" fill="#f7f9fa"/>
+<g font-family="Arial,sans-serif" fill="#172d3d">
+<text x="45" y="52" font-size="30" font-weight="bold">FoldBench / iPhone Duo</text>
+<text x="45" y="82" font-size="16">Revision A · Assembly layout · dimensions in mm · schematic, not to scale</text>
+<text x="45" y="128" font-size="20" font-weight="bold">TOP VIEW — phone open</text>
+<rect x="70" y="165" width="540" height="430" rx="8" fill="#e5ecef" stroke="#426173" stroke-width="3"/>
+<rect x="91" y="186" width="498" height="388" fill="none" stroke="#8aa2ae" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="70" y1="630" x2="610" y2="630" stroke="#426173" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="298" y="655" font-size="17">500 base</text>
+<line x1="40" y1="165" x2="40" y2="595" stroke="#426173" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="28" y="420" font-size="17" transform="rotate(-90 28 420)">400 base</text>
+<rect x="207" y="280" width="122" height="151" rx="8" fill="#2e5a70"/>
+<rect x="340" y="280" width="122" height="151" rx="8" fill="#71b8b0"/>
+<text x="219" y="337" fill="white" font-size="17">Fixed half</text>
+<text x="349" y="337" fill="#173b40" font-size="17">Moving half</text>
+<line x1="334" y1="263" x2="334" y2="449" stroke="#dc8b2c" stroke-width="4" stroke-dasharray="8 6"/>
+<text x="213" y="464" font-size="14">Hinge space remains empty</text>
+<path d="M334 240 L489 240 L489 470 L334 470" fill="none" stroke="#496675" stroke-width="12"/>
+<rect x="320" y="213" width="28" height="44" fill="#91a3ad" stroke="#426173"/>
+<rect x="320" y="466" width="28" height="44" fill="#91a3ad" stroke="#426173"/>
+<line x1="334" y1="200" x2="334" y2="262" stroke="#303f4a" stroke-width="7"/>
+<line x1="334" y1="451" x2="334" y2="550" stroke="#303f4a" stroke-width="7"/>
+<rect x="315" y="516" width="38" height="23" fill="#dc8b2c"/>
+<rect x="306" y="550" width="56" height="34" fill="#283d4c"/>
+<text x="388" y="536" font-size="15">Slip clutch</text>
+<line x1="355" y1="527" x2="382" y2="527" stroke="#426173"/>
+<text x="387" y="570" font-size="15">Servo + adapter</text>
+<line x1="363" y1="565" x2="380" y2="565" stroke="#426173"/>
+<rect x="369" y="291" width="70" height="9" fill="#d5ebe8"/>
+<rect x="369" y="408" width="70" height="9" fill="#d5ebe8"/>
+<text x="503" y="350" font-size="14">Yoke</text>
+<text x="503" y="370" font-size="14">R=115</text>
+<text x="202" y="222" font-size="14">Rear stub</text>
+<text x="196" y="498" font-size="14">Front stub</text>
+<text x="173" y="687" font-size="15">Bearing supports at Y = −95 and +95</text>
+<text x="673" y="128" font-size="20" font-weight="bold">FRONT VIEW — intermediate fold</text>
+<rect x="674" y="170" width="460" height="390" rx="6" fill="none" stroke="#8aa2ae" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="688" y="540" width="432" height="12" fill="#8aa2ae"/>
+<rect x="747" y="396" width="137" height="12" rx="3" fill="#2e5a70"/>
+<path d="M888 396 L980 277" stroke="#71b8b0" stroke-width="14"/>
+<circle cx="888" cy="396" r="7" fill="#dc8b2c"/>
+<path d="M1006 397 A118 118 0 0 0 770 397" fill="none" stroke="#dc8b2c" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M759 412 L759 537 M869 412 L869 537" stroke="#738b98" stroke-width="9"/>
+<line x1="1058" y1="396" x2="1058" y2="540" stroke="#426173" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="1069" y="472" font-size="15">140</text>
+<text x="719" y="249" font-size="15">Nominal hinge axis</text>
+<line x1="861" y1="255" x2="887" y2="387" stroke="#426173"/>
+<text x="721" y="591" font-size="16">0° closed · 180° open</text>
+<text x="721" y="620" font-size="16">Initial partial-fold setup: 5–175°</text>
+<text x="721" y="650" font-size="15">Radial float ±6; compliant shoe travel ±2</text>
+<rect x="45" y="731" width="1090" height="123" rx="8" fill="#e6eff2"/>
+<text x="65" y="762" font-size="18" font-weight="bold">Fabrication and commissioning notes</text>
+<text x="65" y="788" font-size="16">No continuous shaft through the phone hinge. Mount endpoint cams downstream of the slip clutch.</text>
+<text x="65" y="813" font-size="16">Fit shoes to the actual phone. Verify camera, button, charging-port and full swept-volume clearances.</text>
+<text x="65" y="838" font-size="16">Guard, hard stops, clutch setting and stopping distance require physical verification before phone trials.</text>
+</g></svg>

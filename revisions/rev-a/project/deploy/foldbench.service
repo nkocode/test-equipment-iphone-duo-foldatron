@@ -1,0 +1,25 @@
+[Unit]
+Description=FoldBench supervised phone endurance tester
+After=network.target
+
+[Service]
+Type=simple
+User=foldbench
+Group=foldbench
+SupplementaryGroups=dialout gpio
+WorkingDirectory=/opt/foldbench
+EnvironmentFile=/etc/foldbench.env
+ExecStart=/opt/foldbench/.venv/bin/python -m foldbench
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+StateDirectory=foldbench
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/foldbench
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+*.pdf binary
+*.png binary
+
+# Bundled shader strings retain upstream whitespace.
+visualization/index.html -whitespace linguist-generated=true

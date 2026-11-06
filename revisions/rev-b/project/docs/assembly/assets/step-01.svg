@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 520 280"><rect width="520" height="280" fill="white"/><polygon points="12,125 167,125 167,25 12,25" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="21" y="46" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">C / CONTROL</text>
+<text x="21" y="113" font-family="sans-serif" font-size="7.6" fill="#182f3c">Pi + power + storage</text>
+<polygon points="32,90 82,90 82,66 32,66" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="102" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="117" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="132" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<polygon points="182,125 337,125 337,25 182,25" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="191" y="46" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">D / DRIVE</text>
+<text x="191" y="113" font-family="sans-serif" font-size="7.6" fill="#182f3c">Servo, clutch, rails</text>
+<polygon points="202,90 252,90 252,66 202,66" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="272" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="287" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="302" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<polygon points="352,125 507,125 507,25 352,25" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="361" y="46" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">FAB / MACHINED</text>
+<text x="361" y="113" font-family="sans-serif" font-size="7.6" fill="#182f3c">M01-M14 drawing IDs</text>
+<polygon points="372,90 422,90 422,66 372,66" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="442" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="457" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="472" cy="77" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<polygon points="12,240 167,240 167,140 12,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="21" y="161" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">G / GUARD</text>
+<text x="21" y="228" font-family="sans-serif" font-size="7.6" fill="#182f3c">Extrusions + panels</text>
+<polygon points="32,205 82,205 82,181 32,181" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="102" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="117" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="132" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<polygon points="182,240 337,240 337,140 182,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="191" y="161" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">E / ELECTRICAL</text>
+<text x="191" y="228" font-family="sans-serif" font-size="7.6" fill="#182f3c">Relay + controls</text>
+<polygon points="202,205 252,205 252,181 202,181" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="272" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="287" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="302" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<polygon points="352,240 507,240 507,140 352,140" fill="#f3f6f7" stroke="#182f3c" stroke-width="1"/>
+<text x="361" y="161" font-family="sans-serif" font-size="8.5" fill="#087f83" font-weight="bold">S / SENSORS</text>
+<text x="361" y="228" font-family="sans-serif" font-size="7.6" fill="#182f3c">Switches + probes</text>
+<polygon points="372,205 422,205 422,181 372,181" fill="#dceff0" stroke="#182f3c" stroke-width="1"/>
+<circle cx="442" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="457" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<circle cx="472" cy="192" r="5" fill="#dde3e6" stroke="#182f3c"/>
+<text x="12" y="268" font-family="sans-serif" font-size="9" fill="#182f3c">Also sort W wire, F fasteners, T tools and optional O parts.</text></svg>

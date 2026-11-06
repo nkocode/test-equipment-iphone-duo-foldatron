@@ -1,0 +1,339 @@
+{
+  "id": "E-BOARD-01",
+  "base": "Adafruit 1609",
+  "original_sha256": "80096912cfa4d9bd58d512586213c24b7b2abbb61b2647ed19d0742102b89efe",
+  "outline_mm": [
+    81.28,
+    50.8
+  ],
+  "mounting": {
+    "hole_diameter_mm": 3.2,
+    "pitch_mm": 73.66
+  },
+  "rows_mm": {
+    "A": -13.97,
+    "B": -11.43,
+    "C": -8.89,
+    "D": -6.35,
+    "E": -3.81,
+    "F": 3.81,
+    "G": 6.35,
+    "H": 8.89,
+    "I": 11.43,
+    "J": 13.97,
+    "P": 19.05,
+    "N": 21.59
+  },
+  "components": [
+    {
+      "ref": "U1",
+      "value": "LITEON LTV-817-C DIP4",
+      "holes": [
+        "E10",
+        "E11",
+        "F11",
+        "F10"
+      ]
+    },
+    {
+      "ref": "R1",
+      "value": "2k / 1% / 1W",
+      "holes": [
+        "D5",
+        "D10"
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "Vishay 1N4148; cathode first",
+      "holes": [
+        "C10",
+        "C11"
+      ]
+    },
+    {
+      "ref": "R2",
+      "value": "10k / 1% / 1W",
+      "holes": [
+        "J11",
+        "J16"
+      ]
+    },
+    {
+      "ref": "R3",
+      "value": "1k / 1% / 1W",
+      "holes": [
+        "G11",
+        "G20"
+      ]
+    },
+    {
+      "ref": "R4",
+      "value": "1.8k / 1% / 1W",
+      "holes": [
+        "J22",
+        "J27"
+      ]
+    },
+    {
+      "ref": "R5",
+      "value": "2.7k / 1% / 1W",
+      "holes": [
+        "F27",
+        "F17"
+      ]
+    },
+    {
+      "ref": "R6",
+      "value": "1.8k / 1% / 1W",
+      "holes": [
+        "B24",
+        "B29"
+      ]
+    },
+    {
+      "ref": "R7",
+      "value": "2.7k / 1% / 1W",
+      "holes": [
+        "H29",
+        "H19"
+      ]
+    },
+    {
+      "ref": "R8",
+      "value": "4.7k / 1% / 1W",
+      "holes": [
+        "I21",
+        "I15"
+      ]
+    }
+  ],
+  "jumpers": [
+    {
+      "ref": "W1",
+      "holes": [
+        "I16",
+        "N16"
+      ]
+    },
+    {
+      "ref": "W2",
+      "holes": [
+        "J10",
+        "P10"
+      ]
+    },
+    {
+      "ref": "W3",
+      "holes": [
+        "J17",
+        "N17"
+      ]
+    },
+    {
+      "ref": "W4",
+      "holes": [
+        "J19",
+        "N19"
+      ]
+    },
+    {
+      "ref": "W5",
+      "holes": [
+        "J15",
+        "P15"
+      ]
+    },
+    {
+      "ref": "W6",
+      "holes": [
+        "F24",
+        "E24"
+      ]
+    },
+    {
+      "ref": "W7",
+      "holes": [
+        "F29",
+        "E29"
+      ]
+    }
+  ],
+  "external": [
+    {
+      "hole": "A5",
+      "connection": "K2:34 permit +24V",
+      "net": "PERMIT24"
+    },
+    {
+      "hole": "A11",
+      "connection": "X1:11A 0V24",
+      "net": "RETURN24"
+    },
+    {
+      "hole": "P30",
+      "connection": "Pi physical pin1 / 3.3V",
+      "net": "3V3"
+    },
+    {
+      "hole": "N30",
+      "connection": "Pi physical pin6 / GND",
+      "net": "GND"
+    },
+    {
+      "hole": "A25",
+      "connection": "Pi physical pin2 / 5V",
+      "net": "5V"
+    },
+    {
+      "hole": "B25",
+      "connection": "Open switch COM",
+      "net": "5V"
+    },
+    {
+      "hole": "C25",
+      "connection": "Closed switch COM",
+      "net": "5V"
+    },
+    {
+      "hole": "I22",
+      "connection": "Open switch NO",
+      "net": "OPEN_NO"
+    },
+    {
+      "hole": "J24",
+      "connection": "Closed switch NO",
+      "net": "CLOSED_NO"
+    },
+    {
+      "hole": "J20",
+      "connection": "Pi physical pin11 / BCM17 permit",
+      "net": "PERMIT_GPIO"
+    },
+    {
+      "hole": "I27",
+      "connection": "Pi physical pin13 / BCM27 open",
+      "net": "OPEN_GPIO"
+    },
+    {
+      "hole": "J29",
+      "connection": "Pi physical pin15 / BCM22 closed",
+      "net": "CLOSED_GPIO"
+    },
+    {
+      "hole": "F21",
+      "connection": "Pi physical pin7 / BCM4 data",
+      "net": "ONEWIRE"
+    },
+    {
+      "hole": "G21",
+      "connection": "Case probe data",
+      "net": "ONEWIRE"
+    },
+    {
+      "hole": "H21",
+      "connection": "Ambient probe data",
+      "net": "ONEWIRE"
+    },
+    {
+      "hole": "P24",
+      "connection": "Case probe VDD",
+      "net": "3V3"
+    },
+    {
+      "hole": "P25",
+      "connection": "Ambient probe VDD",
+      "net": "3V3"
+    },
+    {
+      "hole": "N24",
+      "connection": "Case probe GND",
+      "net": "GND"
+    },
+    {
+      "hole": "N25",
+      "connection": "Ambient probe GND",
+      "net": "GND"
+    }
+  ],
+  "continuity_groups": {
+    "PERMIT24": [
+      "A5",
+      "D5"
+    ],
+    "RETURN24": [
+      "A11",
+      "E11",
+      "C11"
+    ],
+    "LED_ANODE": [
+      "D10",
+      "E10",
+      "C10"
+    ],
+    "3V3": [
+      "F10",
+      "I15",
+      "P30",
+      "P24",
+      "P25"
+    ],
+    "GND": [
+      "J16",
+      "F17",
+      "H19",
+      "N30",
+      "N24",
+      "N25"
+    ],
+    "EMITTER": [
+      "F11",
+      "J11",
+      "G11"
+    ],
+    "PERMIT_GPIO": [
+      "G20",
+      "J20"
+    ],
+    "5V": [
+      "A25",
+      "B25",
+      "C25"
+    ],
+    "OPEN_NO": [
+      "J22",
+      "I22"
+    ],
+    "OPEN_GPIO": [
+      "I27",
+      "F27",
+      "J27"
+    ],
+    "CLOSED_NO": [
+      "J24",
+      "B24"
+    ],
+    "CLOSED_GPIO": [
+      "B29",
+      "H29",
+      "J29"
+    ],
+    "ONEWIRE": [
+      "I21",
+      "F21",
+      "G21",
+      "H21"
+    ]
+  },
+  "checks": {
+    "original_copper_groups": 64,
+    "distinct_circuit_nets": 13,
+    "occupied_holes": 55,
+    "no_duplicate_holes": true,
+    "no_unintended_copper_shorts": true,
+    "endpoint_gpio_min_v": 2.975951903807615,
+    "endpoint_gpio_max_v": 3.1751497005988023,
+    "endpoint_contact_min_a": 0.0011001100110011
+  },
+  "limits": "Connectivity only; not solder, EMC, thermal, insulation certification or physical commissioning."
+}

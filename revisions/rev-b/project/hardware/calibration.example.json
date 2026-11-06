@@ -1,0 +1,13 @@
+{
+  "commissioned": false,
+  "record_id": "UNCOMMISSIONED",
+  "closed_tick": 1024,
+  "open_tick": 2958,
+  "closed_angle_deg": 5,
+  "open_angle_deg": 175,
+  "max_current_ma": 150,
+  "max_speed_deg_s": 15,
+  "max_case_c": 40,
+  "max_motor_c": 55,
+  "max_ambient_c": 30
+}

@@ -1,0 +1,968 @@
+{
+  "revision": "B-development",
+  "date": "2026-11-05",
+  "release": "NOT released for full procurement or fabrication",
+  "cost_basis": "No current vendor quotations; the Rev A $2510 estimate does not apply to this revised structure/fixture",
+  "items": [
+    {
+      "id": "V01",
+      "quantity": 4,
+      "part_number": "80/20 1010",
+      "description": "Cut660.4 mm; front/rear rails",
+      "source": "S01",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V02",
+      "quantity": 8,
+      "part_number": "80/20 1010",
+      "description": "Cut508.0 mm; four side rails/four posts",
+      "source": "S01",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V03",
+      "quantity": 2,
+      "part_number": "80/20 1010",
+      "description": "Cut609.6 mm; base support crossmembers",
+      "source": "S01",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V04",
+      "quantity": 28,
+      "part_number": "80/20 4119",
+      "description": "Inside corner bracket; see FR-001 schedule",
+      "source": "S02",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V05",
+      "quantity": 90,
+      "part_number": "80/20 3393",
+      "description": "56 structure +28 guard panels +4 base +2 interlock mount. Each set is screw and T-nut; no metric substitution.",
+      "source": "S03",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V06",
+      "quantity": 32,
+      "part_number": "Washer to drawing F-W14",
+      "description": "18 OD x6.6 ID x1 mm stainless; 28 panels +4 base recesses",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V08",
+      "quantity": 1,
+      "part_number": "ROBOTIS XM430-W350-T",
+      "description": "TTL version; use included horn; verify horn/case screw lengths against S04",
+      "source": "S04",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V09",
+      "quantity": 2,
+      "part_number": "NSK 626",
+      "description": "Open bearing6x19x6; protected clean interior",
+      "source": "S07",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V10",
+      "quantity": 4,
+      "part_number": "Ruland MCL-6-A",
+      "description": "6 mm bore one-piece clamp collar; supplied screw",
+      "source": "S08",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V11",
+      "quantity": 2,
+      "part_number": "HIWIN MGN7C + MGNR7,100 mm",
+      "description": "One block per100mm rail; 7 mounting holes,5mm end distance,zero/light preload. Confirm order code, block thread pitch and seal length before purchase.",
+      "source": "S06",
+      "status": "RFQ"
+    },
+    {
+      "id": "V12",
+      "quantity": 1,
+      "part_number": "Dynatect EAS12,6mm/6mm",
+      "description": "Configured shaft-to-shaft, adjustable; request0.20 N m bidirectional setpoint. Designation is RFQ wording, not a confirmed order code.",
+      "source": "S05",
+      "status": "HOLD P2"
+    },
+    {
+      "id": "V20",
+      "quantity": 1,
+      "part_number": "Hammond 1554YA2GY",
+      "description": "Polycarbonate box/lid/gasket/six screws; independent benchtop cabinet",
+      "source": "S13",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V21",
+      "quantity": 1,
+      "part_number": "Hammond 1554YPL",
+      "description": "Factory internal steel panel; mounting screw set1591MM100 as required by purchased enclosure",
+      "source": "S13",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V22",
+      "quantity": 1,
+      "part_number": "MEAN WELL GST60A12-P1J",
+      "description": "External12V5A supply; region-matched factory AC lead; DC inlet adapter still requires rated cable assembly",
+      "source": "S14",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V23",
+      "quantity": 1,
+      "part_number": "MEAN WELL GST25A24-P1J",
+      "description": "External24V1.04A control supply; region-matched factory AC lead",
+      "source": "S15",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V24",
+      "quantity": 1,
+      "part_number": "Neutrik NC3FD-LX",
+      "description": "12V DC panel inlet; mating NC3MXX. Project pin1=0V,2=+12V,3 unused. Label DC ONLY.",
+      "source": "S16/S17",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V25",
+      "quantity": 1,
+      "part_number": "Neutrik NC4FD-LX",
+      "description": "24V DC panel inlet; mating NC4MXX. Project pin1=0V,4=+24V,2/3 unused. Label DC ONLY.",
+      "source": "S18/S19",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V26",
+      "quantity": 2,
+      "part_number": "Pilz PNOZ X3 774310",
+      "description": "K1 emergency stop; K2 guard. Separate relays avoid series input fault masking; wiring review required.",
+      "source": "S20",
+      "status": "HOLD P4"
+    },
+    {
+      "id": "V27",
+      "quantity": 1,
+      "part_number": "Schneider XB5AS8444",
+      "description": "2NC twist-release emergency stop; add yellow background and anti-rotation hardware per manufacturer",
+      "source": "S21",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V28",
+      "quantity": 2,
+      "part_number": "Schneider XB5AA61",
+      "description": "Separate blue reset buttons, one per safety relay; label E-STOP RESET and GUARD RESET",
+      "source": "S22",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V29",
+      "quantity": 1,
+      "part_number": "OMRON D4NS-1BF + D4DS-K2",
+      "description": "Guard switch/key. PG13.5 plastic gland required. Mounts B128-B130; physical insertion/access acceptance required",
+      "source": "S23",
+      "status": "HOLD P3"
+    },
+    {
+      "id": "V30",
+      "quantity": 20,
+      "part_number": "Phoenix UT 2,5 /3044076",
+      "description": "Terminal blocks; E-004 defines X1:1..20 and bus bridges. Wire sizing/routing and physical release remain P4",
+      "source": "S25",
+      "status": "HOLD P4"
+    },
+    {
+      "id": "V31",
+      "quantity": 2,
+      "part_number": "OMRON D2F-01L-D3",
+      "description": "Endpoint low-load switch with solder terminals; B125-B127 mount/cam; verify actual overtravel and signal timing",
+      "source": "S24",
+      "status": "HOLD P3"
+    },
+    {
+      "id": "V32",
+      "quantity": 1,
+      "part_number": "Raspberry Pi 5,4GB",
+      "description": "Outside sealed control enclosure, with official active cooler and Pi5 case; use physical-board fit check",
+      "source": "S10/S11",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V33",
+      "quantity": 1,
+      "part_number": "ROBOTIS U2D2",
+      "description": "USB to TTL interface; mount on hub with supplied rivet",
+      "source": "S26",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V34",
+      "quantity": 1,
+      "part_number": "ROBOTIS U2D2 Power Hub Board Set",
+      "description": "48x57; supplied M3 supports and100mm TTL lead. Power from screw terminals, not2.5mm DC jack.",
+      "source": "S26",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V35",
+      "quantity": 1,
+      "part_number": "ROBOTIS Robot Cable-X3P,240mm",
+      "description": "Confirm available factory length and route; no spliced TTL cable through moving pinch points",
+      "source": "S12/S26",
+      "status": "RFQ"
+    },
+    {
+      "id": "V36",
+      "quantity": 2,
+      "part_number": "Analog Devices DS18B20+,TO-92",
+      "description": "Powered3-wire sensors; case probe attachment and insulated housing to be defined",
+      "source": "S27",
+      "status": "HOLD P4"
+    },
+    {
+      "id": "V37",
+      "quantity": 1,
+      "part_number": "Raspberry Pi27W USB-C supply",
+      "description": "External official supply, regional plug. Independent Pi power maintains fault logging.",
+      "source": "S10",
+      "status": "SELECTED / verify accessories"
+    },
+    {
+      "id": "V38",
+      "quantity": 4,
+      "part_number": "Phoenix 3022276 / CLIPFIX35-5",
+      "description": "Two end brackets per DIN rail; width5.2mm",
+      "source": "S30",
+      "status": "SELECTED / P4 fit review"
+    },
+    {
+      "id": "V39",
+      "quantity": 1,
+      "part_number": "Phoenix 3047028 / D-UT2,5/10",
+      "description": "End cover at open side of the20-terminal bank",
+      "source": "S31",
+      "status": "SELECTED / P4 fit review"
+    },
+    {
+      "id": "V40",
+      "quantity": 1,
+      "part_number": "Phoenix 0801733 / NS35/7.5 PERF2000MM",
+      "description": "Cut2x140mm;280mm used before saw waste",
+      "source": "S32",
+      "status": "SELECTED / P4 fit review"
+    },
+    {
+      "id": "V41",
+      "quantity": 2,
+      "part_number": "Phoenix 3030187 / FBS4-5",
+      "description": "Bridge X1:5..8(+24V) and9..12(0V24) only",
+      "source": "S33",
+      "status": "SELECTED / P4 fit review"
+    },
+    {
+      "id": "V42",
+      "quantity": 2,
+      "part_number": "Littelfuse FHAC0001ZXJ",
+      "description": "Covered32VDC20A inline holder; F1/F2=V52/V53; P4 coordination",
+      "source": "S35",
+      "status": "SELECTED / P4 fit review"
+    },
+    {
+      "id": "F01",
+      "quantity": 22,
+      "part_number": "ISO4762 M2 x6",
+      "description": "14 rail +8 carriage screws; block pitch confirmation required; project torque 0.15 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F02",
+      "quantity": 8,
+      "part_number": "ISO4762 M2 x12",
+      "description": "Four travel stops;4mm engagement after8mm POM; project torque 0.10 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F03",
+      "quantity": 8,
+      "part_number": "ISO4762 M2.5 x8",
+      "description": "Two motor cheeks;2mm case engagement; project torque 0.20 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F04",
+      "quantity": 4,
+      "part_number": "ISO4762 M2 x8",
+      "description": "Motor flange6mm +0.2 shim washer;1.8mm horn engagement; project torque 0.10 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F05",
+      "quantity": 8,
+      "part_number": "ISO4762 M3 x8",
+      "description": "Bearing retaining plates;6mm thread engagement; project torque 0.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F06",
+      "quantity": 8,
+      "part_number": "ISO4762 M3 x12",
+      "description": "Yoke arms6mm to hub flange6mm; project torque 0.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F07",
+      "quantity": 8,
+      "part_number": "ISO4762 M4 x10",
+      "description": "Four crossbar end joints +four guide carrier joints; project torque 1.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F08",
+      "quantity": 8,
+      "part_number": "ISO4762 M4 x16",
+      "description": "Four counterweight screws +four motor cheek/foot screws; project torque 1.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F09",
+      "quantity": 4,
+      "part_number": "ISO4762 M4 x20",
+      "description": "Counterweight adjustment plates; washer/nyloc nut stack; project torque 1.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F10",
+      "quantity": 8,
+      "part_number": "ISO4762 M4 x12",
+      "description": "Four fixed tray screws(6mm engagement) +four endpoint upright feet with1mm washers(5mm engagement); project torque 1.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F11",
+      "quantity": 8,
+      "part_number": "ISO4762 M5 x12",
+      "description": "Tower to angle;6mm engagement in8mm tower; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F12",
+      "quantity": 4,
+      "part_number": "ISO4762 M5 x14",
+      "description": "Angle6mm to sole10mm;8mm engagement; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F13",
+      "quantity": 10,
+      "part_number": "ISO4762 M5 x16",
+      "description": "Four tray posts +two stop posts +four motor-foot slots; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F14",
+      "quantity": 4,
+      "part_number": "ISO4762 M6 x16",
+      "description": "Tower soles;recessed2mm and1mm washer =>7mm engagement; project torque 3.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F15",
+      "quantity": 2,
+      "part_number": "ISO4762 M6 x25",
+      "description": "Angular stop screws;M6 jam nuts;minimum10mm engagement; project torque lock after setup N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.",
+      "source": "S28",
+      "status": "SPECIFIED / vendor SKU pending"
+    },
+    {
+      "id": "F16",
+      "quantity": 6,
+      "part_number": "ISO4026 M3x4 flat-point set screw",
+      "description": "Two per output hub +two cam; shaft flats required; proof test0.75 N m",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F17",
+      "quantity": 4,
+      "part_number": "M4 prevailing-torque locknut",
+      "description": "B120 to B106 joints; replace after repeated adjustment if retention declines",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F18",
+      "quantity": 2,
+      "part_number": "M6 thin jam nut",
+      "description": "Angular-stop screw locking",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F19",
+      "quantity": 16,
+      "part_number": "M4 washer,1mm",
+      "description": "Four weight screws +eight adjustment faces +four endpoint feet",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F20",
+      "quantity": 8,
+      "part_number": "M5 washer,1mm",
+      "description": "Four motor slots +four endpoint sole mounts",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F21",
+      "quantity": 4,
+      "part_number": "M6 washer,1mm",
+      "description": "Recessed tower sole bolts",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F22",
+      "quantity": 4,
+      "part_number": "D2.2 ID x5 OD x0.2 shim washer",
+      "description": "Horn screws; inspect thickness",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F23",
+      "quantity": 4,
+      "part_number": "ISO4762 M2x16",
+      "description": "Endpoint switch through-bolts",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F24",
+      "quantity": 4,
+      "part_number": "ISO7089 M2 plain washer",
+      "description": "Endpoint switch screw-head seats; nominal0.3mm",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F25",
+      "quantity": 4,
+      "part_number": "ISO4032 M2 hex nut",
+      "description": "Endpoint switch rear nuts",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F26",
+      "quantity": 4,
+      "part_number": "DIN127 M2 spring washer",
+      "description": "Between switch upright and nut; compressed stack checked",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F27",
+      "quantity": 2,
+      "part_number": "ISO4026 M3x4 flat-point set screw",
+      "description": "Acetal endpoint cam; initial0.10Nm; NOT the load-bearing cam",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F28",
+      "quantity": 4,
+      "part_number": "ISO4762 M5x20",
+      "description": "Endpoint sole12mm +washer1mm;7mm thread engagement in base",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F29",
+      "quantity": 2,
+      "part_number": "ISO4762 M4x12",
+      "description": "D4DS-K2 key; washer/sleeve stack; torque2.4..2.8Nm",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F30",
+      "quantity": 2,
+      "part_number": "ISO4762 M4x50 blank",
+      "description": "D4NS body: cut to actual stack +nut +two full threads; record final length. Body clamp0.5..0.7Nm",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F31",
+      "quantity": 6,
+      "part_number": "ISO7089 M4 washer,1mm",
+      "description": "Two key heads +four switch body through-bolt faces",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F32",
+      "quantity": 2,
+      "part_number": "ISO4032 M4 hex nut",
+      "description": "Guard-switch body rear nuts",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "F33",
+      "quantity": 2,
+      "part_number": "DIN127 M4 spring washer",
+      "description": "Guard-switch body nut seats",
+      "source": "S24 / SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "C01",
+      "quantity": "200x200mm",
+      "part_number": "Silicone sheet1mm,30-40 Shore A",
+      "description": "Contact pads and stop-cap pads; compatibility with phone coating to be checked",
+      "source": "SHOP SPEC",
+      "status": "HOLD P1"
+    },
+    {
+      "id": "C02",
+      "quantity": "100x100mm",
+      "part_number": "Silicone sheet2mm,30-40 Shore A",
+      "description": "Travel-stop pads; 4 pieces6x8; measure actual float after bonding",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "C03",
+      "quantity": "4 pieces",
+      "part_number": "Neoprene pad25x50x3",
+      "description": "Under bottom frame, near four corners; compression/rocking checked on bench",
+      "source": "SHOP SPEC",
+      "status": "SELECTED"
+    },
+    {
+      "id": "V43",
+      "quantity": 1,
+      "part_number": "Adafruit1609",
+      "description": "Controller base PCB; E-005..008",
+      "source": "S36",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V44",
+      "quantity": 1,
+      "part_number": "LITEON LTV-817-C DIP4",
+      "description": "U1; CTR rankC",
+      "source": "S37",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V45",
+      "quantity": 1,
+      "part_number": "Vishay1N4148",
+      "description": "D1 reverse-LED protection",
+      "source": "S39",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V46",
+      "quantity": 1,
+      "part_number": "Vishay PR01 2kohm 1% 1W",
+      "description": "R1 permit input",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V47",
+      "quantity": 1,
+      "part_number": "Vishay PR01 10kohm 1% 1W",
+      "description": "R2 pulldown",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V48",
+      "quantity": 1,
+      "part_number": "Vishay PR01 1kohm 1% 1W",
+      "description": "R3 GPIO series",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V49",
+      "quantity": 2,
+      "part_number": "Vishay PR01 1.8kohm 1% 1W",
+      "description": "R4,R6",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V50",
+      "quantity": 2,
+      "part_number": "Vishay PR01 2.7kohm 1% 1W",
+      "description": "R5,R7",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V51",
+      "quantity": 1,
+      "part_number": "Vishay PR01 4.7kohm 1% 1W",
+      "description": "R8 1Wire",
+      "source": "S38",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V52",
+      "quantity": 1,
+      "part_number": "Littelfuse0287002.L",
+      "description": "F1 2A32VDC; holderV42",
+      "source": "S40",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V53",
+      "quantity": 1,
+      "part_number": "Littelfuse0287001.L",
+      "description": "F2 1A32VDC; holderV42",
+      "source": "S40",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V54",
+      "quantity": 1,
+      "part_number": "LAPP53015130",
+      "description": "Guard PG13.5 plastic gland",
+      "source": "S41",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V55",
+      "quantity": "1.8m",
+      "part_number": "LAPP1119754",
+      "description": "Guard4x0.5 cable; trim",
+      "source": "S42",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "V56",
+      "quantity": 1,
+      "part_number": "Hammond1427BCGM16",
+      "description": "Guard cabinet entry only",
+      "source": "S34",
+      "status": "SELECTED / P4 acceptance"
+    },
+    {
+      "id": "E-HOLD",
+      "quantity": "1 lot",
+      "part_number": "Electrical completion schedule",
+      "description": "Fuse coordination acceptance; wire/ferrules/glands; board mounting/cover; DC adapter cables; cable anchors; Pi breakout. These are not procurement-ready generic kits: release P4 first.",
+      "source": "UNRESOLVED",
+      "status": "HOLD P4"
+    },
+    {
+      "id": "DUT-HOLD",
+      "quantity": "1 set",
+      "part_number": "Phone inserts and dummy",
+      "description": "Shop measures actual phone before machining inserts, as authorized by owner. No invented Apple dimensions.",
+      "source": "SHOP MEASUREMENT",
+      "status": "HOLD P1"
+    },
+    {
+      "id": "B101",
+      "quantity": 1,
+      "part_number": "Custom drawing B101",
+      "description": "Fixture base; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B102",
+      "quantity": 2,
+      "part_number": "Custom drawing B102",
+      "description": "Bearing tower; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B103",
+      "quantity": 2,
+      "part_number": "Custom drawing B103",
+      "description": "Tower sole plate; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B104",
+      "quantity": 2,
+      "part_number": "Custom drawing B104",
+      "description": "Tower angle; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B105",
+      "quantity": 2,
+      "part_number": "Custom drawing B105",
+      "description": "Bearing retaining plate; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B106",
+      "quantity": 2,
+      "part_number": "Custom drawing B106",
+      "description": "Yoke / counterbalance arm; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B107",
+      "quantity": 1,
+      "part_number": "Custom drawing B107",
+      "description": "Lightened crossbar; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B108",
+      "quantity": 2,
+      "part_number": "Custom drawing B108",
+      "description": "Guide carrier strip; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B109",
+      "quantity": 1,
+      "part_number": "Custom drawing B109",
+      "description": "Floating contact plate blank; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B110",
+      "quantity": 4,
+      "part_number": "Custom drawing B110",
+      "description": "Guide travel stop; POM-C acetal; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B111",
+      "quantity": 2,
+      "part_number": "Custom drawing B111",
+      "description": "Counterweight; Low-carbon steel; zinc plate after machining; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B112",
+      "quantity": 2,
+      "part_number": "Custom drawing B112",
+      "description": "Output flange hub; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B113",
+      "quantity": 1,
+      "part_number": "Custom drawing B113",
+      "description": "Ground output shaft; Ground stainless steel, D6 g6; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B114",
+      "quantity": 1,
+      "part_number": "Custom drawing B114",
+      "description": "Ground output shaft; Ground stainless steel, D6 g6; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B115",
+      "quantity": 2,
+      "part_number": "Custom drawing B115",
+      "description": "Inner-race spacer; 303 stainless; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B116",
+      "quantity": 2,
+      "part_number": "Custom drawing B116",
+      "description": "Inner-race spacer; 303 stainless; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B117",
+      "quantity": 1,
+      "part_number": "Custom drawing B117",
+      "description": "Fixed tray; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B118",
+      "quantity": 4,
+      "part_number": "Custom drawing B118",
+      "description": "Fixed tray standoff; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B119",
+      "quantity": 2,
+      "part_number": "Custom drawing B119",
+      "description": "Motor mounting side cheek; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B120",
+      "quantity": 2,
+      "part_number": "Custom drawing B120",
+      "description": "Counterweight adjustment plate; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B121",
+      "quantity": 1,
+      "part_number": "Custom drawing B121",
+      "description": "Motor adjustable pedestal; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B122",
+      "quantity": 1,
+      "part_number": "Custom drawing B122",
+      "description": "Integral motor input flange / shaft; 303 stainless steel; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B123",
+      "quantity": 1,
+      "part_number": "Custom drawing B123",
+      "description": "Output angular-stop cam; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B124",
+      "quantity": 2,
+      "part_number": "Custom drawing B124",
+      "description": "Angular-stop post; 303 stainless steel; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B125",
+      "quantity": 1,
+      "part_number": "Custom drawing B125",
+      "description": "Endpoint sensing cam; POM-C acetal; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B126",
+      "quantity": 1,
+      "part_number": "Custom drawing B126",
+      "description": "Endpoint stand sole; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B127",
+      "quantity": 2,
+      "part_number": "Custom drawing B127",
+      "description": "Endpoint switch upright; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B128",
+      "quantity": 1,
+      "part_number": "Custom drawing B128",
+      "description": "Guard-switch post bracket; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B129",
+      "quantity": 1,
+      "part_number": "Custom drawing B129",
+      "description": "Guard-key backing plate; 6061-T6 aluminum; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B130",
+      "quantity": 2,
+      "part_number": "Custom drawing B130",
+      "description": "Guard-key compression sleeve; 303 stainless; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B201",
+      "quantity": 2,
+      "part_number": "Custom drawing B201",
+      "description": "Side guard blank; Clear polycarbonate; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B202",
+      "quantity": 1,
+      "part_number": "Custom drawing B202",
+      "description": "Rear guard blank; Clear polycarbonate; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B203",
+      "quantity": 1,
+      "part_number": "Custom drawing B203",
+      "description": "Roof guard blank; Clear polycarbonate; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    },
+    {
+      "id": "B204",
+      "quantity": 1,
+      "part_number": "Custom drawing B204",
+      "description": "Front access panel; Clear polycarbonate; individual STEP supplied",
+      "source": "DRAWING BOOK",
+      "status": "DEVELOPMENT REVIEW"
+    }
+  ]
+}

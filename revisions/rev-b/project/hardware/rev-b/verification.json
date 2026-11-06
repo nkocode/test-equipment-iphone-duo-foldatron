@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-05",
+  "scope": "CAD checks only; no hardware assembled or operated",
+  "all_custom_solids_valid": true,
+  "frame_outer_mm": [
+    660.4,
+    558.8,
+    558.8
+  ],
+  "cut_lengths_mm": {
+    "660.4": 4,
+    "508": 8,
+    "609.6": 2
+  },
+  "total_extrusion_mm": 7924.8,
+  "phone_dimensions_verified": false,
+  "complete_assembly_interference_verified": false,
+  "sampled_sweep_degrees": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180
+  ],
+  "sampled_static_obstacles": [
+    "base",
+    "tower_front",
+    "sole_front",
+    "angle_front",
+    "retainer_front",
+    "bearing_front",
+    "tower_rear",
+    "sole_rear",
+    "angle_rear",
+    "retainer_rear",
+    "bearing_rear",
+    "fixed_tray",
+    "endpoint_sole",
+    "endpoint_upright_-1",
+    "endpoint_switch_-1",
+    "endpoint_upright_1",
+    "endpoint_switch_1",
+    "fixed_post_-95_-45",
+    "fixed_post_-95_45",
+    "fixed_post_-35_-45",
+    "fixed_post_-35_45",
+    "clutch_RFQ",
+    "XM430_interface_model",
+    "XM430_horn",
+    "motor_cheek_-20.25",
+    "motor_cheek_14.25",
+    "motor_foot",
+    "motor_adapter",
+    "angular_stop_-67.5",
+    "stop_bolt_-67.5",
+    "stop_pad_-67.5",
+    "angular_stop_67.5",
+    "stop_bolt_67.5",
+    "stop_pad_67.5"
+  ],
+  "sampled_sweep_collisions": [],
+  "endpoint_static_collisions": [],
+  "sampled_minimum_moving_z_mm": 6.665071229345493,
+  "sweep_limitations": "Discrete 5 degree samples; excludes DUT, unmodelled wiring, screw heads and switch-lever deflection. Not a continuous collision proof.",
+  "custom_moving_mass_kg": 1.6334420233022646,
+  "custom_only_gravity_peak_Nm": 0.1360712638040446,
+  "mass_exclusions": "Guide blocks, rails, collars, fasteners, pads and phone. Counterweight setting must be measured.",
+  "custom_mass_components": [
+    {
+      "name": "arm_front",
+      "kg": 0.18262023469780583,
+      "x_mm": 8.611050218651732,
+      "z_mm": -13.589240837031923
+    },
+    {
+      "name": "hub_front",
+      "kg": 0.015232444708675562,
+      "x_mm": -0.01757171792404378,
+      "z_mm": 0.017571762190300433
+    },
+    {
+      "name": "weight_adjust_front",
+      "kg": 0.03668633368665991,
+      "x_mm": -84.99999999999999,
+      "z_mm": 9.383994045493381
+    },
+    {
+      "name": "weight_front",
+      "kg": 0.31064295299523625,
+      "x_mm": -84.99999999999997,
+      "z_mm": 25.0
+    },
+    {
+      "name": "spacer_front_inner",
+      "kg": 0.00031517399978608836,
+      "x_mm": 6.194090146477384e-16,
+      "z_mm": 0.0
+    },
+    {
+      "name": "spacer_front_outer",
+      "kg": 0.0006303479995721767,
+      "x_mm": 4.424350104626703e-16,
+      "z_mm": 0.0
+    },
+    {
+      "name": "arm_rear",
+      "kg": 0.18262023469780583,
+      "x_mm": 8.611050218651732,
+      "z_mm": -13.589240837031923
+    },
+    {
+      "name": "hub_rear",
+      "kg": 0.015232444708675562,
+      "x_mm": -0.01757171792404431,
+      "z_mm": -0.017571762190328855
+    },
+    {
+      "name": "weight_adjust_rear",
+      "kg": 0.03668633368665991,
+      "x_mm": -84.99999999999999,
+      "z_mm": 9.383994045493381
+    },
+    {
+      "name": "weight_rear",
+      "kg": 0.31064295299523625,
+      "x_mm": -84.99999999999997,
+      "z_mm": 25.0
+    },
+    {
+      "name": "spacer_rear_inner",
+      "kg": 0.00031517399978608836,
+      "x_mm": -7.078960167402725e-16,
+      "z_mm": 0.0
+    },
+    {
+      "name": "spacer_rear_outer",
+      "kg": 0.0006303479995721767,
+      "x_mm": 8.848700209253406e-17,
+      "z_mm": 0.0
+    },
+    {
+      "name": "front_shaft",
+      "kg": 0.023970980265420837,
+      "x_mm": 2.606106076443814e-16,
+      "z_mm": 0.0
+    },
+    {
+      "name": "rear_shaft",
+      "kg": 0.018644095761993988,
+      "x_mm": -4.786725446529454e-17,
+      "z_mm": 2.842170943040401e-14
+    },
+    {
+      "name": "crossbar",
+      "kg": 0.19361553301447793,
+      "x_mm": 130.00000000000009,
+      "z_mm": -33.70251967209195
+    },
+    {
+      "name": "carrier_-45",
+      "kg": 0.05582640790603831,
+      "x_mm": 74.57984614432128,
+      "z_mm": -18.59999999999991
+    },
+    {
+      "name": "stop_32.75_-45",
+      "kg": 0.0009530721644184201,
+      "x_mm": 32.75000000000001,
+      "z_mm": -11.114594322159888
+    },
+    {
+      "name": "stop_77.25_-45",
+      "kg": 0.0009530721644184201,
+      "x_mm": 77.25,
+      "z_mm": -11.114594322160002
+    },
+    {
+      "name": "carrier_45",
+      "kg": 0.05582640790603831,
+      "x_mm": 74.57984614432128,
+      "z_mm": -18.59999999999991
+    },
+    {
+      "name": "stop_32.75_45",
+      "kg": 0.0009530721644184201,
+      "x_mm": 32.75000000000001,
+      "z_mm": -11.114594322159888
+    },
+    {
+      "name": "stop_77.25_45",
+      "kg": 0.0009530721644184201,
+      "x_mm": 77.25,
+      "z_mm": -11.114594322160002
+    },
+    {
+      "name": "float_plate",
+      "kg": 0.1454091356084109,
+      "x_mm": 55.000000000000036,
+      "z_mm": -5.599999999999881
+    },
+    {
+      "name": "endpoint_cam",
+      "kg": 0.018791731439411857,
+      "x_mm": 0.06293270449937391,
+      "z_mm": 0.01012974298234326
+    },
+    {
+      "name": "angular_cam",
+      "kg": 0.025290466567327134,
+      "x_mm": 17.30733510463871,
+      "z_mm": 0.014410947768936921
+    }
+  ],
+  "checks": [
+    {
+      "id": "G01",
+      "result": "PASS",
+      "detail": "500 mm base fits within 609.6 mm crossmember span."
+    },
+    {
+      "id": "G02",
+      "result": "PASS",
+      "detail": "M2 x 6 through 4 mm plate engages block 2 mm < 2.5 max."
+    },
+    {
+      "id": "G03",
+      "result": "PASS",
+      "detail": "Two MGN7C mounting patterns are 12 x 8 mm; purchased thread pitch still requires confirmation."
+    },
+    {
+      "id": "G04",
+      "result": "HOLD",
+      "detail": "Clutch engagement and phone inserts, plus interlock actuation still require physical acceptance."
+    }
+  ]
+}
