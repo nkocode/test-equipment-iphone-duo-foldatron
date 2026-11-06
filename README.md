@@ -6,9 +6,11 @@ foldatron is the repository name; `foldbench` is the Python package and service 
 
 **Default mode is simulation. Hardware has not been physically validated.** The design is for supervised commissioning and testing; read the guide before fabrication or connecting an actuator. A mechanically completed run is not an automatic phone-function pass.
 
-Start physical assembly with the separate [illustrated assembly manual](docs/Foldatron-illustrated-assembly-manual.pdf): 26 numbered operations, part callouts, wiring diagrams and acceptance worksheets. Its H1-H5 release register identifies unresolved yoke geometry, mounting details, guard supports and electrical verification that must be closed before the affected work. The earlier envelope model is not a fabrication release.
+Start the current mechanical review with the [Rev B engineering package](hardware/rev-b/README.md), its [CAD drawing book](docs/rev-b/Foldatron-Rev-B-drawing-book.pdf), and separate [assembly traveler](docs/rev-b/Foldatron-Rev-B-assembly-traveler.pdf). Rev B uses 1010 one-inch extrusion, dimensioned custom STEP parts, DXF profiles, individual fastener lengths and a hashed vendor-source register. P1-P4 still prevent a complete fabrication/commissioning release; the shop will measure the actual phone before machining inserts. The earlier [illustrated manual](docs/Foldatron-illustrated-assembly-manual.pdf), envelope model and viewer describe Rev A and are retained as history.
 
 ## Interactive 3D explorer
+
+The interactive explorer below is the earlier **Rev A concept**. Use the Rev B STEP assembly and drawing book for the current mechanical design.
 
 Download and open [visualization/index.html](visualization/index.html) in a browser. The single-file viewer works offline and includes orbit/zoom, six selectable assemblies, scripted folding motion, an exploded view and eight build stages linked to the illustrated manual. It is a design visualization, not validated CAD, physics simulation or a live machine interface. See the [viewer guide](visualization/README.md) for scope and rebuilding.
 
@@ -34,6 +36,12 @@ Download and open [visualization/index.html](visualization/index.html) in a brow
 ## Source layout
 
 Application modules live under `src/foldbench/`, with package metadata in `pyproject.toml`. Pipenv installs this local package in editable mode. Tests exercise the installed package; they do not add the checkout or `src` to Python's import path. The same `python -m foldbench` command works outside the repository once installed. Tests, documentation, hardware files and deployment examples remain outside the Python import package.
+
+Rev B is the current engineering review package. Its 1010 frame, fixture,
+sensor mounts and corrected endpoint wiring supersede the corresponding
+Rev A illustrations. The older interactive viewer still shows Rev A.
+See [the Rev B release boundary](hardware/rev-b/README.md) before purchasing
+or fabricating; phone metrology and supplier/physical acceptance are open.
 
 ## Run the simulator
 

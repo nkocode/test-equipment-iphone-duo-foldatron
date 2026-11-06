@@ -226,3 +226,7 @@ artifacts/
 
 # JavaScript viewer dependencies
 node_modules/
+
+# Engineering build scratch and third-party source downloads
+work/
+hardware/rev-b/vendor/

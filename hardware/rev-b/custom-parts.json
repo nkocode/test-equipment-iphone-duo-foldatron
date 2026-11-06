@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "B101",
+    "title": "Fixture base",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -200,
+        "y": -150,
+        "callout": "D6.8 THRU; 1/4-20 frame bolt",
+        "diameter": 6.8
+      },
+      {
+        "tag": "H2",
+        "x": -200,
+        "y": 150,
+        "callout": "D6.8 THRU; 1/4-20 frame bolt",
+        "diameter": 6.8
+      },
+      {
+        "tag": "H3",
+        "x": 200,
+        "y": -150,
+        "callout": "D6.8 THRU; 1/4-20 frame bolt",
+        "diameter": 6.8
+      },
+      {
+        "tag": "H4",
+        "x": 200,
+        "y": 150,
+        "callout": "D6.8 THRU; 1/4-20 frame bolt",
+        "diameter": 6.8
+      },
+      {
+        "tag": "H5",
+        "x": -40,
+        "y": -159,
+        "callout": "M6 x 1 THRU",
+        "diameter": 5
+      },
+      {
+        "tag": "H6",
+        "x": -40,
+        "y": 159,
+        "callout": "M6 x 1 THRU",
+        "diameter": 5
+      },
+      {
+        "tag": "H7",
+        "x": 40,
+        "y": -159,
+        "callout": "M6 x 1 THRU",
+        "diameter": 5
+      },
+      {
+        "tag": "H8",
+        "x": 40,
+        "y": 159,
+        "callout": "M6 x 1 THRU",
+        "diameter": 5
+      },
+      {
+        "tag": "H9",
+        "x": -95,
+        "y": -45,
+        "callout": "D5.5 THRU; M5 x 16 from underside",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H10",
+        "x": -95,
+        "y": 45,
+        "callout": "D5.5 THRU; M5 x 16 from underside",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H11",
+        "x": -35,
+        "y": -45,
+        "callout": "D5.5 THRU; M5 x 16 from underside",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H12",
+        "x": -35,
+        "y": 45,
+        "callout": "D5.5 THRU; M5 x 16 from underside",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H13",
+        "x": -45,
+        "y": -210,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H14",
+        "x": -45,
+        "y": -180,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H15",
+        "x": 45,
+        "y": -210,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H16",
+        "x": 45,
+        "y": -180,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H17",
+        "x": -67.5,
+        "y": -167,
+        "callout": "D5.5 THRU; M5 x 16 into stop post",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H18",
+        "x": 67.5,
+        "y": -167,
+        "callout": "D5.5 THRU; M5 x 16 into stop post",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H19",
+        "x": -67.5,
+        "y": 187,
+        "callout": "M5 x 0.8 THRU; endpoint stand",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H20",
+        "x": -67.5,
+        "y": 217,
+        "callout": "M5 x 0.8 THRU; endpoint stand",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H21",
+        "x": 67.5,
+        "y": 187,
+        "callout": "M5 x 0.8 THRU; endpoint stand",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H22",
+        "x": 67.5,
+        "y": 217,
+        "callout": "M5 x 0.8 THRU; endpoint stand",
+        "diameter": 4.2
+      }
+    ],
+    "notes": [
+      "Blank 500 x 460 x 8.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Top is assembly datum A (global Z=0).",
+      "Mount at global Z=-8. Flatness 0.20 over plate.",
+      "Thread depths are limited to 8 mm; do not bottom bolts.",
+      "Four frame mounting holes: counterbore D20 x 4 deep from top for 3393 fasteners and 1 mm washers."
+    ],
+    "status": "PROTOTYPE",
+    "volume_mm3": 1831736.983,
+    "bounds_mm": [
+      -250.0,
+      250.0,
+      -230.0,
+      230.0,
+      0.0,
+      8.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B102",
+    "title": "Bearing tower",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": 0,
+        "y": 50,
+        "callout": "D8.2 THRU; bearing axis",
+        "diameter": 8.2
+      },
+      {
+        "tag": "H2",
+        "x": -30,
+        "y": -65,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H3",
+        "x": -30,
+        "y": -45,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H4",
+        "x": 30,
+        "y": -65,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H5",
+        "x": 30,
+        "y": -45,
+        "callout": "M5 x 0.8 THRU",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H6",
+        "x": -15,
+        "y": 35,
+        "callout": "M3 x 0.5 THRU; retainer",
+        "diameter": 2.5
+      },
+      {
+        "tag": "H7",
+        "x": -15,
+        "y": 65,
+        "callout": "M3 x 0.5 THRU; retainer",
+        "diameter": 2.5
+      },
+      {
+        "tag": "H8",
+        "x": 15,
+        "y": 35,
+        "callout": "M3 x 0.5 THRU; retainer",
+        "diameter": 2.5
+      },
+      {
+        "tag": "H9",
+        "x": 15,
+        "y": 65,
+        "callout": "M3 x 0.5 THRU; retainer",
+        "diameter": 2.5
+      }
+    ],
+    "notes": [
+      "Blank 100 x 160 x 8.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Counterbore D19 H7 (+0.021/0) from Z=8 face, depth 6.05 +0.05/0. Ra 1.6 seat.",
+      "Bearing axis true position D0.05 to bottom and side datums; paired tower axes coaxial within D0.05 after assembly."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 125581.25,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      -80.0,
+      80.0,
+      0.0,
+      8.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B103",
+    "title": "Tower sole plate",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -40,
+        "y": 10,
+        "callout": "D6.6 THRU; M6 x 16 + washer",
+        "diameter": 6.6
+      },
+      {
+        "tag": "H2",
+        "x": 40,
+        "y": 10,
+        "callout": "D6.6 THRU; M6 x 16 + washer",
+        "diameter": 6.6
+      },
+      {
+        "tag": "H3",
+        "x": -30,
+        "y": 0,
+        "callout": "M5 x 0.8 THRU; angle foot",
+        "diameter": 4.2
+      },
+      {
+        "tag": "H4",
+        "x": 30,
+        "y": 0,
+        "callout": "M5 x 0.8 THRU; angle foot",
+        "diameter": 4.2
+      }
+    ],
+    "notes": [
+      "Blank 100 x 50 x 10.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Two M6 holes: counterbore D13 x 2 deep from top. M6 x 16 + 1 mm washer gives 7 mm engagement into base."
+    ],
+    "status": "PROTOTYPE",
+    "volume_mm3": 48644.591,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      -25.0,
+      25.0,
+      0.0,
+      10.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B104",
+    "title": "Tower angle",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "Machine from 100 x 40 x 50 stock; 6 mm legs.",
+      "Base holes: X +/-30, Y25, D5.5 THRU along Z.",
+      "Upright holes: X +/-30, Z15 and 35, D5.5 along Y.",
+      "Origin at upright outside / base underside intersection.",
+      "Inside relief R2 max; outside angle 90 +/-0.05 deg."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 49544.701,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      0.0,
+      40.0,
+      0.0,
+      50.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B105",
+    "title": "Bearing retaining plate",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": 0,
+        "y": 0,
+        "callout": "D17 THRU; retain OUTER race only",
+        "diameter": 17
+      },
+      {
+        "tag": "H2",
+        "x": -15,
+        "y": -15,
+        "callout": "D3.4 THRU; M3 x 8",
+        "diameter": 3.4
+      },
+      {
+        "tag": "H3",
+        "x": -15,
+        "y": 15,
+        "callout": "D3.4 THRU; M3 x 8",
+        "diameter": 3.4
+      },
+      {
+        "tag": "H4",
+        "x": 15,
+        "y": -15,
+        "callout": "D3.4 THRU; M3 x 8",
+        "diameter": 3.4
+      },
+      {
+        "tag": "H5",
+        "x": 15,
+        "y": 15,
+        "callout": "D3.4 THRU; M3 x 8",
+        "diameter": 3.4
+      }
+    ],
+    "notes": [
+      "Blank 40 x 40 x 2.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Do not clamp inner race; check 0.05-0.10 axial outer-race clearance before tightening."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 2673.406,
+    "bounds_mm": [
+      -20.0,
+      20.0,
+      -20.0,
+      20.0,
+      0.0,
+      2.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B106",
+    "title": "Yoke / counterbalance arm",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": 0,
+        "y": 0,
+        "diameter": 6.6,
+        "callout": "D6.6 THRU"
+      },
+      {
+        "tag": "H2",
+        "x": 0,
+        "y": 10,
+        "diameter": 3.4,
+        "callout": "D3.4 THRU"
+      },
+      {
+        "tag": "H3",
+        "x": 0,
+        "y": -10,
+        "diameter": 3.4,
+        "callout": "D3.4 THRU"
+      },
+      {
+        "tag": "H4",
+        "x": 10,
+        "y": 0,
+        "diameter": 3.4,
+        "callout": "D3.4 THRU"
+      },
+      {
+        "tag": "H5",
+        "x": -10,
+        "y": 0,
+        "diameter": 3.4,
+        "callout": "D3.4 THRU"
+      },
+      {
+        "tag": "H6",
+        "x": 130,
+        "y": -44.6,
+        "diameter": 4.5,
+        "callout": "D4.5 THRU"
+      },
+      {
+        "tag": "H7",
+        "x": 130,
+        "y": -28.6,
+        "diameter": 4.5,
+        "callout": "D4.5 THRU"
+      },
+      {
+        "tag": "S1",
+        "x": -105,
+        "y": -5,
+        "diameter": 4.5,
+        "callout": "20 x 4.5 slot along X"
+      },
+      {
+        "tag": "S2",
+        "x": -65,
+        "y": -5,
+        "diameter": 4.5,
+        "callout": "20 x 4.5 slot along X"
+      }
+    ],
+    "notes": [
+      "6 mm plate. Datum XY=shaft axis; Z=0 outer face.",
+      "Profile vertices in profile-vertices.json / native STEP.",
+      "D0.05 position for the four hub holes; other holes +/-0.10.",
+      "Front and rear arm are identical blanks; install mirrored."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 67637.124,
+    "bounds_mm": [
+      -130.0,
+      150.0,
+      -56.6,
+      20.0,
+      0.0,
+      6.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B107",
+    "title": "Lightened crossbar",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "Blank 30 X x 158 Y x 30 Z; origin at center.",
+      "Pocket 20 X x 146 Y x 24 deep from bottom; R3 corners permitted. Model has sharp pocket corners.",
+      "Top: 4 x M4 x 0.7 THRU at X +/-6, Y +/-45.",
+      "Each end: 2 x M4 x 0.7 THRU at X0, Z +/-8.",
+      "Use M4 x 10 through 6 mm arms/strips: 4 mm engagement."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 71709.457,
+    "bounds_mm": [
+      -15.0,
+      15.0,
+      -79.0,
+      79.0,
+      -15.0,
+      15.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B108",
+    "title": "Guide carrier strip",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -55,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H2",
+        "x": -40,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H3",
+        "x": -25,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H4",
+        "x": -10,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H5",
+        "x": 5,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H6",
+        "x": 20,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H7",
+        "x": 35,
+        "y": 0,
+        "callout": "M2 x 0.4 THRU; rail",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H8",
+        "x": -42.25,
+        "y": -8,
+        "callout": "M2 x 0.4 THRU; stop",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H9",
+        "x": -42.25,
+        "y": 8,
+        "callout": "M2 x 0.4 THRU; stop",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H10",
+        "x": 2.25,
+        "y": -8,
+        "callout": "M2 x 0.4 THRU; stop",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H11",
+        "x": 2.25,
+        "y": 8,
+        "callout": "M2 x 0.4 THRU; stop",
+        "diameter": 1.6
+      },
+      {
+        "tag": "H12",
+        "x": 49,
+        "y": 0,
+        "callout": "D4.5 THRU; M4 x 10",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H13",
+        "x": 61,
+        "y": 0,
+        "callout": "D4.5 THRU; M4 x 10",
+        "diameter": 4.5
+      }
+    ],
+    "notes": [
+      "Blank 140 x 25 x 6.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Install global X=75, Y=+/-45, Z=118.4.",
+      "Rail holes become X20..110; rail start X15.",
+      "Guide stops were re-centered to actual block travel."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 20676.447,
+    "bounds_mm": [
+      -70.0,
+      70.0,
+      -12.5,
+      12.5,
+      0.0,
+      6.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B109",
+    "title": "Floating contact plate blank",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -4,
+        "y": -51,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H2",
+        "x": -4,
+        "y": -39,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H3",
+        "x": -4,
+        "y": 39,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H4",
+        "x": -4,
+        "y": 51,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H5",
+        "x": 4,
+        "y": -51,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H6",
+        "x": 4,
+        "y": -39,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H7",
+        "x": 4,
+        "y": 39,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H8",
+        "x": 4,
+        "y": 51,
+        "callout": "D2.4 THRU; M2 x 6 into MGN7C",
+        "diameter": 2.4
+      }
+    ],
+    "notes": [
+      "Blank 100 x 135 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Install center global X55, Y0, bottom Z132.4.",
+      "4 mm plate + M2 x 6 gives 2 mm block engagement.",
+      "Phone-contact inserts and restraint holes are HOLD P1 until actual phone is measured."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 53855.235,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      -67.5,
+      67.5,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B110",
+    "title": "Guide travel stop",
+    "material": "POM-C acetal",
+    "features": [
+      {
+        "tag": "H1",
+        "x": 0,
+        "y": -8,
+        "callout": "D2.4 THRU; M2 x 12",
+        "diameter": 2.4
+      },
+      {
+        "tag": "H2",
+        "x": 0,
+        "y": 8,
+        "callout": "D2.4 THRU; M2 x 12",
+        "diameter": 2.4
+      }
+    ],
+    "notes": [
+      "Blank 6 x 20 x 8.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Underside channel 6 long x 7.2 wide x 4.9 deep, centered Y=0, clears rail.",
+      "Bond 2 mm silicone pad to inward X face.",
+      "Stop body centers X=32.75 and 77.25 on each rail; nominal float +/-6 about X55."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 675.938,
+    "bounds_mm": [
+      -3.0,
+      3.0,
+      -10.0,
+      10.0,
+      0.0,
+      8.0
+    ],
+    "solid_valid": true,
+    "quantity": 4
+  },
+  {
+    "id": "B111",
+    "title": "Counterweight",
+    "material": "Low-carbon steel; zinc plate after machining",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -10,
+        "y": 0,
+        "callout": "M4 x 0.7 THRU",
+        "diameter": 3.3
+      },
+      {
+        "tag": "H2",
+        "x": 10,
+        "y": 0,
+        "callout": "M4 x 0.7 THRU",
+        "diameter": 3.3
+      }
+    ],
+    "notes": [
+      "Blank 40 x 40 x 25.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Nominal 0.31 kg each; weigh finished part.",
+      "Initial center X=-85, Z=165; adjust on B120.",
+      "Use M4 x 16 + 1 mm washer through 4 mm B120: 11 mm thread engagement.",
+      "Balance both X and Z moments; verify Q04 sweep."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 39572.351,
+    "bounds_mm": [
+      -20.0,
+      20.0,
+      -20.0,
+      20.0,
+      0.0,
+      25.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B112",
+    "title": "Output flange hub",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "Origin: barrel end center; shaft axis Z.",
+      "Barrel D16 x 10; flange D30 x 6; bore D6 H7.",
+      "Flange 4 x M3 x 0.5 THRU on PCD20, at 0/90/180/270 deg.",
+      "Two radial M3 x 0.5 THRU at Z5; axes +X, +Y.",
+      "M3 x 4 flat-point screws contact shaft flats; proof torque 0.75 N m off-phone. Do not use adhesive as retention."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 5641.646,
+    "bounds_mm": [
+      -15.0,
+      15.0,
+      -15.0,
+      15.0,
+      -0.0,
+      16.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B113",
+    "title": "Ground output shaft",
+    "material": "Ground stainless steel, D6 g6",
+    "features": [],
+    "notes": [
+      "Cut length 108 +/-0.2; chamfer 0.2 x 45 deg.",
+      "Shaft D6 g6: 5.988..5.996 mm; no plating on fits.",
+      "Machine two perpendicular flats, 0.30 deep, 8 long, at hub set-screw station shown in axial stack.",
+      "Model omits clocked flats until clutch datum is confirmed (HOLD P2)."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 3053.628,
+    "bounds_mm": [
+      -3.0,
+      3.0,
+      -3.0,
+      3.0,
+      0.0,
+      108.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B114",
+    "title": "Ground output shaft",
+    "material": "Ground stainless steel, D6 g6",
+    "features": [],
+    "notes": [
+      "Cut length 84 +/-0.2; chamfer 0.2 x 45 deg.",
+      "Shaft D6 g6: 5.988..5.996 mm; no plating on fits.",
+      "Machine two perpendicular flats, 0.30 deep, 8 long, at hub set-screw station shown in axial stack.",
+      "Model omits clocked flats until clutch datum is confirmed (HOLD P2).",
+      "Additional sensing-cam flats: two perpendicular0.30-deep x8-long flats centered at localZ71 (globalY156). Clock to the assembled cam; do not cut into a bearing seat."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 2375.044,
+    "bounds_mm": [
+      -3.0,
+      3.0,
+      -3.0,
+      3.0,
+      0.0,
+      84.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B115",
+    "title": "Inner-race spacer",
+    "material": "303 stainless",
+    "features": [],
+    "notes": [
+      "D8 OD x D6.2 ID x 2 +/-0.02 long.",
+      "Faces parallel 0.02; no burrs. Contact inner race only."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 40.15,
+    "bounds_mm": [
+      -4.0,
+      4.0,
+      -4.0,
+      4.0,
+      0.0,
+      2.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B116",
+    "title": "Inner-race spacer",
+    "material": "303 stainless",
+    "features": [],
+    "notes": [
+      "D8 OD x D6.2 ID x 4 +/-0.02 long.",
+      "Faces parallel 0.02; no burrs. Contact inner race only."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 80.299,
+    "bounds_mm": [
+      -4.0,
+      4.0,
+      -4.0,
+      4.0,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B117",
+    "title": "Fixed tray",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -30,
+        "y": -45,
+        "callout": "D4.5 THRU; M4 x 12 into posts",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H2",
+        "x": -30,
+        "y": 45,
+        "callout": "D4.5 THRU; M4 x 12 into posts",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H3",
+        "x": 30,
+        "y": -45,
+        "callout": "D4.5 THRU; M4 x 12 into posts",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H4",
+        "x": 30,
+        "y": 45,
+        "callout": "D4.5 THRU; M4 x 12 into posts",
+        "diameter": 4.5
+      }
+    ],
+    "notes": [
+      "Blank 100 x 135 x 6.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Install X=-65, Y0, Z130.4. 1 mm pad on top.",
+      "Actual phone restraint/insert mounting: HOLD P1."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 80618.296,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      -67.5,
+      67.5,
+      0.0,
+      6.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B118",
+    "title": "Fixed tray standoff",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "D12 x 130.4 +/-0.05; top M4 x 0.7, 10 deep.",
+      "Bottom M5 x 0.8, 10 deep; bottom fasteners from below base require base holes D5.5, not M5 tapped.",
+      "Corrected base-hole callout is applied automatically."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 14485.521,
+    "bounds_mm": [
+      -6.0,
+      6.0,
+      -6.0,
+      6.0,
+      0.0,
+      130.4
+    ],
+    "solid_valid": true,
+    "quantity": 4
+  },
+  {
+    "id": "B119",
+    "title": "Motor mounting side cheek",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -6,
+        "y": 56.375,
+        "callout": "D2.9 THRU; M2.5 x 8, 2 mm engagement",
+        "diameter": 2.9
+      },
+      {
+        "tag": "H2",
+        "x": -6,
+        "y": 32.375,
+        "callout": "D2.9 THRU; M2.5 x 8, 2 mm engagement",
+        "diameter": 2.9
+      },
+      {
+        "tag": "H3",
+        "x": 6,
+        "y": 56.375,
+        "callout": "D2.9 THRU; M2.5 x 8, 2 mm engagement",
+        "diameter": 2.9
+      },
+      {
+        "tag": "H4",
+        "x": 6,
+        "y": 32.375,
+        "callout": "D2.9 THRU; M2.5 x 8, 2 mm engagement",
+        "diameter": 2.9
+      },
+      {
+        "tag": "H5",
+        "x": -20,
+        "y": -61.625,
+        "callout": "D4.5 THRU; M4 x 16 into B121",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H6",
+        "x": 20,
+        "y": -61.625,
+        "callout": "D4.5 THRU; M4 x 16 into B121",
+        "diameter": 4.5
+      }
+    ],
+    "notes": [
+      "Blank 65 x 143.25 x 6.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Side holes follow ROBOTIS drawing: 12 x 24 pattern; top row 4 below output axis.",
+      "Cheek bottom global Z=8; output axis global Z=140.",
+      "Motor depth datum is 17 behind horn face; side holes are 11 and 23 behind front body face.",
+      "Two cheeks fit motor 28.5 mm width; shim at body if needed without exceeding 3 mm screw engagement."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 55518.123,
+    "bounds_mm": [
+      -32.5,
+      32.5,
+      -71.625,
+      71.625,
+      0.0,
+      6.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B120",
+    "title": "Counterweight adjustment plate",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -20,
+        "y": -15,
+        "callout": "D4.5 THRU; M4 x 20 + washer + locknut",
+        "diameter": 4.5
+      },
+      {
+        "tag": "H2",
+        "x": 20,
+        "y": -15,
+        "callout": "D4.5 THRU; M4 x 20 + washer + locknut",
+        "diameter": 4.5
+      },
+      {
+        "tag": "S1",
+        "x": -10,
+        "y": 15,
+        "callout": "20 x 4.5 vertical slot; M4 x 16",
+        "diameter": 4.5
+      },
+      {
+        "tag": "S2",
+        "x": 10,
+        "y": 15,
+        "callout": "20 x 4.5 vertical slot; M4 x 16",
+        "diameter": 4.5
+      }
+    ],
+    "notes": [
+      "Blank 60 x 60 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Install center X=-85, Z=150, on arm outer face.",
+      "Arm slots provide X travel +/-7.75; upper slots provide Z travel +/-7.75. Adjust both weights equally.",
+      "Do not enlarge slots if actual balance lies outside range; revise weight mass and recheck swept clearance."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 13587.531,
+    "bounds_mm": [
+      -30.0,
+      30.0,
+      -30.0,
+      30.0,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B121",
+    "title": "Motor adjustable pedestal",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "Origin XY center of 100 x 110 sole; sole Z0..8.",
+      "Two integral lugs 12 X x 65 Y x 20 high above sole; centers X+/-26.25, Y=-21, global local Z18.",
+      "Lug bores 4 x M4 THRU along X at Y=-41/-1, Z18.",
+      "4 slots 25 x 5.5 along Y, centers X+/-45, Y10/40.",
+      "Install global Y=-220; M5 x 16 + 1 mm washer through 8 mm sole gives 7 mm engagement in 8 mm base.",
+      "Usable axial adjustment -3 to +9.75 (guard limits forward travel); confirm clutch insertion before tightening. Root relief R2 allowed."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 114597.191,
+    "bounds_mm": [
+      -50.0,
+      50.0,
+      -55.0,
+      55.0,
+      0.0,
+      28.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B122",
+    "title": "Integral motor input flange / shaft",
+    "material": "303 stainless steel",
+    "features": [],
+    "notes": [
+      "D26 flange x 6; integral D6 g6 shaft x 12 above flange.",
+      "4 x D2.4 THRU, PCD16 at 0/90/180/270 degrees.",
+      "Underside central relief D5.5 x 3 deep; check central horn bolt clears relief by >=0.5 before installation.",
+      "M2 x 8 + 0.2 mm shim washer gives 1.8 mm engagement in horn; maximum allowed by ROBOTIS is 2.0 mm.",
+      "Do not loosen the central horn retaining bolt.",
+      "Clutch insertion length and set-screw flat: HOLD P2."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 3345.019,
+    "bounds_mm": [
+      -13.0,
+      13.0,
+      -13.0,
+      13.0,
+      0.0,
+      18.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B123",
+    "title": "Output angular-stop cam",
+    "material": "6061-T6 aluminum",
+    "features": [],
+    "notes": [
+      "Barrel D16 x 10; flange D30 x 6 at Z10..16; bore D6 H7.",
+      "Integral radial tab X0..75, Y+/-5, Z10..16.",
+      "Two radial M3 x 0.5 at Z5, directions +X and +Y.",
+      "Two M3 x 4 flat-point screws on shaft flats; proof at 0.75 N m off-phone.",
+      "Installed tab points +X at fixture zero degrees. Cam origin global (0,-180,140), axis along +Y."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 9366.839,
+    "bounds_mm": [
+      -15.0,
+      75.0,
+      -15.0,
+      15.0,
+      -0.0,
+      16.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B124",
+    "title": "Angular-stop post",
+    "material": "303 stainless steel",
+    "features": [],
+    "notes": [
+      "D16 x 120; top M6 x 1, 25 deep; bottom M5 x 0.8, 10 deep.",
+      "Install X+/-67.5, Y=-167 on base. M5 x 16 from underside.",
+      "Top M6 x 25 cap screw + M6 jam nut; 1 mm silicone pad bonded to cap head. Model contact height 135.00 mm for 0/180 degree backup stops; normal motion 5..175.",
+      "Lock nut after setting; minimum screw engagement 10 mm.",
+      "Mechanical stops are overload backups, not cycle targets."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 23498.013,
+    "bounds_mm": [
+      -8.0,
+      8.0,
+      -8.0,
+      8.0,
+      0.0,
+      120.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B125",
+    "title": "Endpoint sensing cam",
+    "material": "POM-C acetal",
+    "features": [],
+    "notes": [
+      "Barrel D16 x10; disc6 thick at Z10..16; bore D6 H7.",
+      "Polar profile: R25 outside +/-12deg about +X. Within that sector R=25+0.6*(1+cos(pi*angle/12deg)). Max R26.2.",
+      "STEP samples profile each1deg; finish follower surface Ra0.8, remove facets/burrs without changing radius >0.03.",
+      "Two radial M3 x0.5 at Z5; M3x4 flat-point screws. Light initial torque0.10Nm; no holding/safety credit.",
+      "Origin global(0,151,140), axis+Y. Peak points+X at open. Disc global Y161..167, shaft engagement16mm.",
+      "Adjust each switch separately. At peak, measure actual overtravel0.35..0.45mm after electrical make; never exceed the purchased switch's allowed travel. Physical test P3."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 13327.469,
+    "bounds_mm": [
+      -25.0,
+      26.2,
+      -25.0,
+      25.0,
+      -0.0,
+      16.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B126",
+    "title": "Endpoint stand sole",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -67.5,
+        "y": -15,
+        "callout": "D5.5 THRU; M5 x20 +1mm washer",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H2",
+        "x": -67.5,
+        "y": 15,
+        "callout": "D5.5 THRU; M5 x20 +1mm washer",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H3",
+        "x": 67.5,
+        "y": -15,
+        "callout": "D5.5 THRU; M5 x20 +1mm washer",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H4",
+        "x": 67.5,
+        "y": 15,
+        "callout": "D5.5 THRU; M5 x20 +1mm washer",
+        "diameter": 5.5
+      },
+      {
+        "tag": "H5",
+        "x": -43.8,
+        "y": -15,
+        "callout": "M4 x0.7 THRU; upright",
+        "diameter": 3.3
+      },
+      {
+        "tag": "H6",
+        "x": -43.8,
+        "y": 0,
+        "callout": "M4 x0.7 THRU; upright",
+        "diameter": 3.3
+      },
+      {
+        "tag": "H7",
+        "x": 43.8,
+        "y": -15,
+        "callout": "M4 x0.7 THRU; upright",
+        "diameter": 3.3
+      },
+      {
+        "tag": "H8",
+        "x": 43.8,
+        "y": 0,
+        "callout": "M4 x0.7 THRU; upright",
+        "diameter": 3.3
+      }
+    ],
+    "notes": [
+      "Blank 160 x 50 x 12.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Install center(0,202), bottomZ0. Four M5 base screws.",
+      "Upright feet startY167; foot holesY187/202.",
+      "Front edgeY177 clears rear tower sole by3mm. Upright foot bottomZ12 clears tower sole topZ10 by2mm."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 94449.059,
+    "bounds_mm": [
+      -80.0,
+      80.0,
+      -25.0,
+      25.0,
+      0.0,
+      12.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B127",
+    "title": "Endpoint switch upright",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "S1",
+        "x": -11,
+        "y": 118.35,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S2",
+        "x": -11,
+        "y": 124.85,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S3",
+        "x": -11,
+        "y": 131.15,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S4",
+        "x": -11,
+        "y": 137.65,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S5",
+        "x": 11,
+        "y": 118.35,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S6",
+        "x": 11,
+        "y": 124.85,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S7",
+        "x": 11,
+        "y": 131.15,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      },
+      {
+        "tag": "S8",
+        "x": 11,
+        "y": 137.65,
+        "diameter": 2.4,
+        "callout": "6x2.4 slot alongX; Y column=Z"
+      }
+    ],
+    "notes": [
+      "Machine angle: width30; footY0..45,t6; uprightY0..6,H155.",
+      "Local origin: Xmid-width,Yfront,Zfoot bottom. Slot chart uses X,Z coordinates, not top-view X,Y.",
+      "Foot holes D4.5 THRU at X0,Y20/35. Use M4x12 with1mm washers:5mm engagement in B126.",
+      "Install X+/-43.8,Y167,Z12. FaceY167 supports switches.",
+      "Right switch: inward lower pair, global X32.8, Z130.35/136.85. Left: inward upper pair,X-32.8, Z143.15/149.65. Other slots unused.",
+      "M2x16 through switch and upright; plain washer at head, spring washer and hex nut behind upright; torque0.08..0.10Nm.",
+      "Slots give+/-1.8mm radial setup. Lock after continuity and overtravel measurements; never clamp across lever."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 34097.281,
+    "bounds_mm": [
+      -15.0,
+      15.0,
+      0.0,
+      45.0,
+      0.0,
+      155.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B128",
+    "title": "Guard-switch post bracket",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -11,
+        "y": 61.5,
+        "diameter": 4.5,
+        "callout": "D4.5 throughY; chart Y=localZ"
+      },
+      {
+        "tag": "H2",
+        "x": 11,
+        "y": 14.5,
+        "diameter": 4.5,
+        "callout": "D4.5 throughY; chart Y=localZ"
+      }
+    ],
+    "notes": [
+      "Local X=plate midwidth,Y=switch seating face,Z=bottom. Back plate X+/-25,Y0..6,Z0..110.",
+      "Side leg X-29.8..-23.8,Y-38.85..6,Z0..110. Inside root radius<=3 allowed; keep switch seating face flat.",
+      "Side holes alongX: D6.8 at Y-28.55,Z35/85; counterbore D13x1.225 fromX=-23.8 face. Effective clamp thickness4.775 matches4119/3393 stack.",
+      "Install origin(-275,-238.15,255). Side leg seats on left-front post inner faceX=-304.8. Two3393 sets.",
+      "Switch diagonal M4 pitch22x47; body torque0.5..0.7Nm. Do not use the optional locating-stud holes as bolt holes.",
+      "Cut two M4x50 blanks to measured device/bracket/washer/nut stack +two full threads; deburr and record final length."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 60946.129,
+    "bounds_mm": [
+      -29.8,
+      25.0,
+      -38.85,
+      6.0,
+      0.0,
+      110.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B129",
+    "title": "Guard-key backing plate",
+    "material": "6061-T6 aluminum",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -7.5,
+        "y": 0,
+        "callout": "M4 x0.7 THRU; key15mm pitch",
+        "diameter": 3.3
+      },
+      {
+        "tag": "H2",
+        "x": 7.5,
+        "y": 0,
+        "callout": "M4 x0.7 THRU; key15mm pitch",
+        "diameter": 3.3
+      }
+    ],
+    "notes": [
+      "Blank 50 x 25 x 6.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Outside front panel; centerX=-275,Z344; inner faceY=-283.4, outer faceY=-289.4.",
+      "Two M4x12 screws through key/washer/B130 sleeves, nominal4.9mm engagement. Key mounting torque2.4..2.8Nm.",
+      "B130 sleeves carry clamp load; do not torque directly through unsupported polycarbonate. No adhesive retention."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 7397.364,
+    "bounds_mm": [
+      -25.0,
+      25.0,
+      -12.5,
+      12.5,
+      0.0,
+      6.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B130",
+    "title": "Guard-key compression sleeve",
+    "material": "303 stainless",
+    "features": [],
+    "notes": [
+      "OD6, ID4.5, nominalL4.1. Finish actual length to measured panel thickness +0.10/+0.15; record finished length.",
+      "Faces parallel0.02, deburr0.1. Two sleeves in D7 panel holes. Sleeve ends bear on key and B129, not plastic.",
+      "Changing sleeve length changes key insertion datum; verify40..42.5mm per S23 after clamping."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 50.717,
+    "bounds_mm": [
+      -3.0,
+      3.0,
+      -3.0,
+      3.0,
+      0.0,
+      4.1
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B201",
+    "title": "Side guard blank",
+    "material": "Clear polycarbonate",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -266.7,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H2",
+        "x": -266.7,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H3",
+        "x": -266.7,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H4",
+        "x": 266.7,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H5",
+        "x": 266.7,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H6",
+        "x": 266.7,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      }
+    ],
+    "notes": [
+      "Blank 558.8 x 558.8 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Saw / router blank; deburr R0.5 edges.",
+      "3393 1/4-20 x 1/2 screws + 18 OD x 6.6 ID x 1 mm washers; 2 N m initial assembly torque.",
+      "B128-B130 define interlock/key mounts. Physical insertion/access test remains P3. No hinge fitted.",
+      "Do not substitute acrylic for polycarbonate."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 1247823.388,
+    "bounds_mm": [
+      -279.4,
+      279.4,
+      -279.4,
+      279.4,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 2
+  },
+  {
+    "id": "B202",
+    "title": "Rear guard blank",
+    "material": "Clear polycarbonate",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -317.5,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H2",
+        "x": -317.5,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H3",
+        "x": -317.5,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H4",
+        "x": 317.5,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H5",
+        "x": 317.5,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H6",
+        "x": 317.5,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      }
+    ],
+    "notes": [
+      "Blank 660.4 x 558.8 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Saw / router blank; deburr R0.5 edges.",
+      "3393 1/4-20 x 1/2 screws + 18 OD x 6.6 ID x 1 mm washers; 2 N m initial assembly torque.",
+      "B128-B130 define interlock/key mounts. Physical insertion/access test remains P3. No hinge fitted.",
+      "Do not substitute acrylic for polycarbonate."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 1474919.708,
+    "bounds_mm": [
+      -330.2,
+      330.2,
+      -279.4,
+      279.4,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B203",
+    "title": "Roof guard blank",
+    "material": "Clear polycarbonate",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -317.5,
+        "y": -200,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H2",
+        "x": -317.5,
+        "y": 200,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H3",
+        "x": 317.5,
+        "y": -200,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H4",
+        "x": 317.5,
+        "y": 200,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      }
+    ],
+    "notes": [
+      "Blank 660.4 x 558.8 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Saw / router blank; deburr R0.5 edges.",
+      "3393 1/4-20 x 1/2 screws + 18 OD x 6.6 ID x 1 mm washers; 2 N m initial assembly torque.",
+      "B128-B130 define interlock/key mounts. Physical insertion/access test remains P3. No hinge fitted.",
+      "Do not substitute acrylic for polycarbonate."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 1475321.832,
+    "bounds_mm": [
+      -330.2,
+      330.2,
+      -279.4,
+      279.4,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  },
+  {
+    "id": "B204",
+    "title": "Front access panel",
+    "material": "Clear polycarbonate",
+    "features": [
+      {
+        "tag": "H1",
+        "x": -317.5,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H2",
+        "x": -317.5,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H3",
+        "x": -317.5,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H4",
+        "x": 317.5,
+        "y": -266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H5",
+        "x": 317.5,
+        "y": 0,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H6",
+        "x": 317.5,
+        "y": 266.7,
+        "callout": "D8 THRU; floating panel fastener",
+        "diameter": 8
+      },
+      {
+        "tag": "H7",
+        "x": -282.5,
+        "y": 98,
+        "callout": "D7 THRU; key sleeve B130",
+        "diameter": 7
+      },
+      {
+        "tag": "H8",
+        "x": -267.5,
+        "y": 98,
+        "callout": "D7 THRU; key sleeve B130",
+        "diameter": 7
+      }
+    ],
+    "notes": [
+      "Blank 654.4 x 552.8 x 4.",
+      "Datum: XY center; Z=0 bottom. All holes THRU unless a thread or depth is stated.",
+      "Saw / router blank; deburr R0.5 edges.",
+      "3393 1/4-20 x 1/2 screws + 18 OD x 6.6 ID x 1 mm washers; 2 N m initial assembly torque.",
+      "B128-B130 define interlock/key mounts. Physical insertion/access test remains P3. No hinge fitted.",
+      "Do not substitute acrylic for polycarbonate."
+    ],
+    "status": "REVIEW",
+    "volume_mm3": 1445495.032,
+    "bounds_mm": [
+      -327.2,
+      327.2,
+      -276.4,
+      276.4,
+      0.0,
+      4.0
+    ],
+    "solid_valid": true,
+    "quantity": 1
+  }
+]

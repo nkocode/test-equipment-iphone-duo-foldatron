@@ -16,6 +16,8 @@ ruff = "*"
 build = "*"
 reportlab = "*"
 pillow = "*"
+cadquery = "==2.6.1"
+svglib = "*"
 
 [requires]
 python_version = "3.12"

@@ -1,0 +1,121 @@
+id,quantity,part_number,description,source,status
+V01,4,80/20 1010,Cut660.4 mm; front/rear rails,S01,SELECTED
+V02,8,80/20 1010,Cut508.0 mm; four side rails/four posts,S01,SELECTED
+V03,2,80/20 1010,Cut609.6 mm; base support crossmembers,S01,SELECTED
+V04,28,80/20 4119,Inside corner bracket; see FR-001 schedule,S02,SELECTED
+V05,90,80/20 3393,56 structure +28 guard panels +4 base +2 interlock mount. Each set is screw and T-nut; no metric substitution.,S03,SELECTED
+V06,32,Washer to drawing F-W14,18 OD x6.6 ID x1 mm stainless; 28 panels +4 base recesses,SHOP SPEC,SELECTED
+V08,1,ROBOTIS XM430-W350-T,TTL version; use included horn; verify horn/case screw lengths against S04,S04,SELECTED
+V09,2,NSK 626,Open bearing6x19x6; protected clean interior,S07,SELECTED
+V10,4,Ruland MCL-6-A,6 mm bore one-piece clamp collar; supplied screw,S08,SELECTED
+V11,2,"HIWIN MGN7C + MGNR7,100 mm","One block per100mm rail; 7 mounting holes,5mm end distance,zero/light preload. Confirm order code, block thread pitch and seal length before purchase.",S06,RFQ
+V12,1,"Dynatect EAS12,6mm/6mm","Configured shaft-to-shaft, adjustable; request0.20 N m bidirectional setpoint. Designation is RFQ wording, not a confirmed order code.",S05,HOLD P2
+V20,1,Hammond 1554YA2GY,Polycarbonate box/lid/gasket/six screws; independent benchtop cabinet,S13,SELECTED
+V21,1,Hammond 1554YPL,Factory internal steel panel; mounting screw set1591MM100 as required by purchased enclosure,S13,SELECTED
+V22,1,MEAN WELL GST60A12-P1J,External12V5A supply; region-matched factory AC lead; DC inlet adapter still requires rated cable assembly,S14,SELECTED
+V23,1,MEAN WELL GST25A24-P1J,External24V1.04A control supply; region-matched factory AC lead,S15,SELECTED
+V24,1,Neutrik NC3FD-LX,"12V DC panel inlet; mating NC3MXX. Project pin1=0V,2=+12V,3 unused. Label DC ONLY.",S16/S17,SELECTED
+V25,1,Neutrik NC4FD-LX,"24V DC panel inlet; mating NC4MXX. Project pin1=0V,4=+24V,2/3 unused. Label DC ONLY.",S18/S19,SELECTED
+V26,2,Pilz PNOZ X3 774310,K1 emergency stop; K2 guard. Separate relays avoid series input fault masking; wiring review required.,S20,HOLD P4
+V27,1,Schneider XB5AS8444,2NC twist-release emergency stop; add yellow background and anti-rotation hardware per manufacturer,S21,SELECTED
+V28,2,Schneider XB5AA61,"Separate blue reset buttons, one per safety relay; label E-STOP RESET and GUARD RESET",S22,SELECTED
+V29,1,OMRON D4NS-1BF + D4DS-K2,Guard switch/key. PG13.5 plastic gland required. Mounts B128-B130; physical insertion/access acceptance required,S23,HOLD P3
+V30,20,"Phoenix UT 2,5 /3044076",Terminal blocks; E-004 defines X1:1..20 and bus bridges. Wire sizing/routing and physical release remain P4,S25,HOLD P4
+V31,2,OMRON D2F-01L-D3,Endpoint low-load switch with solder terminals; B125-B127 mount/cam; verify actual overtravel and signal timing,S24,HOLD P3
+V32,1,"Raspberry Pi 5,4GB","Outside sealed control enclosure, with official active cooler and Pi5 case; use physical-board fit check",S10/S11,SELECTED
+V33,1,ROBOTIS U2D2,USB to TTL interface; mount on hub with supplied rivet,S26,SELECTED
+V34,1,ROBOTIS U2D2 Power Hub Board Set,"48x57; supplied M3 supports and100mm TTL lead. Power from screw terminals, not2.5mm DC jack.",S26,SELECTED
+V35,1,"ROBOTIS Robot Cable-X3P,240mm",Confirm available factory length and route; no spliced TTL cable through moving pinch points,S12/S26,RFQ
+V36,2,"Analog Devices DS18B20+,TO-92",Powered3-wire sensors; case probe attachment and insulated housing to be defined,S27,HOLD P4
+V37,1,Raspberry Pi27W USB-C supply,"External official supply, regional plug. Independent Pi power maintains fault logging.",S10,SELECTED / verify accessories
+V38,4,Phoenix 3022276 / CLIPFIX35-5,Two end brackets per DIN rail; width5.2mm,S30,SELECTED / P4 fit review
+V39,1,"Phoenix 3047028 / D-UT2,5/10",End cover at open side of the20-terminal bank,S31,SELECTED / P4 fit review
+V40,1,Phoenix 0801733 / NS35/7.5 PERF2000MM,Cut2x140mm;280mm used before saw waste,S32,SELECTED / P4 fit review
+V41,2,Phoenix 3030187 / FBS4-5,Bridge X1:5..8(+24V) and9..12(0V24) only,S33,SELECTED / P4 fit review
+V42,2,Littelfuse FHAC0001ZXJ,Covered32VDC20A inline holder; F1/F2=V52/V53; P4 coordination,S35,SELECTED / P4 fit review
+F01,22,ISO4762 M2 x6,14 rail +8 carriage screws; block pitch confirmation required; project torque 0.15 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F02,8,ISO4762 M2 x12,Four travel stops;4mm engagement after8mm POM; project torque 0.10 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F03,8,ISO4762 M2.5 x8,Two motor cheeks;2mm case engagement; project torque 0.20 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F04,4,ISO4762 M2 x8,Motor flange6mm +0.2 shim washer;1.8mm horn engagement; project torque 0.10 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F05,8,ISO4762 M3 x8,Bearing retaining plates;6mm thread engagement; project torque 0.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F06,8,ISO4762 M3 x12,Yoke arms6mm to hub flange6mm; project torque 0.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F07,8,ISO4762 M4 x10,Four crossbar end joints +four guide carrier joints; project torque 1.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F08,8,ISO4762 M4 x16,Four counterweight screws +four motor cheek/foot screws; project torque 1.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F09,4,ISO4762 M4 x20,Counterweight adjustment plates; washer/nyloc nut stack; project torque 1.5 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F10,8,ISO4762 M4 x12,Four fixed tray screws(6mm engagement) +four endpoint upright feet with1mm washers(5mm engagement); project torque 1.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F11,8,ISO4762 M5 x12,Tower to angle;6mm engagement in8mm tower; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F12,4,ISO4762 M5 x14,Angle6mm to sole10mm;8mm engagement; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F13,10,ISO4762 M5 x16,Four tray posts +two stop posts +four motor-foot slots; project torque 2.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F14,4,ISO4762 M6 x16,Tower soles;recessed2mm and1mm washer =>7mm engagement; project torque 3.0 initial N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F15,2,ISO4762 M6 x25,Angular stop screws;M6 jam nuts;minimum10mm engagement; project torque lock after setup N m (not a vendor rating). Clean dry fasteners; do not apply generic steel torque to aluminum threads.,S28,SPECIFIED / vendor SKU pending
+F16,6,ISO4026 M3x4 flat-point set screw,Two per output hub +two cam; shaft flats required; proof test0.75 N m,SHOP SPEC,SELECTED
+F17,4,M4 prevailing-torque locknut,B120 to B106 joints; replace after repeated adjustment if retention declines,SHOP SPEC,SELECTED
+F18,2,M6 thin jam nut,Angular-stop screw locking,SHOP SPEC,SELECTED
+F19,16,"M4 washer,1mm",Four weight screws +eight adjustment faces +four endpoint feet,SHOP SPEC,SELECTED
+F20,8,"M5 washer,1mm",Four motor slots +four endpoint sole mounts,SHOP SPEC,SELECTED
+F21,4,"M6 washer,1mm",Recessed tower sole bolts,SHOP SPEC,SELECTED
+F22,4,D2.2 ID x5 OD x0.2 shim washer,Horn screws; inspect thickness,SHOP SPEC,SELECTED
+F23,4,ISO4762 M2x16,Endpoint switch through-bolts,S24 / SHOP SPEC,SELECTED
+F24,4,ISO7089 M2 plain washer,Endpoint switch screw-head seats; nominal0.3mm,S24 / SHOP SPEC,SELECTED
+F25,4,ISO4032 M2 hex nut,Endpoint switch rear nuts,S24 / SHOP SPEC,SELECTED
+F26,4,DIN127 M2 spring washer,Between switch upright and nut; compressed stack checked,S24 / SHOP SPEC,SELECTED
+F27,2,ISO4026 M3x4 flat-point set screw,Acetal endpoint cam; initial0.10Nm; NOT the load-bearing cam,S24 / SHOP SPEC,SELECTED
+F28,4,ISO4762 M5x20,Endpoint sole12mm +washer1mm;7mm thread engagement in base,S24 / SHOP SPEC,SELECTED
+F29,2,ISO4762 M4x12,D4DS-K2 key; washer/sleeve stack; torque2.4..2.8Nm,S24 / SHOP SPEC,SELECTED
+F30,2,ISO4762 M4x50 blank,D4NS body: cut to actual stack +nut +two full threads; record final length. Body clamp0.5..0.7Nm,S24 / SHOP SPEC,SELECTED
+F31,6,"ISO7089 M4 washer,1mm",Two key heads +four switch body through-bolt faces,S24 / SHOP SPEC,SELECTED
+F32,2,ISO4032 M4 hex nut,Guard-switch body rear nuts,S24 / SHOP SPEC,SELECTED
+F33,2,DIN127 M4 spring washer,Guard-switch body nut seats,S24 / SHOP SPEC,SELECTED
+C01,200x200mm,"Silicone sheet1mm,30-40 Shore A",Contact pads and stop-cap pads; compatibility with phone coating to be checked,SHOP SPEC,HOLD P1
+C02,100x100mm,"Silicone sheet2mm,30-40 Shore A",Travel-stop pads; 4 pieces6x8; measure actual float after bonding,SHOP SPEC,SELECTED
+C03,4 pieces,Neoprene pad25x50x3,"Under bottom frame, near four corners; compression/rocking checked on bench",SHOP SPEC,SELECTED
+V43,1,Adafruit1609,Controller base PCB; E-005..008,S36,SELECTED / P4 acceptance
+V44,1,LITEON LTV-817-C DIP4,U1; CTR rankC,S37,SELECTED / P4 acceptance
+V45,1,Vishay1N4148,D1 reverse-LED protection,S39,SELECTED / P4 acceptance
+V46,1,Vishay PR01 2kohm 1% 1W,R1 permit input,S38,SELECTED / P4 acceptance
+V47,1,Vishay PR01 10kohm 1% 1W,R2 pulldown,S38,SELECTED / P4 acceptance
+V48,1,Vishay PR01 1kohm 1% 1W,R3 GPIO series,S38,SELECTED / P4 acceptance
+V49,2,Vishay PR01 1.8kohm 1% 1W,"R4,R6",S38,SELECTED / P4 acceptance
+V50,2,Vishay PR01 2.7kohm 1% 1W,"R5,R7",S38,SELECTED / P4 acceptance
+V51,1,Vishay PR01 4.7kohm 1% 1W,R8 1Wire,S38,SELECTED / P4 acceptance
+V52,1,Littelfuse0287002.L,F1 2A32VDC; holderV42,S40,SELECTED / P4 acceptance
+V53,1,Littelfuse0287001.L,F2 1A32VDC; holderV42,S40,SELECTED / P4 acceptance
+V54,1,LAPP53015130,Guard PG13.5 plastic gland,S41,SELECTED / P4 acceptance
+V55,1.8m,LAPP1119754,Guard4x0.5 cable; trim,S42,SELECTED / P4 acceptance
+V56,1,Hammond1427BCGM16,Guard cabinet entry only,S34,SELECTED / P4 acceptance
+E-HOLD,1 lot,Electrical completion schedule,Fuse coordination acceptance; wire/ferrules/glands; board mounting/cover; DC adapter cables; cable anchors; Pi breakout. These are not procurement-ready generic kits: release P4 first.,UNRESOLVED,HOLD P4
+DUT-HOLD,1 set,Phone inserts and dummy,"Shop measures actual phone before machining inserts, as authorized by owner. No invented Apple dimensions.",SHOP MEASUREMENT,HOLD P1
+B101,1,Custom drawing B101,Fixture base; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B102,2,Custom drawing B102,Bearing tower; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B103,2,Custom drawing B103,Tower sole plate; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B104,2,Custom drawing B104,Tower angle; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B105,2,Custom drawing B105,Bearing retaining plate; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B106,2,Custom drawing B106,Yoke / counterbalance arm; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B107,1,Custom drawing B107,Lightened crossbar; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B108,2,Custom drawing B108,Guide carrier strip; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B109,1,Custom drawing B109,Floating contact plate blank; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B110,4,Custom drawing B110,Guide travel stop; POM-C acetal; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B111,2,Custom drawing B111,Counterweight; Low-carbon steel; zinc plate after machining; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B112,2,Custom drawing B112,Output flange hub; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B113,1,Custom drawing B113,"Ground output shaft; Ground stainless steel, D6 g6; individual STEP supplied",DRAWING BOOK,DEVELOPMENT REVIEW
+B114,1,Custom drawing B114,"Ground output shaft; Ground stainless steel, D6 g6; individual STEP supplied",DRAWING BOOK,DEVELOPMENT REVIEW
+B115,2,Custom drawing B115,Inner-race spacer; 303 stainless; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B116,2,Custom drawing B116,Inner-race spacer; 303 stainless; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B117,1,Custom drawing B117,Fixed tray; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B118,4,Custom drawing B118,Fixed tray standoff; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B119,2,Custom drawing B119,Motor mounting side cheek; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B120,2,Custom drawing B120,Counterweight adjustment plate; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B121,1,Custom drawing B121,Motor adjustable pedestal; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B122,1,Custom drawing B122,Integral motor input flange / shaft; 303 stainless steel; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B123,1,Custom drawing B123,Output angular-stop cam; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B124,2,Custom drawing B124,Angular-stop post; 303 stainless steel; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B125,1,Custom drawing B125,Endpoint sensing cam; POM-C acetal; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B126,1,Custom drawing B126,Endpoint stand sole; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B127,2,Custom drawing B127,Endpoint switch upright; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B128,1,Custom drawing B128,Guard-switch post bracket; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B129,1,Custom drawing B129,Guard-key backing plate; 6061-T6 aluminum; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B130,2,Custom drawing B130,Guard-key compression sleeve; 303 stainless; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B201,2,Custom drawing B201,Side guard blank; Clear polycarbonate; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B202,1,Custom drawing B202,Rear guard blank; Clear polycarbonate; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B203,1,Custom drawing B203,Roof guard blank; Clear polycarbonate; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW
+B204,1,Custom drawing B204,Front access panel; Clear polycarbonate; individual STEP supplied,DRAWING BOOK,DEVELOPMENT REVIEW

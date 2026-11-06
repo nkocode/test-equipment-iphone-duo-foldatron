@@ -1,0 +1,16 @@
+[
+  {
+    "file": "NC3FD-LX.stp",
+    "imported": true,
+    "ocp_valid": true,
+    "solids": 1,
+    "purpose": "Vendor reference; not approved fabrication"
+  },
+  {
+    "file": "NC4FD-LX.stp",
+    "imported": true,
+    "ocp_valid": false,
+    "solids": 1,
+    "purpose": "Vendor reference; not approved fabrication"
+  }
+]

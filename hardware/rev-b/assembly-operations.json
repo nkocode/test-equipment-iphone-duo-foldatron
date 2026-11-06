@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Receive, identify and measure",
+    "parts": "All purchased parts | source register | caliper, micrometer, thread gauges",
+    "view": "general-iso.png",
+    "actions": [
+      "Record manufacturer, exact part number, lot and quantity. Keep certificates and vendor drawings with the bench serial record.",
+      "Check 1010 is 25.4 mm square. Do not mix 2020 extrusion, metric T-nuts or another vendor's visually similar profile.",
+      "Measure bearing 6 x 19 x 6, collar bore 6, guide height 8 and guide-block pattern 12 x 8. Check purchased block thread pitch before trying a screw.",
+      "For the configured clutch, compare its signed dimensional drawing with ME-002 and the motor adapter. Verify exact 6 mm bores, not nominal quarter-inch bores."
+    ],
+    "check": "No substituted part proceeds solely because its envelope looks similar. Hold P2 if clutch insertion, low-torque setting or guide thread pitch is unconfirmed."
+  },
+  {
+    "title": "Machine and inspect the custom parts",
+    "parts": "B101-B130 and B201-B204 | individual STEP / DXF | drawing-book hole charts",
+    "view": "fixture-top.png",
+    "actions": [
+      "Use the drawing callouts for threads and counterbores. STEP holes are modeled at tap-drill size; a cylindrical hole in STEP is not a finished thread specification.",
+      "Machine B101 and B102 datum faces before locating their features. Inspect B102 19 H7 pockets, depth 6.05 to 6.10, and axis position before fitting bearings.",
+      "Deburr all edges and wash away chips. Keep abrasives out of bearings and guide carriages. Break phone-adjacent edges and remove sharp pad seams.",
+      "Label each part on a non-contact face with drawing ID and revision. Do not machine phone contours from the rectangular CAD phone envelope."
+    ],
+    "check": "Record hole coordinates, bearing-seat diameter and surface flatness. P1 blocks final contact inserts; P2 blocks final clutch-related shaft flats and fit."
+  },
+  {
+    "title": "Build the lower rectangle",
+    "parts": "2 x V01 at 660.4 | 2 x V02 at 508 | 4 x 4119 | 8 x 3393",
+    "view": "lower-iso.png",
+    "actions": [
+      "Lay the two long rails front/rear, with the 508 mm side rails between them. Outside size is 660.4 x 558.8.",
+      "Load the required slide-in T-nuts before closing joints. Fit one horizontal inside-corner bracket at each corner, as modeled.",
+      "Tighten only enough to hold the rectangle. Measure both diagonals on the same datum corners and adjust until their difference is 0.5 mm or less.",
+      "Record the bracket screw torque selected from current 80/20 assembly guidance. Verify screw engagement and that no screw bottoms before clamping."
+    ],
+    "check": "Rectangle lies flat and diagonals agree. Do not use a guessed metric-frame torque for the 1/4-20 hardware."
+  },
+  {
+    "title": "Install the fixture support crossmembers",
+    "parts": "2 x V03 at 609.6 | 4 x 4119 | 8 x 3393",
+    "view": "supports-iso.png",
+    "actions": [
+      "Place the two 609.6 mm members between the side rails. Their centerlines are Y=-150 and +150 from frame center.",
+      "Orient the corner brackets toward frame center so they stay clear of the vertical-post brackets and base-mount bolt positions.",
+      "Set crossmember top faces coplanar with the bottom rectangle rail tops. These faces sit 8 mm below the fixture-base top datum.",
+      "Slide two T-nuts into each crossmember's upper slot for B101, at X=-200 and +200."
+    ],
+    "check": "Crossmember spacing is 300.0 +/-0.2; top-face mismatch <=0.10. Check plate support with a straightedge."
+  },
+  {
+    "title": "Complete the cage and square it",
+    "parts": "4 posts at 508 | upper rectangle | 20 additional 4119 brackets",
+    "view": "frame-front.png",
+    "actions": [
+      "Fit the four 508 mm posts on the long lower rails at X=+/-317.5, Y=+/-266.7. Use two orthogonal brackets at each post end. Before closing the left-front post, load two additional3393 T-nuts in its inward X-face slot for the interlock mount.",
+      "Build the upper rectangle with the same rail arrangement as the lower rectangle, then attach it to the posts.",
+      "Confirm all 28 structural brackets are present. Work around the frame, squaring each face before final tightening and witness marking.",
+      "Fit four neoprene support pads under the lower rails near the corners. Place the frame on a rigid level bench and remove rocking."
+    ],
+    "check": "Outside frame height 558.8 +/-0.5; each face diagonal mismatch <=0.5. Check driver access to every bracket."
+  },
+  {
+    "title": "Mount the base and bearing supports",
+    "parts": "B101 | 2 each B102/B103/B104 | F11/F12/F14 | 4 recessed 3393 sets",
+    "view": "base_towers-iso.png",
+    "actions": [
+      "Install B101 on the crossmembers with its counterbored frame holes at X=+/-200, Y=+/-150. Fit the 1 mm washers in the recesses.",
+      "Install each tower sole B103 at center Y=+/-149; the M6 recesses face up. Mirror the front sole so the frame-to-base holes are at Y=-159.",
+      "Bolt B104 angles to B103 using M5 x 14. Fit B102 towers with four M5 x 12 per tower. Leave tower alignment fasteners slightly loose.",
+      "Bearing tower outside faces must finish at Y=+/-124, with the counterbored bearing pockets facing inward. The shaft axis is X=0, Z=140."
+    ],
+    "check": "Tower bottoms sit at Z10 and remain perpendicular to the base. Inspect the hole-stack orientation before applying torque."
+  },
+  {
+    "title": "Install bearings, spacers and shafts",
+    "parts": "2 NSK 626 | B105 retainers | B113/B114 | B115/B116 | 4 Ruland collars",
+    "view": "bearing-exploded.png",
+    "actions": [
+      "Support each tower and install the bearing by pressing only on its outer race. Do not hammer the shaft through the inner ring.",
+      "Install the B105 retaining plate using four M3 x 8 screws. Confirm the plate retains the outer ring without touching the inner ring.",
+      "Follow the ME-002 axial stack. Inner spacer is 2 mm; outer spacer is 4 mm. Their 8 mm outer diameters must clear the tower's 8.2 mm passage.",
+      "Use a straight alignment mandrel during tower adjustment, then replace it with the two separate shafts. No shaft is allowed through the phone.",
+      "Set collars for 0.05-0.10 mm total axial freedom and tighten their supplied screws to Ruland's 2.1 N m. Recheck free rotation."
+    ],
+    "check": "A shaft turns freely without cyclic tight spots or perceptible housing rub. Record axis alignment and axial freedom; do not use collar force to correct a misaligned tower."
+  },
+  {
+    "title": "Assemble the yoke and counterweights",
+    "parts": "2 B106 | B107 | 2 B112 | 2 B111/B120 | F06/F07/F08/F09/F16/F17",
+    "view": "yoke-iso.png",
+    "actions": [
+      "Bolt each arm to its B112 hub with four M3 x 12 screws on the 20 mm bolt circle. Orient the front/rear arms as mirrored copies.",
+      "Fit B107 between the arm inner faces, using two M4 x 10 screws at each end. Its pocket opens downward in the open fixture position.",
+      "Fit each B120 adjustment plate to its arm with two M4 x 20 screws, washers and locknuts. Fit the steel weight using two M4 x 16 screws through the vertical slots.",
+      "Start both weight centers at X=-85, Z=165. Keep the front and rear weights at matching settings. Install shaft set screws onto the specified flats.",
+      "Before fitting the phone, proof the hub/cam retention at 0.75 N m using a calibrated torque method. Inspect witness marks after unloading."
+    ],
+    "check": "The yoke is square and both arms rotate together without relative hub movement. Slotted joints are clamped, not left loose to provide compliance."
+  },
+  {
+    "title": "Install the linear float",
+    "parts": "2 B108 | 2 HIWIN MGN7C/100 | B109 | 4 B110 | F01/F02",
+    "view": "float-iso.png",
+    "actions": [
+      "Bolt B108 carriers to the crossbar at Y=+/-45. Their top mounting faces are Z124.4 and their center X=75.",
+      "Install rails from X15 to X115 with seven M2 x 6 screws per rail at X20,35,50,65,80,95,110. Do not remove guide blocks from their rails without a transfer rail.",
+      "Fit B109 using eight M2 x 6 screws: 4 mm plate leaves 2 mm engagement in each block. Confirm the actual block thread pitch before assembly.",
+      "Align the rails for free travel over the full stroke before tightening. Mount one rail first, then use the moving plate to align the second without forcing the blocks.",
+      "Fit four B110 stops, their rail reliefs down. Bond 2 mm pads to inward faces. Measure the travel: block end-seal variants give about 5.7-6.0 mm each way."
+    ],
+    "check": "Measure peak breakaway force with a force gauge and record it; target <=1 N. No carriage, cap screw or stop may rub another fastener. A binding rail assembly must be realigned."
+  },
+  {
+    "title": "Install the fixed tray and angular stops",
+    "parts": "B117 | 4 B118 | B123 | 2 B124 | M6 stop screws, nuts and pads",
+    "view": "angular_stops-iso.png",
+    "actions": [
+      "Bolt the four B118 posts to B101 from below using M5 x 16. Fit B117 on top with four M4 x 12. The bare tray top is Z136.4.",
+      "Install the output stop cam at Y=-180, with its tab pointing +X in the open fixture datum. Its tab spans Y=-170 to -164.",
+      "Fit the stop posts at X=+/-67.5, Y=-167. Fit M6 x 25 screws, jam nuts and 1 mm soft pads. The CAD backup-stop contact height is Z135 for 0/180 degrees.",
+      "Use an angle gauge to set the real backup stops beyond the intended 5..175 degree working range, while remaining within the measured phone limits. Normal cycling must not hit the stops.",
+      "Turn the complete assembly by hand through the permitted travel. Repeat after changing any counterweight setting or adding wires."
+    ],
+    "check": "Record both physical stop angles and minimum clearances. The nominal CAD sweep found 6.67 mm minimum base clearance, but it excludes wires and screw heads and is not a physical acceptance result."
+  },
+  {
+    "title": "Fit the actuator and configured clutch",
+    "parts": "B119 cheeks | B121 pedestal | B122 adapter | XM430 | EAS12 clutch",
+    "view": "drive-iso.png",
+    "actions": [
+      "Complete P2 before this operation: approved clutch drawing, two 6 mm bores, insertion depths, set-screw positions, and validated low-torque setting.",
+      "Bolt the motor cheeks to the pedestal and install the actuator. M2.5 x 8 through the 6 mm cheek gives 2 mm engagement; the case permits no more than 3 mm.",
+      "Check B122's center relief clears the horn retaining screw by at least 0.5 mm. Attach with four M2 x 8 screws and 0.2 mm shim washers, giving 1.8 mm horn engagement.",
+      "Align the actuator, clutch and supported output shaft without pulling them together with screws. Use the pedestal slots; usable shift is -3 to +9.75 mm because the guard limits forward motion.",
+      "Set the clutch with the phone absent. At a 100 mm lever radius, 2.0 N corresponds to 0.20 N m. Verify clockwise and counterclockwise breakaway and running slip, cold and warm."
+    ],
+    "check": "No axial preload or forced shaft misalignment. Record actual insertion lengths, bore fits and clutch measurements. Do not replace a slip-clutch test with a servo-current limit setting."
+  },
+  {
+    "title": "Measure the actual phone and release inserts",
+    "parts": "Actual iPhone Duo | B109/B117 | soft-contact insert stock | dummy specimen",
+    "view": "fixture-top.png",
+    "actions": [
+      "The owner has directed the shop to measure the phone before machining contact inserts. Record model/serial, case fitted or bare, overall length, both half widths and thickness at every intended contact.",
+      "Record camera protrusion, buttons, connectors, seam and display keep-out zones. Measure hinge translation relative to the back surfaces at several angles; do not assume a fixed pin axis.",
+      "Design and release replaceable contact inserts and retainers from those measurements. Support the case/frame only. Provide compliance for measured hinge motion without loading the display or hinge gap.",
+      "Build a two-leaf dummy with the measured contact envelope. Fit 1 mm pads, inspect retention under slow manual folding, and document the remaining free float.",
+      "Photograph and dimension the approved contacts. Add the final insert drawings, material and fasteners to the controlled BOM before machining production copies."
+    ],
+    "check": "P1 closes only after the measured insert design and dummy fit are signed. The CAD envelope is not an iPhone Duo dimensional specification."
+  },
+  {
+    "title": "Balance the complete moving assembly",
+    "parts": "Complete yoke, dummy and all moving cables | force gauge and 100 mm lever",
+    "view": "moving-iso.png",
+    "actions": [
+      "Disconnect the motor/clutch drive from the output so servo holding torque cannot hide imbalance. Keep the yoke supported while adjusting weights.",
+      "Measure the force needed to hold the yoke at 0,30,60,90,120,150 and180 degrees, or the actual permitted subset. Convert force at a 100 mm radius to torque by multiplying by 0.1.",
+      "Adjust both B120 plates equally in X to reduce the open-position moment; adjust the weight positions in Z to reduce the quarter-turn moment. Repeat until the whole sweep meets the residual target.",
+      "Target residual gravity torque <=0.02 N m; equivalent tangential force <=0.20 N at 100 mm. Use an instrument with suitable resolution and uncertainty.",
+      "If the adjustment range cannot balance the measured phone/dummy, revise the weight mass and recheck the whole swept envelope. Do not enlarge slots casually."
+    ],
+    "check": "Record seven signed torque values, gauge calibration and final weight coordinates. Reconnect drive only after the locknuts and witness marks have been checked."
+  },
+  {
+    "title": "Install and set output-side endpoint sensors",
+    "parts": "B125-B127 | 2 D2F-01L-D3 | F10/F19/F20/F23-F28 | continuity meter",
+    "view": "endpoints-iso.png",
+    "actions": [
+      "Bolt B126 to B101 at X=+/-67.5,Y187/217 with M5 x20 and1mm washers. Install B127 uprights at X=+/-43.8,Y167,Z12 using M4 x12 and1mm washers. Confirm3mm sole-to-sole gap and2mm clearance under each overhanging foot.",
+      "Fit B125 on the rear output shaft, barrel Y151..161 and disc Y161..167. Index its raised lobe toward+X at the open datum. Lightly secure the acetal hub with two M3 x4 flat-point screws; this cam carries no drive torque.",
+      "Install the right switch on the inward lower slot pair and the left switch on the inward upper pair, rotated180deg about Y. Use M2 x16, a plain washer at each head, a spring washer and hex nut behind the upright. Tighten0.08..0.10Nm.",
+      "With motor power isolated, adjust each radial position while measuring electrical make/release and actual lever motion. At peak lift, set0.35..0.45mm travel beyond make; confirm no body contact and full release at mid-travel.",
+      "Wire switch COM to Pi5V(pin2), NO through1.8kohm/1% to GPIO, and2.7kohm/1% from GPIO to GND. Measure the divider output with Pi disconnected. Record make/release near5/175deg and peak overtravel. Solder at300C maximum for3seconds; leave undisturbed1minute."
+    ],
+    "check": "Record both make/release angles, peak overtravel and mid-travel states. Reject if either lever is overstroked, a switch does not release, the cam slips or a cable touches the moving assembly. Guard hold P3 remains separate."
+  },
+  {
+    "title": "Install the guard and reinforced interlock mount",
+    "parts": "B201-B204 | B128-B130 | D4NS-1BF/D4DS-K2 | 2 additional3393 sets | F29-F33",
+    "view": "guard-switch-iso.png",
+    "actions": [
+      "Fit fixed panels using28 panel fasteners and18mm washers. The six-screw front panel has3mm edge gaps and no hinges. Keep motor power isolated while fitting the interlock.",
+      "Fit B128 to the inward face of the left-front post, origin X=-275,Y=-238.15,Z255. Use two3393 sets at global Z290/340 in the counterbored side holes. Fit the D4NS using the diagonal22x47mm pattern and trimmed M4x50 screw blanks; record the finished lengths.",
+      "Measure front-panel thickness and finish the two B130 sleeves to0.10..0.15mm longer. Put them through the D7 holes. Fit B129 outside and the D4DS-K2 inside, using M4x12 screws and washers. Body torque0.5..0.7Nm; key torque2.4..2.8Nm. Check the sleeves carry the clamp load.",
+      "Measure from the switch rear seating face to the key seating face:40..42.5mm, nominal41.15. Align the tip within+/-1mm of the key opening in both axes. The panel must stop against the frame, not against the switch.",
+      "Test square withdrawal of the panel and both independent NC channels. Record the first opening gap at which either channel changes and ensure permit is lost before motion is reachable. Recheck endpoint make/release angles, clearance and cable strain after all panels are fitted."
+    ],
+    "check": "P3 requires actual insertion/actuation, anti-tamper and access/stopping tests. Geometry is supplied in ME-003/004 and B125-B130; no physical acceptance is claimed by the CAD."
+  },
+  {
+    "title": "Lay out the electrical cabinet",
+    "parts": "Hammond1554YA2GY/1554YPL | 2 PNOZ X3 | terminals | NC3FD-LX/NC4FD-LX",
+    "view": "cabinet-layout.png",
+    "actions": [
+      "Use E-003 and E-009 for the backplate allocation and proposed cutouts. Trial-fit the purchased enclosure, relays, hub, interface board, inlet bodies and lid operators before drilling. Record minimum lid and wiring clearance.",
+      "Lay out both safety relays, terminal strips, power hub and wire ducts with service clearance. Keep the Raspberry Pi and active cooler outside the sealed cabinet.",
+      "Use the Neutrik drawing: D24.0 +0.1/0 opening and two diagonal M3 mount centers on a 19 x 24 rectangle. Do not infer the pattern from the connector's circular body.",
+      "Label the three-pin inlet 12V DC and the four-pin inlet 24V DC. Use different mating connectors and project pin assignments; these are not audio ports.",
+      "Complete P4: approve the dry-fit layout, selected fuse coordination, board supports/cover, connector harness and probe housings. Use E-010 for isolation of all three external supplies; no unqualified DC disconnect is assumed."
+    ],
+    "check": "No exposed mains is wired inside this cabinet. Factory external bricks and the Pi supply remain outside. The enclosure's original IP rating is not claimed after these modifications."
+  },
+  {
+    "title": "Build and bench-test the controller interface board",
+    "parts": "V43-V51 | E-005 through E-008 | original Adafruit1609 PCB",
+    "view": "controller-board.png",
+    "actions": [
+      "Inspect the purchased PCB against E-005. Confirm column strips and separate power rails before fitting components; identify column1 and rowA on the component side.",
+      "Fit the seven insulated jumpers and eight resistors from E-006. Sleeve all crossovers. Fit D1 cathode atC10 and U1 pin1 atE10. Do not mirror the top-side hole schedule.",
+      "Solder and inspect every joint under magnification. Keep one lead per hole, trim tails, clean flux and inspect for bridges. The software copper check does not inspect your soldering.",
+      "Perform E-008 isolated bench tests with Pi and motor disconnected. Record both endpoint voltages, permit high/low and the actual 5V supply under load.",
+      "Tag external leads using E-007. Fit insulating supports, cover and cable strain relief only after the cabinet dry fit; preserve access for inspection."
+    ],
+    "check": "Record measured results. Do not attach GPIO until every high is below3.3V, endpoint COM remains5.00..5.25V under load, and return wiring matches E-007."
+  },
+  {
+    "title": "Wire and inspect the independent stop circuit",
+    "parts": "K1 E-stop relay | K2 guard relay | separate reset buttons | approved E-001 wire schedule",
+    "view": "stop-circuits.png",
+    "actions": [
+      "Have the responsible electrical engineer approve E-001 against the exact PNOZ X3 manual shipped with both relays. This is a wiring review operation, not authorization to bypass P4.",
+      "Use B1/B2 for each relay's 24V DC supply. The dual-channel cross-short-detection diagram uses separate S21/S22 and S31/S32 channels with the S11/S12 link shown by the manufacturer.",
+      "Use a separate physical monitored-reset button across S33/S34 on each relay. Leave automatic-start S13/S14 unlinked. Label each reset function.",
+      "Motor positive power passes through a safety output of K1 and then K2. Verify that either device can remove motor voltage independently. Pi power stays on for logging.",
+      "Keep 24V status isolated from Pi logic. Follow the existing active-high permit interface; connecting a 24V relay terminal directly to a Pi pin will damage the Pi."
+    ],
+    "check": "Record point-to-point continuity, insulation where applicable, polarity, terminal torque, fuse identity and supply voltage. Full wiring/safety acceptance is still a physical P4 test."
+  },
+  {
+    "title": "Install the controller and qualify operation",
+    "parts": "Raspberry Pi | existing src/foldbench software | approved calibration file | dummy",
+    "view": "general-iso.png",
+    "actions": [
+      "Install the existing Pipenv-managed application and service following the repository deployment instructions. Keep simulation as the default until commissioning records are complete.",
+      "Identify the actual U2D2 serial path, GPIO chip, case probe and ambient probe. Verify input polarity and both endpoint signals by hand with motor power isolated.",
+      "Index the mechanically uncoupled actuator, then establish encoder-to-fixture correspondence. CAD fixture rotation increases toward closed; software phone angle increases toward open. Confirm direction physically.",
+      "Run slow dummy-only cycles. Operate emergency stop and guard separately during both directions; measure motor voltage loss, stopping time, coast angle and any gravity settling.",
+      "Verify no restart on restored power, released E-stop, replaced guard, API reconnection or Pi reboot. Only a deliberate physical reset plus a new authorized run may start motion."
+    ],
+    "check": "Record physical acceptance separately from simulator results. Reject operation if any missing sensor is bypassed, clutch slip is unmeasured, or a stop/reset test fails."
+  },
+  {
+    "title": "Release the station and preserve the as-built record",
+    "parts": "Completed P1-P4 records | final BOM/drawings | calibration and inspection log",
+    "view": "general-iso.png",
+    "actions": [
+      "Replace every development hold with a signed disposition and the final drawing/part number. Update the STEP model, hole charts and fastener list to match the assembled hardware.",
+      "Record torque checks, rail friction, clutch settings cold/warm, balance, clearance, stop times, endpoint states and temperature-probe mapping.",
+      "Perform a supervised dummy endurance trial and inspect for loose fasteners, pad creep, guide wear, heating and changing clutch behavior. Establish maintenance intervals from measurements.",
+      "Only then install the measured phone under the approved test conditions. Start with short supervised runs and inspect the hinge, case contact marks and temperature.",
+      "Archive source URLs, vendor documents, software commit, calibration file and photographs under the bench serial. Recommission after changing any drive, fixture, sensor or safety component."
+    ],
+    "check": "This traveler becomes an as-built assembly record only after the shop completes it. No physical assembly or testing has been performed by the document generator."
+  }
+]
