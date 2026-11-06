@@ -6,13 +6,13 @@ foldatron is the repository name; `foldbench` is the Python package and service 
 
 **Default mode is simulation. Hardware has not been physically validated.** The design is for supervised commissioning and testing; read the guide before fabrication or connecting an actuator. A mechanically completed run is not an automatic phone-function pass.
 
-Start the current mechanical review with the [Rev B engineering package](hardware/rev-b/README.md), its [CAD drawing book](docs/rev-b/Foldatron-Rev-B-drawing-book.pdf), and separate [assembly traveler](docs/rev-b/Foldatron-Rev-B-assembly-traveler.pdf). Rev B uses 1010 one-inch extrusion, dimensioned custom STEP parts, DXF profiles, individual fastener lengths and a hashed vendor-source register. P1-P4 still prevent a complete fabrication/commissioning release; the shop will measure the actual phone before machining inserts. The earlier [illustrated manual](docs/Foldatron-illustrated-assembly-manual.pdf), envelope model and viewer describe Rev A and are retained as history.
+Start the current mechanical review with the [Rev B engineering package](hardware/rev-b/README.md), its [CAD drawing book](docs/rev-b/Foldatron-Rev-B-drawing-book.pdf), and separate [assembly traveler](docs/rev-b/Foldatron-Rev-B-assembly-traveler.pdf). Rev B uses 1010 one-inch extrusion, dimensioned custom STEP parts, DXF profiles, individual fastener lengths and a hashed vendor-source register. P1-P4 still prevent a complete fabrication/commissioning release; the shop will measure the actual phone before machining inserts. The earlier [illustrated manual](docs/Foldatron-illustrated-assembly-manual.pdf), and envelope model describe Rev A and are retained as history.
 
 ## Interactive 3D explorer
 
-The interactive explorer below is the earlier **Rev A concept**. Use the Rev B STEP assembly and drawing book for the current mechanical design.
+The explorer now uses the **Rev B drawing CAD**: 122 instances across ten assemblies, with machined holes, bearing seats, guide carriages, endpoint cam and guard mounts.
 
-Download and open [visualization/index.html](visualization/index.html) in a browser. The single-file viewer works offline and includes orbit/zoom, six selectable assemblies, scripted folding motion, an exploded view and eight build stages linked to the illustrated manual. It is a design visualization, not validated CAD, physics simulation or a live machine interface. See the [viewer guide](visualization/README.md) for scope and rebuilding.
+Download and open [visualization/index.html](visualization/index.html) in a browser. The single-file viewer works offline and includes orbit/zoom, part selection and STEP links, a 5–175° motion study, adjustable speed/dwell, cycle history, latched simulated guard/E-stop inputs, radial carriage adjustment, an exploded view and the current 20-operation assembly traveler. It is a kinematic visualization, not a physics simulation or live machine interface. See the [viewer guide](visualization/README.md) for scope and rebuilding.
 
 ## Files
 
@@ -39,7 +39,7 @@ Application modules live under `src/foldbench/`, with package metadata in `pypro
 
 Rev B is the current engineering review package. Its 1010 frame, fixture,
 sensor mounts and corrected endpoint wiring supersede the corresponding
-Rev A illustrations. The older interactive viewer still shows Rev A.
+Rev A illustrations. The interactive viewer uses the same Rev B geometry.
 See [the Rev B release boundary](hardware/rev-b/README.md) before purchasing
 or fabricating; phone metrology and supplier/physical acceptance are open.
 
