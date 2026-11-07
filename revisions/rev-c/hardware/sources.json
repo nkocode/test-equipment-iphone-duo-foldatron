@@ -1,0 +1,370 @@
+[
+  {
+    "part": "RLA150/M",
+    "file": "RLA150-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla150_m/0162-e0w.pdf?v=0116023509",
+    "sha256": "1ace56956263415c8251504055d39423751a40ef34ee57c01eebdf7708b8b93a",
+    "bytes": 152715,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RLA150/M",
+    "file": "RLA150-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla150_m/0162-e0w.step?v=0116023511",
+    "sha256": "f1eb9a1ee67967d6a8e2116d82b3e2bf18bc19161730166963ab0f313c919df2",
+    "bytes": 7644855,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC2/M",
+    "file": "RC2-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc2/rc2_m/1163-e0w.pdf?v=0116023421",
+    "sha256": "8d3cf73f721dfb3996f2b0e6a21a6183bfd81aaf11bc11bfb06d1dfbe08fab49",
+    "bytes": 102382,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC2/M",
+    "file": "RC2-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc2/rc2_m/1163-e0w.step?v=0116023423",
+    "sha256": "8dd67d38bf4445f3539c1e8b3ed00dccc43e8e5b561cd9b1f6ae7b2b85e934a2",
+    "bytes": 1342027,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "FP01",
+    "file": "FP01.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/f/fp/fp0/fp01/0255-e0w.pdf?v=0116113643",
+    "sha256": "189f8c38c550c65224c92f3a2a271984bdccd96c55ea509f949e9c43725772bc",
+    "bytes": 200383,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "FP01",
+    "file": "FP01.step",
+    "url": "https://media.thorlabs.com/globalassets/items/f/fp/fp0/fp01/0255-e0w.step?v=0116113650",
+    "sha256": "72989a9b4b1cfe773cb436d8aa76760beca353266a0c028f87730770a0c274ff",
+    "bytes": 1223222,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "FP02",
+    "file": "FP02.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/f/fp/fp0/fp02/6624-e0w.pdf?v=0116113644",
+    "sha256": "d1f4a8aae509ed9f94a9d3b694c4678395e48b21c38bc84cce6668282ba2d8ff",
+    "bytes": 181076,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "FP02",
+    "file": "FP02.step",
+    "url": "https://media.thorlabs.com/globalassets/items/f/fp/fp0/fp02/6624-e0w.step?v=0116113651",
+    "sha256": "847fa3f90430da937ccfde06439696655c76b10230e3d8b4836c940e9c902056",
+    "bytes": 1524592,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "MB6060/M",
+    "file": "MB6060-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/m/mb/mb6/mb6060_m/6283-e0w.pdf?v=0116011712",
+    "sha256": "426ce99a3a83907cdc83ccc4a87b4f147234f3fb14f5bb4f3c6507aeb0298a30",
+    "bytes": 242244,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "MB6060/M",
+    "file": "MB6060-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/m/mb/mb6/mb6060_m/6283-e0w.step?v=0116011715",
+    "sha256": "0588c659344ab39b22c1ea882c200b3c8997fb3edf9688043880514bdfc35edf",
+    "bytes": 9095166,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "TR50/M",
+    "file": "TR50-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/t/tr/tr5/tr50_m/0331-e0w.pdf?v=0116032857",
+    "sha256": "625b2c6d15603a1062b2415208305de63c2e150d171654d5049992ec0df1fdeb",
+    "bytes": 101102,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "TR50/M",
+    "file": "TR50-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/t/tr/tr5/tr50_m/0331-e0w.step?v=0116032859",
+    "sha256": "0ea0ebb1bbf56580a014c8d4ed2490a371549397d61aa1bfee6eca921be505b3",
+    "bytes": 282070,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "PH50/M",
+    "file": "PH50-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/p/ph/ph5/ph50_m/23132-e0w.pdf?v=0116020939",
+    "sha256": "a5bb3dfdda36ef2acf0111292cdeaf306ee70a13bc0ab490907ab40767d51b22",
+    "bytes": 155275,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "PH50/M",
+    "file": "PH50-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/p/ph/ph5/ph50_m/23132-e0w.step?v=0116020941",
+    "sha256": "7e6701d90a65167892b36fbffdb787bc08e7aef607443d9787cfc6543523b393",
+    "bytes": 2033679,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RLA075/M",
+    "file": "RLA075-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla075_m/0161-e0w.pdf?v=0116023509",
+    "sha256": "f834f29fe937110538d0db917b8a32b0fe78aea4688e0fe27a5b5478335ea81f",
+    "bytes": 155238,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RLA075/M",
+    "file": "RLA075-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla075_m/0161-e0w.step?v=0116023510",
+    "sha256": "179d1b1b3e25789d28b6859f058c281f199cba39b73ce7ad9fa1ee34b6601951",
+    "bytes": 4330531,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC1",
+    "file": "RC1.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc1/rc1/0811-e0w.pdf?v=0116023417",
+    "sha256": "fd1c3bacec8da27861e1b832a907eae05a2944aa5d8440ee4c791bacd52b75dc",
+    "bytes": 226632,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC1",
+    "file": "RC1.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc1/rc1/0811-e0w.step?v=0116023418",
+    "sha256": "7e35a3d1f7d6d86b183c84655f57b472acd367ab3b05248c4069a50bc1851509",
+    "bytes": 1288029,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC3",
+    "file": "RC3.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc3/rc3/0813-e0w.pdf?v=0116023421",
+    "sha256": "f61b96a96fc81df864fcff8724758db2926d6249a579a76656443ff65661f4dd",
+    "bytes": 175200,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RC3",
+    "file": "RC3.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rc/rc3/rc3/0813-e0w.step?v=0116023423",
+    "sha256": "e99c6cf719d4eeb0202f176137b7a69ef424fabc9df65c89e9f595654821c6ec",
+    "bytes": 1047589,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "DT12B/M",
+    "file": "DT12B-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12b_m/23161-e0w.pdf?v=0116111443",
+    "sha256": "708603ae6b4cb101b0367dea2139f511297cc2ab3bcbcd521d9747e2214ffa60",
+    "bytes": 125222,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "DT12B/M",
+    "file": "DT12B-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12b_m/23161-e0w.step?v=0116111445",
+    "sha256": "49bf27c033ddeeb7047d87513309164d98e7e43f792e32678bc3caaf29d9d887",
+    "bytes": 1366000,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "DT12/M",
+    "file": "DT12-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12/16211-e0w.step?v=0914122933",
+    "sha256": "7546ebdff686081b1f2190f2220960849a56cfb3ed0510367270d1f7fb67251b",
+    "bytes": 2330539,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "DT12/M",
+    "file": "DT12-M--dt12_m-e0w.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12_m/dt12_m-e0w.pdf?v=0914122933",
+    "sha256": "da5631db4a9a0a59ec28bd553345b6bc11e8c170278904d94362f5529bc57631",
+    "bytes": 91910,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "DT12/M",
+    "file": "DT12-M--doc-105259.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12/doc-105259.pdf?v=0915060136",
+    "sha256": "d5d4bcae311c001629778bcc3b82524d36f6b6e9a72f53d68bfbcdba0eef6336",
+    "bytes": 731887,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "BA2/M",
+    "file": "BA2-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/b/ba/ba2/ba2_m/19227-e0w.pdf?v=0116103821",
+    "sha256": "4d8f18be09bb5eae6962e904a5a8b2682b3e0a2db425c03b11c7df90db2d3444",
+    "bytes": 124446,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "BA2/M",
+    "file": "BA2-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/b/ba/ba2/ba2_m/19227-e0w.step?v=0116103827",
+    "sha256": "03efcbf76fe65d2089194d0b36825e25e36774881ed234f12a4e8fed5a5d41f1",
+    "bytes": 1234550,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Zaber",
+    "file": "X-RSW60A-E03.step",
+    "url": "https://www.zaber.com/fs/series/X-RSW-E/7/X-RSW60A-E03/docs/X-RSW60A-E03.step",
+    "sha256": "404c3f2db8cc59ecb98e6f5919a5df3c21b017b8fa703c2111fb87bd286eb13c",
+    "bytes": 1106837,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Zaber",
+    "file": "X-RSW-E.png",
+    "url": "https://www.zaber.com/fs/series/X-RSW-E/7/docs/X-RSW-E.png",
+    "sha256": "3a98cd1dbafca42c02291102d454e73cbaa8d429d9e73ebc421d24baf95a648f",
+    "bytes": 127794,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Zaber AB136",
+    "file": "AB136.pdf",
+    "url": "https://www.zaber.com/fs/accessories/AB136/docs/AB136.pdf",
+    "sha256": "ba4f82d50b43d53f164e8c35a1f348d675ae954be4cf199ed9591742cdf2f030",
+    "bytes": 197240,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Zaber AB136",
+    "file": "AB136.step",
+    "url": "https://www.zaber.com/fs/accessories/AB136/docs/AB136.step",
+    "sha256": "6759f4c89b707b25a68b3e53c3ca5e6a7b15e47f3096cc0a72c068dbbe1bfb91",
+    "bytes": 454594,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Banner SC10-2roe",
+    "file": "Banner-SC10-manual.pdf",
+    "url": "https://info.bannerengineering.com/cs/groups/public/documents/literature/174868.pdf",
+    "sha256": "953f73d65e0e7e8eeacc8f1ec589936c5efd7b29eb85ff4860735a5b8d9aa577",
+    "bytes": 13987724,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Banner SC10-2roe",
+    "file": "Banner-SC10.pdf",
+    "url": "https://info.bannerengineering.com/cs/groups/public/documents/engdrawings/209332_pdf.pdf",
+    "sha256": "4252804e251159c854591ce4a202da915ff5f7f29b6db85940eef9cb630fbfd6",
+    "bytes": 485480,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Banner SC10-2roe",
+    "file": "Banner-SC10.step",
+    "url": "https://info.bannerengineering.com/cs/groups/public/documents/engdrawings/209332_stp.stp",
+    "sha256": "2bbb353017fa77fc4e2826c2e928b844431d9b4f331a62bd62c6ade89580e03a",
+    "bytes": 17062103,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Schmersal BNS 260",
+    "file": "Schmersal-BNS260.pdf",
+    "url": "https://products.schmersal.com/media/documents/DOC_MAN_MEC_ace-mrl-bns260_SEN_AIN_V3.pdf",
+    "sha256": "bb723bb144f99321e36e7701382720f0a3e273e12d932df80460cb65aba728ef",
+    "bytes": 362001,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "80/20 22202 - alternative",
+    "file": "8020-22202.pdf",
+    "url": "https://downloads.8020.net/downloads/misc/download/id/553",
+    "sha256": "65788f45af91f15b51999385cc7fef52cf199e7cc8ec25cdf8b41b0eb1a5047c",
+    "bytes": 520162,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "ICP DAS M-7018R",
+    "file": "ICP-DAS-M7018R.pdf",
+    "url": "https://www.icpdas.com/web/product/download/io_and_unit/rs-485/document/data_sheet/I-7018%28R%29_M-7018%28R%29_en.pdf",
+    "sha256": "897658cec63dc561407bc57fc351ecb02a367f89e0f2e8cece7d34125068b6f8",
+    "bytes": 435041,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Omega SA1-K",
+    "file": "Omega-SA1.pdf",
+    "url": "https://br.omega.com/omegaFiles/temperature/pdf/SA1.pdf",
+    "sha256": "50ed92a1c90bddb035cf65cc8b2e028266357661d64ee6ca796fdf52e2cde7a8",
+    "bytes": 290189,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Festo ESH holder dimensions",
+    "file": "Festo-ESH.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/EN_US/ESH_ENUS.PDF",
+    "sha256": "9011d1cd64ce27a6f6712eea3845a987c90caedd459a2b53404944ff6d17c4b8",
+    "bytes": 6139936,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Festo ESS-20-SN 189294",
+    "file": "Festo-189294.pdf",
+    "url": "https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189294.pdf",
+    "sha256": "7726512f523eaf41bd76e4fbe45776772a4bc63500a716f253805dc9d14f198f",
+    "bytes": 57786,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Festo ESS dimensions",
+    "file": "Festo-ESS.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2026/EN/ESS_EN.PDF",
+    "sha256": "04e65225fe8d3133b35b43da5ad6667359d504f52913a1fcc5155d11f4db8f42",
+    "bytes": 2837649,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "Festo ESH-HB-4-QS 189209",
+    "file": "Festo-189209.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189209.pdf",
+    "sha256": "db7590bb8a1351e0cd8482c0924f257779e08ca377b8911d20004727863bbb41",
+    "bytes": 60925,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "AB90",
+    "file": "AB90.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/a/ab/ab9/ab90/0062-e0w.pdf?v=0116101621",
+    "sha256": "3637d257ff6517f2d07fc1d20ab8d3f234c84e15ce33655c6dc35f8801425208",
+    "bytes": 156810,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "AB90",
+    "file": "AB90.step",
+    "url": "https://media.thorlabs.com/globalassets/items/a/ab/ab9/ab90/0062-e0w.step?v=0116101623",
+    "sha256": "033b90d4c1dfd3f2e2310a23a28a7bf338452617953f44b8b55bc41333129e94",
+    "bytes": 1343609,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "AB90H",
+    "file": "AB90H.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/a/ab/ab9/ab90h/ttn159417-e0w.pdf?v=0116101630",
+    "sha256": "26aaccf1d90a2747c7abbfd0f23983345e18f8ade381de8c077d15c9419a11ca",
+    "bytes": 131945,
+    "retrieved": "2026-11-06"
+  },
+  {
+    "part": "AB90H",
+    "file": "AB90H.step",
+    "url": "https://media.thorlabs.com/globalassets/items/a/ab/ab9/ab90h/ttn159417-e0w.step?v=0116101634",
+    "sha256": "e9dea249edc02171c03a02c52ce9aaaba933d387869962c45b73a6998d2f96e6",
+    "bytes": 1391100,
+    "retrieved": "2026-11-06"
+  }
+]

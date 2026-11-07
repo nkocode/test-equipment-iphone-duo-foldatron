@@ -1,0 +1,394 @@
+[
+  {
+    "name": "base-x--1",
+    "part": "C101",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      381.0,
+      -381.0,
+      -355.6,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "base-y--1",
+    "part": "C102",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      -355.6,
+      -355.6,
+      355.6,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "base-x-1",
+    "part": "C101",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      381.0,
+      355.6,
+      381.0,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "base-y-1",
+    "part": "C102",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      355.6,
+      381.0,
+      -355.6,
+      355.6,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "roof-x--1",
+    "part": "C101",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      381.0,
+      -381.0,
+      -355.6,
+      635.0,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-y--1",
+    "part": "C102",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      -355.6,
+      -355.6,
+      355.6,
+      635.0,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-x-1",
+    "part": "C101",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      381.0,
+      355.6,
+      381.0,
+      635.0,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-y-1",
+    "part": "C102",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      355.6,
+      381.0,
+      -355.6,
+      355.6,
+      635.0,
+      660.4
+    ]
+  },
+  {
+    "name": "post--368.3--368.3",
+    "part": "C103",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      -355.6,
+      -381.0,
+      -355.6,
+      25.4,
+      635.0
+    ]
+  },
+  {
+    "name": "post--368.3-368.3",
+    "part": "C103",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -381.0,
+      -355.6,
+      355.6,
+      381.0,
+      25.4,
+      635.0
+    ]
+  },
+  {
+    "name": "post-368.3--368.3",
+    "part": "C103",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      355.6,
+      381.0,
+      -381.0,
+      -355.6,
+      25.4,
+      635.0
+    ]
+  },
+  {
+    "name": "post-368.3-368.3",
+    "part": "C103",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      355.6,
+      381.0,
+      355.6,
+      381.0,
+      25.4,
+      635.0
+    ]
+  },
+  {
+    "name": "breadboard-support--275",
+    "part": "C104",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -355.6,
+      355.6,
+      -287.7,
+      -262.3,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "breadboard-support-275",
+    "part": "C104",
+    "group": "frame",
+    "geometry": "Catalog envelope / indicative slot relief",
+    "bounds_mm": [
+      -355.6,
+      355.6,
+      262.3,
+      287.7,
+      -0.0,
+      25.4
+    ]
+  },
+  {
+    "name": "upright-plate--1--1-12.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      -385.7752,
+      -381.0,
+      0.0,
+      76.2
+    ]
+  },
+  {
+    "name": "upright-plate--1--1-647.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      -385.7752,
+      -381.0,
+      584.2,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-plate--1--1",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      -381.0,
+      -304.8,
+      660.4,
+      665.1752
+    ]
+  },
+  {
+    "name": "upright-plate--1-1-12.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      381.0,
+      385.7752,
+      0.0,
+      76.2
+    ]
+  },
+  {
+    "name": "upright-plate--1-1-647.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      381.0,
+      385.7752,
+      584.2,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-plate--1-1",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      -381.0,
+      -304.8,
+      304.8,
+      381.0,
+      660.4,
+      665.1752
+    ]
+  },
+  {
+    "name": "upright-plate-1--1-12.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      -385.7752,
+      -381.0,
+      0.0,
+      76.2
+    ]
+  },
+  {
+    "name": "upright-plate-1--1-647.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      -385.7752,
+      -381.0,
+      584.2,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-plate-1--1",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      -381.0,
+      -304.8,
+      660.4,
+      665.1752
+    ]
+  },
+  {
+    "name": "upright-plate-1-1-12.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      381.0,
+      385.7752,
+      0.0,
+      76.2
+    ]
+  },
+  {
+    "name": "upright-plate-1-1-647.7",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      381.0,
+      385.7752,
+      584.2,
+      660.4
+    ]
+  },
+  {
+    "name": "roof-plate-1-1",
+    "part": "C105",
+    "group": "plates",
+    "geometry": "Catalog-derived interface",
+    "bounds_mm": [
+      304.8,
+      381.0,
+      304.8,
+      381.0,
+      660.4,
+      665.1752
+    ]
+  },
+  {
+    "name": "purchased-breadboard",
+    "part": "C110",
+    "group": "base",
+    "geometry": "Original Thorlabs STEP",
+    "bounds_mm": [
+      -300.0,
+      300.0,
+      -300.0,
+      300.0,
+      25.4,
+      38.1
+    ]
+  },
+  {
+    "name": "purchased-rotary-stage",
+    "part": "C111",
+    "group": "motion",
+    "geometry": "Original Zaber STEP",
+    "bounds_mm": [
+      -26.0,
+      56.66,
+      -18.5,
+      127.9,
+      38.1,
+      69.85
+    ]
+  }
+]

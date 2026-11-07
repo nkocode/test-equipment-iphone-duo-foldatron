@@ -1,0 +1,18 @@
+{
+  "status": "Illustrative 2D envelopes only; NOT bench validation",
+  "source": "Owner full-closure decision; dimensions are a surrogate",
+  "surrogate_leaf_width_mm": 70,
+  "surrogate_leaf_thickness_mm": 5,
+  "surrogate_contact_radius_mm": 40,
+  "contact_envelope_width_mm": 20,
+  "contact_envelope_projection_mm": 40,
+  "rotation_step_deg": 0.5,
+  "samples": 361,
+  "overlapping_samples": [],
+  "excluded": [
+    "Actual phone and non-circular hinge path",
+    "Support brackets, rails, screw heads and stage",
+    "Hoses, cable loops and thermal probes",
+    "Cup deformation, grip retention and load capacity"
+  ]
+}

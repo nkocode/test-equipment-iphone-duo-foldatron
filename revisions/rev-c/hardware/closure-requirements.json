@@ -1,0 +1,21 @@
+{
+  "revision": "C",
+  "owner_decision_date": "2026-11-06",
+  "full_natural_closure_required": true,
+  "partial_range_acceptable": false,
+  "phone_geometry_status": "Shop measurement required; no verified phone dimensions",
+  "working_contact_architecture": "Purchased vacuum cups on outside rigid surfaces",
+  "rejected_working_contacts": ["Thorlabs FP01", "Thorlabs FP02"],
+  "closure_definition": "Measured natural closed state of the actual phone, without externally compressing it past that state",
+  "angle_convention": "Opening angle: 180 degrees nominally open, 0 degrees nominally closed; physical endpoints require measured calibration",
+  "release_requires": [
+    "Actual phone identity and dimensions recorded",
+    "Permitted rigid external contact patches recorded",
+    "Actual hinge path and natural closed state measured",
+    "Complete purchased mounting chain reconciled",
+    "All solids, hoses and leads clear through the measured hinge path",
+    "Vacuum grip and pressure-loss recovery qualified",
+    "Independent load protection and retained-load recovery qualified"
+  ],
+  "hardware_operation_released": false
+}

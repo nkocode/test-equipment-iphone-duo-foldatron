@@ -1,0 +1,33 @@
+id,study_quantity,vendor,part_number,description,status,catalog_url
+C101,4,80/20,1010,762 mm supplier cut,Structure study,https://8020.net/1010.html
+C102,4,80/20,1010,711.2 mm supplier cut,Structure study,https://8020.net/1010.html
+C103,4,80/20,1010,609.6 mm supplier cut,Structure study,https://8020.net/1010.html
+C104,2,80/20,1010,711.2 mm breadboard supports,Structure study,https://8020.net/1010.html
+C105,12,80/20,4151,76.2 x 76.2; 4.7752 thick,Modeled interface,https://8020.net/4151.html
+C106,60,80/20,3321,5 screw/T-nut sets per 4151,Not modeled,https://8020.net/3321.html
+C107,8,80/20,4119,Base corners/support connections,Placement review,https://8020.net/4119.html
+C108,16,80/20,3061 + 3382,2 screw/T-nut pairs per 4119,Placement review,https://8020.net/4119.html
+C109,4,80/20,3873,M6 nut for breadboard; screw TBD,Stack open,https://8020.net/3873.html
+C110,1,Thorlabs,MB6060/M,600 x 600 x 12.7; M6/25 grid,Original STEP,https://media.thorlabs.com/globalassets/items/m/mb/mb6/mb6060_m/6283-e0w.pdf?v=0116011712
+C111,1,Zaber,X-RSW60A-E03,60 mm rotary top; 24-48 V,Original STEP,https://www.zaber.com/products/rotary-stages/X-RSW-E
+C112,candidate,Thorlabs,RLA150/M,150 mm dovetail rail,Top interface only,https://media.thorlabs.com/globalassets/items/r/rl/rla/rla150_m/0162-e0w.pdf?v=0116023509
+C113,candidate,Thorlabs,RC2/M,M4 taps; 24.9936 mm CAD pitch,Drag/retention open,https://media.thorlabs.com/globalassets/items/r/rc/rc2/rc2_m/1163-e0w.pdf?v=0116023421
+C114,candidate,Thorlabs,RC1,25.4 mm carrier as stop,Retention open,https://media.thorlabs.com/globalassets/items/r/rc/rc1/rc1/0811-e0w.pdf?v=0116023417
+C115,0,Thorlabs,FP01,22.9 mm wide; 14.7 mm capacity,REJECTED: closure gap,https://media.thorlabs.com/globalassets/items/f/fp/fp0/fp01/0255-e0w.pdf?v=0116113643
+C116,candidate,Thorlabs,DT12/M,12.7 mm manual adjustment,Mounting open,https://media.thorlabs.com/globalassets/items/d/dt/dt1/dt12_m/dt12_m-e0w.pdf?v=0914122933
+C120,candidate,80/20,2086,10-series metal hinge,Door not released,https://8020.net/2086.html
+C121,candidate,80/20,2643,3 mm clear polycarbonate,Panel sizes open,https://8020.net/2643.html
+C122,candidate,80/20,2116,10-series panel gasket,Capture open,https://8020.net/2116.html
+C201,1,Banner,SC10-2roe / 806222,45 W x 115 H x 100 D,Configuration open,https://www.bannerengineering.com/us/en/products/part.806222.html
+C202,1,Schmersal,BNS 260-02Z-L,101184385; 26 x 36 x 13,Mounting open,https://products.schmersal.com/en_IO/bns-260-02z-l-101184385
+C203,1,Schmersal,BPS 260-1,101184395; matching actuator,Mounting open,https://products.schmersal.com/en_IO/bps-260-1-101184395
+C204,4,80/20,3666,10-series M4 roll-in T-nut,Mounting open,https://8020.net/3666.html
+C205,1,Schneider,XALK178FH29,Dual-NC complete E-stop station,Wiring/mount open,https://www.se.com/se/sv/product/XALK178FH29/
+C206,1,Waveshare,26244,72 x 121 x 34; Modbus RTU I/O,I/O map open,https://www.waveshare.com/product/modbus-rtu-io-8ch.htm
+C207,1,ICP DAS,M-7018R,76 x 120 x 42; thermocouple input,Firmware/map open,https://icpdasusa.com/m-7018r
+C208,1 pack,Omega,SA1-K,5-pack; use 2; 13 x 19 x 0.5 pad,Attachment open,https://br.omega.com/omegaFiles/temperature/pdf/SA1.pdf
+C209,1,ICP DAS,tM-7561,Isolated USB to RS485,Bus design open,https://www.icpdas.com/en/download/file.php?num=2724
+C210,1,Raspberry Pi,3 Model B,Headless host; separate supply,Mount/case open,https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
+C150,4 proposed,Festo,ESS-20-SN / 189294,20 mm flat NBR cup; M6 vacuum thread,Contact qualification open,https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189294.pdf
+C151,4 proposed,Festo,ESH-HB-4-QS / 189209,28 mm holder; M6 mount; 6 mm tube port,Mount screw stack open,https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189209.pdf
+C152,2 proposed,Thorlabs,AB90,50.8 x 50.8 x 38.1 angle; counterbored M6 slots,Stock mounting candidate,https://www.thorlabs.com/thorproduct.cfm?partnumber=AB90

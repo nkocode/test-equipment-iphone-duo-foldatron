@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="450" viewBox="0 0 1100 450">
+<rect width="1100" height="450" fill="white"/>
+<polygon points="60.50,249.25 190.00,249.25 190.00,240.00 60.50,240.00" fill="#c6d5dd" stroke="#183846" stroke-width="1.5"/>
+<polygon points="190.00,249.25 319.50,249.25 319.50,240.00 190.00,240.00" fill="#6eb4bb" stroke="#183846" stroke-width="1.5"/>
+<polygon points="97.50,323.25 134.50,323.25 134.50,249.25 97.50,249.25" fill="#b6c0c5" stroke="#183846" stroke-width="1.5"/>
+<polygon points="245.50,323.25 282.50,323.25 282.50,249.25 245.50,249.25" fill="#a8d2d5" stroke="#183846" stroke-width="1.5"/>
+<circle cx="190" cy="240" r="4" fill="#b57124"/>
+<text x="190" y="45" text-anchor="middle" font-family="Helvetica" font-size="23" fill="#183846">180 deg opening</text>
+<text x="190" y="395" text-anchor="middle" font-family="Helvetica" font-size="15" fill="#183846">Outside grips stay out of gap</text>
+<polygon points="415.50,249.25 545.00,249.25 545.00,240.00 415.50,240.00" fill="#c6d5dd" stroke="#183846" stroke-width="1.5"/>
+<polygon points="554.25,240.00 554.25,110.50 545.00,110.50 545.00,240.00" fill="#6eb4bb" stroke="#183846" stroke-width="1.5"/>
+<polygon points="452.50,323.25 489.50,323.25 489.50,249.25 452.50,249.25" fill="#b6c0c5" stroke="#183846" stroke-width="1.5"/>
+<polygon points="628.25,184.50 628.25,147.50 554.25,147.50 554.25,184.50" fill="#a8d2d5" stroke="#183846" stroke-width="1.5"/>
+<circle cx="545" cy="240" r="4" fill="#b57124"/>
+<text x="545" y="45" text-anchor="middle" font-family="Helvetica" font-size="23" fill="#183846">90 deg opening</text>
+<text x="545" y="395" text-anchor="middle" font-family="Helvetica" font-size="15" fill="#183846">Outside grips stay out of gap</text>
+<polygon points="770.50,249.25 900.00,249.25 900.00,240.00 770.50,240.00" fill="#c6d5dd" stroke="#183846" stroke-width="1.5"/>
+<polygon points="900.00,230.75 770.50,230.75 770.50,240.00 900.00,240.00" fill="#6eb4bb" stroke="#183846" stroke-width="1.5"/>
+<polygon points="807.50,323.25 844.50,323.25 844.50,249.25 807.50,249.25" fill="#b6c0c5" stroke="#183846" stroke-width="1.5"/>
+<polygon points="844.50,156.75 807.50,156.75 807.50,230.75 844.50,230.75" fill="#a8d2d5" stroke="#183846" stroke-width="1.5"/>
+<circle cx="900" cy="240" r="4" fill="#b57124"/>
+<text x="900" y="45" text-anchor="middle" font-family="Helvetica" font-size="23" fill="#183846">0 deg opening</text>
+<text x="900" y="395" text-anchor="middle" font-family="Helvetica" font-size="15" fill="#183846">Outside grips stay out of gap</text>
+</svg>
