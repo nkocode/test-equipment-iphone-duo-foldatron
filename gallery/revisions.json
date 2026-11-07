@@ -1,5 +1,91 @@
 [
-  {"id":"rev-a","name":"Rev A","title":"The first folding bench","status":"Preserved concept","commit":"516acfce436bfdb4f58c6955ddaff594326ae535","description":"The original envelope model, illustrated assembly manual and interactive explorer. Preserved exactly as first delivered.","detail":"2020 frame · concept mechanism · original eight-stage explorer","viewer":"revisions/rev-a/project/visualization/index.html","image":"gallery/assets/rev-a-preview.jpg","documents":[["Design & assembly","docs/FoldBench-design-and-assembly.pdf"],["Illustrated assembly manual","docs/Foldatron-illustrated-assembly-manual.pdf"],["BOM","hardware/BOM.md"]]},
-  {"id":"rev-b","name":"Rev B","title":"From concept to drawing CAD","status":"Preserved development review","commit":"cffc8cf1ebc7edfec4ac9f31be40f88952309e84","description":"1010 structure, dimensioned custom parts, vendor interface data and a twenty-operation assembly traveler. Includes the drawing-derived motion study.","detail":"122 CAD instances · 34 custom part numbers · 20 assembly operations","viewer":"revisions/rev-b/project/visualization/index.html","image":"visualization/preview.jpg","documents":[["Drawing book","docs/rev-b/Foldatron-Rev-B-drawing-book.pdf"],["Assembly traveler","docs/rev-b/Foldatron-Rev-B-assembly-traveler.pdf"],["BOM","hardware/rev-b/bom.csv"],["STEP assembly","hardware/rev-b/cad/foldatron-rev-b.step"]]},
-  {"id":"rev-c","name":"Rev C","title":"A bench built from catalog parts","status":"Redesign in progress","commit":null,"description":"A new architecture constrained to commercially available mechanical and electrical components, without shop machining or custom circuit boards.","detail":"Catalog interfaces · purchased motion modules · ready-made I/O","viewer":null,"image":null,"documents":[]}
+  {
+    "id": "rev-a",
+    "name": "Rev A",
+    "title": "The first folding bench",
+    "status": "Preserved concept",
+    "commit": "516acfce436bfdb4f58c6955ddaff594326ae535",
+    "description": "The original envelope model, illustrated assembly manual and interactive explorer. Preserved exactly as first delivered.",
+    "detail": "2020 frame \u00b7 concept mechanism \u00b7 original eight-stage explorer",
+    "viewer": "revisions/rev-a/project/visualization/index.html",
+    "image": "gallery/assets/rev-a-preview.jpg",
+    "documents": [
+      [
+        "Design & assembly",
+        "docs/FoldBench-design-and-assembly.pdf"
+      ],
+      [
+        "Illustrated assembly manual",
+        "docs/Foldatron-illustrated-assembly-manual.pdf"
+      ],
+      [
+        "BOM",
+        "hardware/BOM.md"
+      ]
+    ]
+  },
+  {
+    "id": "rev-b",
+    "name": "Rev B",
+    "title": "From concept to drawing CAD",
+    "status": "Preserved development review",
+    "commit": "cffc8cf1ebc7edfec4ac9f31be40f88952309e84",
+    "description": "1010 structure, dimensioned custom parts, vendor interface data and a twenty-operation assembly traveler. Includes the drawing-derived motion study.",
+    "detail": "122 CAD instances \u00b7 34 custom part numbers \u00b7 20 assembly operations",
+    "viewer": "revisions/rev-b/project/visualization/index.html",
+    "image": "visualization/preview.jpg",
+    "documents": [
+      [
+        "Drawing book",
+        "docs/rev-b/Foldatron-Rev-B-drawing-book.pdf"
+      ],
+      [
+        "Assembly traveler",
+        "docs/rev-b/Foldatron-Rev-B-assembly-traveler.pdf"
+      ],
+      [
+        "BOM",
+        "hardware/rev-b/bom.csv"
+      ],
+      [
+        "STEP assembly",
+        "hardware/rev-b/cad/foldatron-rev-b.step"
+      ]
+    ]
+  },
+  {
+    "id": "rev-c",
+    "name": "Rev C",
+    "title": "A bench built from catalog parts",
+    "status": "Engineering checkpoint C-0.2",
+    "commit": "926d26171c94749fe383dd66f36ed86ca586ff37",
+    "description": "Catalog-only redesign with full natural closure required. A 14-sheet drawing review records verified vendor interfaces, rejected edge clamps and the outside-surface vacuum-contact direction. Not released for assembly.",
+    "detail": "46 pinned vendor files \u00b7 5 CAD interface checks \u00b7 full closure required",
+    "viewer": null,
+    "image": "gallery/assets/rev-c-preview.jpg",
+    "documents": [
+      [
+        "Drawing review PDF",
+        "revisions/rev-c/docs/Foldatron-Rev-C-structure-and-interface-review.pdf"
+      ],
+      [
+        "Working parts register",
+        "revisions/rev-c/hardware/procurement-status.csv"
+      ],
+      [
+        "Phone measurement traveler",
+        "revisions/rev-c/docs/phone-measurement-traveler.md"
+      ],
+      [
+        "Structure STEP",
+        "revisions/rev-c/hardware/cad/structure-study.step"
+      ],
+      [
+        "Source register",
+        "revisions/rev-c/hardware/sources.json"
+      ]
+    ],
+    "archive_label": "Repository at this checkpoint \u2193",
+    "local_downloads": true
+  }
 ]

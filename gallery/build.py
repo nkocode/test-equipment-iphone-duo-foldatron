@@ -67,11 +67,22 @@ def build(output):
             f'<a href="{material}">Revision files ↗</a></div></div>'
             f"{visual}</section>"
         )
-        docs = "".join(
-            f'<a href="{REPO}/blob/{commit or "main"}/{path}">'
-            f"{esc(label)} ↗</a>"
-            for label, path in revision["documents"]
-        )
+        document_links = []
+        for label, path in revision["documents"]:
+            if revision.get("local_downloads"):
+                target = folder / "files" / Path(path).name
+                target.parent.mkdir(exist_ok=True)
+                shutil.copy2(ROOT / path, target)
+                document_links.append(
+                    f'<a href="files/{esc(target.name)}" download>'
+                    f"{esc(label)} ↓</a>"
+                )
+            else:
+                document_links.append(
+                    f'<a href="{REPO}/blob/{commit or "main"}/{path}">'
+                    f"{esc(label)} ↗</a>"
+                )
+        docs = "".join(document_links)
         if revision["viewer"]:
             shutil.copy2(ROOT / revision["viewer"], folder / "viewer.html")
             display = (
@@ -85,12 +96,24 @@ def build(output):
                 '<a href="viewer.html" download>Download offline viewer ↓</a>'
             )
         else:
-            display = (
-                '<div class="resources"><h2>Design in progress</h2></div>'
+            display = '<section class="resources"><h2>Development review</h2>'
+            if revision["image"]:
+                display += (
+                    '<img class="review-preview" src="preview.jpg" '
+                    'alt="Rev C drawing review using original vendor CAD">'
+                )
+            display += (
+                "<p>Full natural closure is required. The current package "
+                "contains structure and interface drawings, a working parts "
+                "register and a phone-measurement traveler. The contact "
+                "fixture, complete assembly instructions, wiring and Rev C "
+                "hardware drivers are still in development.</p></section>"
             )
             controls = ""
         download_label = (
-            "Complete source snapshot ↓" if commit else "Revision folder ↗"
+            revision.get("archive_label", "Complete source snapshot ↓")
+            if commit
+            else "Revision folder ↗"
         )
         body = (
             '<div class="viewer-bar"><div><h1>'

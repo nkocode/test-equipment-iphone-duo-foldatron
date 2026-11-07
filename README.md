@@ -5,7 +5,14 @@
 [Rev C — catalog-only redesign](revisions/rev-c/).
 Rev A and Rev B are complete frozen source snapshots with file hashes.
 The [revision gallery](https://foldatron-evolution.nathanota.chatgpt.site)
-provides a separate interactive page for each revision.
+provides separate revision pages, with the preserved Rev A/Rev B interactive
+viewers and downloadable Rev C engineering checkpoints.
+
+**Latest Rev C checkpoint: C-0.2.** Full natural closure is required; edge
+clamps are rejected. The [14-sheet drawing review](revisions/rev-c/docs/Foldatron-Rev-C-structure-and-interface-review.pdf)
+and [phone measurement traveler](revisions/rev-c/docs/phone-measurement-traveler.md)
+record the purchased-part direction and remaining release gates. This is
+not yet a complete assembly package or a working Rev C hardware driver.
 
 An original prototype inspired by CNET's Fold-A-Phone video. Includes hardware design, a complete procurement/fabrication BOM, assembly and commissioning instructions, Python Raspberry Pi controller, FastAPI REST API, generated OpenAPI 3.1 specification and automated tests.
 
