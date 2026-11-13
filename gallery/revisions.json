@@ -58,7 +58,7 @@
     "name": "Rev C",
     "title": "A bench built from catalog parts",
     "status": "Engineering review C-0.3 - open design holds",
-    "commit": "926d26171c94749fe383dd66f36ed86ca586ff37",
+    "commit": "a45e866ae1d92bc72fd2676aa0eb2ab6641efa45",
     "description": "Catalog-only mechanical redesign with a purchased passive XY fixture, four outside-surface vacuum cups, a whole-bench viewer with orthographic inspection and closed-pose detail, and separate technical drawing and assembly books. Open design holds are documented; this is not a build release. Software development is deferred.",
     "detail": "83 modeled components \u00b7 orthographic views \u00b7 18 illustrated assembly operations",
     "viewer": "revisions/rev-c/visualization/index.html",
