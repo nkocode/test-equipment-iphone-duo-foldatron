@@ -57,35 +57,63 @@
     "id": "rev-c",
     "name": "Rev C",
     "title": "A bench built from catalog parts",
-    "status": "Engineering checkpoint C-0.2",
+    "status": "Engineering review C-0.3 - open design holds",
     "commit": "926d26171c94749fe383dd66f36ed86ca586ff37",
-    "description": "Catalog-only redesign with full natural closure required. A 14-sheet drawing review records verified vendor interfaces, rejected edge clamps and the outside-surface vacuum-contact direction. Not released for assembly.",
-    "detail": "46 pinned vendor files \u00b7 5 CAD interface checks \u00b7 full closure required",
-    "viewer": null,
+    "description": "Catalog-only mechanical redesign with a purchased passive XY fixture, four outside-surface vacuum cups, a whole-bench viewer with orthographic inspection and closed-pose detail, and separate technical drawing and assembly books. Open design holds are documented; this is not a build release. Software development is deferred.",
+    "detail": "83 modeled components \u00b7 orthographic views \u00b7 18 illustrated assembly operations",
+    "viewer": "revisions/rev-c/visualization/index.html",
     "image": "gallery/assets/rev-c-preview.jpg",
     "documents": [
       [
-        "Drawing review PDF",
-        "revisions/rev-c/docs/Foldatron-Rev-C-structure-and-interface-review.pdf"
+        "Technical drawing book",
+        "revisions/rev-c/docs/Foldatron-Rev-C-drawing-book.pdf"
       ],
       [
-        "Working parts register",
-        "revisions/rev-c/hardware/procurement-status.csv"
+        "Illustrated assembly manual",
+        "revisions/rev-c/docs/Foldatron-Rev-C-assembly-manual.pdf"
+      ],
+      [
+        "Parts and purchasing holds",
+        "revisions/rev-c/hardware/assembly-parts.tsv"
+      ],
+      [
+        "Electrical connection schedule",
+        "revisions/rev-c/docs/electrical-installation.md"
+      ],
+      [
+        "Pneumatic and hose schedule",
+        "revisions/rev-c/docs/pneumatic-installation.md"
+      ],
+      [
+        "Fastener schedule",
+        "revisions/rev-c/docs/fastener-schedule.md"
+      ],
+      [
+        "Bench STEP",
+        "revisions/rev-c/hardware/cad/bench-development.step"
+      ],
+      [
+        "Hardware OpenAPI",
+        "revisions/rev-c/software/openapi-hardware.json"
+      ],
+      [
+        "Software installation",
+        "revisions/rev-c/software/README.md"
+      ],
+      [
+        "Release register",
+        "revisions/rev-c/docs/release-register.json"
+      ],
+      [
+        "Vendor source register",
+        "revisions/rev-c/hardware/sources.json"
       ],
       [
         "Phone measurement traveler",
         "revisions/rev-c/docs/phone-measurement-traveler.md"
-      ],
-      [
-        "Structure STEP",
-        "revisions/rev-c/hardware/cad/structure-study.step"
-      ],
-      [
-        "Source register",
-        "revisions/rev-c/hardware/sources.json"
       ]
     ],
-    "archive_label": "Repository at this checkpoint \u2193",
+    "archive_label": "Repository source at C-0.3 \u2193",
     "local_downloads": true
   }
 ]

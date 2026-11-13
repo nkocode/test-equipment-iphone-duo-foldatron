@@ -51,7 +51,8 @@ Download and open [visualization/index.html](visualization/index.html) in a brow
 
 Application modules live under `src/foldbench/`, with package metadata in `pyproject.toml`. Pipenv installs this local package in editable mode. Tests exercise the installed package; they do not add the checkout or `src` to Python's import path. The same `python -m foldbench` command works outside the repository once installed. Tests, documentation, hardware files and deployment examples remain outside the Python import package.
 
-Rev B is the current engineering review package. Its 1010 frame, fixture,
+Rev B remains the preserved custom-machined engineering review package.
+The current catalog-only development is in `revisions/rev-c/`. Its 1010 frame, fixture,
 sensor mounts and corrected endpoint wiring supersede the corresponding
 Rev A illustrations. The interactive viewer uses the same Rev B geometry.
 See [the Rev B release boundary](hardware/rev-b/README.md) before purchasing
@@ -100,3 +101,12 @@ Edit `hardware/BOM.json`, then run `pipenv run bom` to update totals and the rea
 `pipenv run assembly-manual` rebuilds the separate illustrated assembly PDF, Markdown instructions and SVG drawings from `docs/assembly/steps.json` and `scripts/build_assembly_guide.py`. It uses the existing development dependencies. Review all rendered pages after changes; the generator checks text/table space, not mechanical fit or electrical correctness.
 
 The code logs motor-derived angle and current as observations, not calibrated hinge torque or display-health measurements. Complete the commissioning checklist with an empty rig and dummy before testing the phone.
+
+## Rev C development review
+
+The [Rev C folder](revisions/rev-c/README.md) now contains the catalog-only
+fixture, whole-bench CAD viewer, separate drawing book and illustrated assembly
+manual, connection schedules, and a source-layout Python/FastAPI service.
+C-0.3 has explicit design holds and is not a manufacturing release.
+[Public revision gallery](https://foldatron-evolution.nathanota.chatgpt.site)
+keeps Rev A, Rev B and Rev C on separate pages of one site.

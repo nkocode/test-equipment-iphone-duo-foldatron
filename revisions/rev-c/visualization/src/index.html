@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>foldatron · Rev C assembly</title>
+  <style>/* STYLES */</style>
+</head>
+<body>
+  <header><div class="brand">foldatron<span>REV C / ASSEMBLY STUDY</span></div><span class="status">Development geometry</span></header>
+  <main>
+    <aside>
+      <p class="eyebrow">CATALOG COMPONENTS</p>
+      <h1>Rev C mechanical assembly.</h1>
+      <p class="intro">Outside-surface vacuum grips. Inspect the 1010 guard, purchased motion fixture and control-enclosure layout.</p>
+      <section class="motion">
+        <div class="row"><h2>Phone opening</h2><output id="angle-label">180°</output></div>
+        <input id="angle" type="range" min="0" max="180" step="0.5" value="180" aria-label="Phone opening angle">
+        <div class="scale"><span>Closed</span><span>Open</span></div>
+        <div class="buttons"><button id="play">Play motion</button><button id="reset">Whole bench</button><button id="focus">Fixture detail</button></div>
+        <div class="drawing-views" aria-label="Drawing views"><button data-view="front">Front</button><button data-view="side">Side</button><button data-view="top">Plan</button><button id="closure">Closed detail</button></div>
+        <p class="view-note">Front, side and plan use orthographic projection. Drag to inspect from any angle.</p>
+      </section>
+      <section>
+        <div class="row"><h2>Assembly layers</h2><output id="explode-label">0%</output></div>
+        <input id="explode" type="range" min="0" max="100" value="0" aria-label="Explode assembly">
+        <label class="toggle"><input type="checkbox" id="guard" checked> Show guard</label>
+        <label class="toggle"><input type="checkbox" id="cabinet" checked> Show controls</label>
+        <label for="door">Open guard door</label><input id="door" type="range" min="0" max="110" value="0" aria-label="Guard door angle">
+        <label class="toggle"><input type="checkbox" id="phone" checked> Show surrogate phone</label>
+        <label class="toggle"><input type="checkbox" id="fixed" checked> Show stationary grip</label>
+        <label class="toggle"><input type="checkbox" id="moving" checked> Show moving grip</label>
+      </section>
+      <section class="inspector">
+        <label for="part">Inspect a component</label>
+        <select id="part"><option value="">Choose a part or select it in 3D</option></select>
+        <h3 id="part-title">Purchased interfaces</h3>
+        <p id="part-description">The stage, rails, carriers and plates use original vendor solids. Other parts are identified as catalog interface models.</p>
+        <p id="part-size"></p>
+      </section>
+      <p class="limits">Surrogate: 70 × 160 × 5 mm per leaf. Assembly study: hose routing, some hardware and cabinet mounting remain unfinished. Phone geometry and physical acceptance require measurement. This is a motion study, not a machine-control screen.</p>
+    </aside>
+    <div id="viewport" aria-label="Interactive three-dimensional fixture model">
+      <div class="view-label"><span>01 / BENCH ASSEMBLY</span><p id="view-state">Assembled · natural-closure concept</p><p class="model-scale">1010 profile · 762 × 762 × 660.4 mm frame</p></div>
+      <div id="loading">Preparing assembly…</div>
+      <div class="view-help">Drag to orbit · Scroll to zoom · Select a part</div>
+    </div>
+  </main>
+  <script>/* SCRIPT */</script>
+</body>
+</html>

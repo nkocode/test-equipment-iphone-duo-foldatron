@@ -29,13 +29,15 @@ jobs:
       - name: Check exported schema
         run: |
           pipenv run schema
-          git diff --exit-code -- openapi.json
+          git diff --exit-code -- openapi.json revisions/rev-c/software/
       - name: Check distributable package
         run: |
           pipenv run package
           pipenv run python scripts/check_wheel.py
       - name: Exercise live simulator API
         run: pipenv run smoke
+      - name: Exercise Rev C live HTTP and crash recovery
+        run: pipenv run python scripts/http_smoke_revc.py
   viewer:
     runs-on: ubuntu-latest
     defaults:
@@ -50,3 +52,7 @@ jobs:
           npm run check
           npm run build
           git diff --exit-code -- index.html
+      - name: Reproduce Rev C viewer
+        run: |
+          node ../revisions/rev-c/visualization/build.mjs
+          git diff --exit-code -- ../revisions/rev-c/visualization/index.html

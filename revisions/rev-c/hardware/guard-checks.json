@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FOR_NOMINAL_LAYOUT_ONLY",
+  "door_width_mm": 694.5252,
+  "latch_side_opening_mm": 15.1,
+  "switch_gap_mm": 2.5,
+  "panel_capture_mm": 6,
+  "conservative_motion_radius_mm": 300,
+  "nearest_opening_clearance_mm": 193.033,
+  "design_minimum_clearance_mm": 150,
+  "negative_control_400_mm_radius_rejected": true,
+  "excluded": [
+    "Physical reach/stopping time",
+    "Panel retention",
+    "Tolerance stack",
+    "Actual hose routing",
+    "Door swing and latch solids",
+    "Actual phone"
+  ]
+}

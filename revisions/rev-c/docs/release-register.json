@@ -1,0 +1,29 @@
+{
+  "revision": "C-0.3",
+  "date": "2026-11-13",
+  "release": "DEVELOPMENT_REVIEW_NOT_FOR_BUILD",
+  "design_holds": [
+    {"id":"M01","subject":"Complete fixture and bench interference","required":"Include fasteners, XY displaced positions, hoses, door swing and receiving tolerances; current rigid sample sweep is limited."},
+    {"id":"M02","subject":"Fastener schedule","required":"Close all screw/nut/washer order codes, counts, bearing areas, blind depths, engagement and access; especially SD1 with #6 and breadboard mounts."},
+    {"id":"M03","subject":"Guard retention and closure","required":"Confirm 2116 gasket with selected panel thickness; complete stock stop/latch and their mounting; verify access distances and stopping time."},
+    {"id":"M04","subject":"Cabinet and operator mounting","required":"Resolve factory bosses, DIN rails, tabs, brackets, Pi case, glands and reset/E-stop mounting; add all hardware to CAD and BOM."},
+    {"id":"M05","subject":"Workbench anchoring","required":"Verify purchased clamp geometry/load and retainers against commercial workbench; qualify frame restraint without drilling."},
+    {"id":"E01","subject":"Power connector compatibility","required":"Verify factory PSU removable terminal construction, polarity and PTB2 mating without custom adapter."},
+    {"id":"E02","subject":"Electrical purchasing and cabinet fit","required":"Select fuses, terminal end plates, clamps, ferrules, glands, wire, microSD and cables with exact quantities/order codes; verify thermal/clearance layout."},
+    {"id":"E03","subject":"RS485 installation","required":"Pin exact converter manual, terminal labels, termination and reference/shield arrangement; complete cable order codes."},
+    {"id":"E04","subject":"Safety controller configuration","required":"Generate and review the actual Banner configuration/exported wiring report, pulse-source support and reset logic; verify DC load rating."},
+    {"id":"P01","subject":"Regulator mounting","required":"Resolve MS4-WR catalog bracket to 1010 mounting stack and access."},
+    {"id":"P02","subject":"Pneumatic mounting and route","required":"Complete stock ejector/valve/sensor mounts, tube retainers, dynamic hose paths and as-built cut lengths."}
+  ],
+  "physical_qualification": [
+    {"id":"Q01","subject":"Actual phone","required":"Shop measures phone; qualify cup locations, coating compatibility, hinge path, allowable loads and full natural closure."},
+    {"id":"Q02","subject":"Mechanical acceptance","required":"Measure bearing travel/drag, combined loads, retention, guarded access and protective-stop behavior with sacrificial specimen."},
+    {"id":"Q03","subject":"Hardware acceptance","required":"Verify device identities/firmware, temperatures/open-wire faults, process restart, sensor loss, E-stop, guard and communications faults."},
+    {"id":"P03","subject":"Vacuum acceptance","required":"Measure thresholds/hysteresis, leak response, supply-loss retention and supported manual recovery for each cup."}
+  ],
+  "verified_in_software_only": [
+    "Protocol framing and simulated fault tests",
+    "Commissioning lockout and API authentication",
+    "Durable cycle accounting and no automatic run resumption"
+  ]
+}

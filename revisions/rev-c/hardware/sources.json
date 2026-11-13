@@ -366,5 +366,229 @@
     "sha256": "e9dea249edc02171c03a02c52ce9aaaba933d387869962c45b73a6998d2f96e6",
     "bytes": 1391100,
     "retrieved": "2026-11-06"
+  },
+  {
+    "part": "RLA300/M",
+    "file": "RLA300-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla300_m/0170-e0w.pdf?v=0116023509",
+    "sha256": "f0485b6139b1a97b0e2cf6399286aaac50b15dbdf00adb69b65b7acd3f498212",
+    "bytes": 183644,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "RLA300/M",
+    "file": "RLA300-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/r/rl/rla/rla300_m/0170-e0w.step?v=0116023511",
+    "sha256": "a6d897d010b487587fe9b301847677bd37a2ad51f4cb308dae4c9ed557ddb04a",
+    "bytes": 15646962,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "BA1/M",
+    "file": "BA1-M.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/b/ba/ba1/ba1_m/19225-e0w.pdf?v=0116103806",
+    "sha256": "c32fd52e9b252566e4afbf6c947d4fb9012d595e6e71790921c55b9b59b8ff73",
+    "bytes": 117705,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "BA1/M",
+    "file": "BA1-M.step",
+    "url": "https://media.thorlabs.com/globalassets/items/b/ba/ba1/ba1_m/19225-e0w.step?v=0116103808",
+    "sha256": "cb07a772a3893b4b44933de5c9efbe903be81be1efc2b91b8dc57914434a46a7",
+    "bytes": 1144598,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Del-Tron metric catalog",
+    "file": "Deltron-metric.pdf",
+    "url": "https://deltron.com/PDFs/Deltron-Precision-Linear-Motion-Catalog-Metric.pdf",
+    "sha256": "5ab221dc75210b15798a3f4d96096cc5a368ef835facd5ec80b384f93a63c689",
+    "bytes": 8706348,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "SD1",
+    "file": "SD1.pdf",
+    "url": "https://media.thorlabs.com/globalassets/items/s/sd/sd1/sd1/0818-e0w.pdf?v=0116025053",
+    "sha256": "15b30e161580571ace20552787a9cc5ee4a56028bedf7d33797e7d9e52e125d3",
+    "bytes": 118837,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "SD1",
+    "file": "SD1.step",
+    "url": "https://media.thorlabs.com/globalassets/items/s/sd/sd1/sd1/0818-e0w.step?v=0116025054",
+    "sha256": "14e57f4f674f49150d1c9fe401ccb2ce216cd0aec24facca353407918fdd6746",
+    "bytes": 45331,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Del-Tron inch catalog",
+    "file": "Deltron-inch.pdf",
+    "url": "https://deltron.com/pdfs/deltron-precision-linear-motion-catalog-inch.pdf",
+    "sha256": "9e27cf6abb0b1044a15f06dd4fb5c4a30881a9c35b34d7615fbe72ef3b688aa9",
+    "bytes": 8697600,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "SDE5-V1-O-Q6E-P-M8 / 527461",
+    "file": "Festo-SDE5-data.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/527461.pdf",
+    "sha256": "2c1dcc806f1325d50091a7b070d69e783135d00af787454ca3056a339e281e58",
+    "bytes": 49768,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "SDE5 pressure sensor",
+    "file": "Festo-SDE5.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/EN_US/SDE5_ENUS.PDF",
+    "sha256": "06b99e9f954e84ec20c1fb2143eeb70d20c15365d8c7ac7fc006ba190c2d4a91",
+    "bytes": 1166392,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "VN-05-H-T3-PQ2-VQ2-RO1 / 193488",
+    "file": "Festo-VN-data.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/193488.pdf",
+    "sha256": "73eab1d31de0db587f73e2e36ae46b39a6291349cb6f96f13d011c23fd64de81",
+    "bytes": 52128,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "VN vacuum generators",
+    "file": "Festo-VN.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/KO/VN_EN.PDF",
+    "sha256": "1bc5a2379cdf430092a6ae1f2e7df618c4bfe1faa32bcd94170641b990b46962",
+    "bytes": 3044596,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "H-QS-6 / 153463",
+    "file": "Festo-H-QS-6.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/153463.pdf",
+    "sha256": "9d69303df34e32bb012e025142816fcc5b1d3d7dc02664bc33fffb068e93a031",
+    "bytes": 44931,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "ICP DAS M-7018R",
+    "file": "ICP-mapping.pdf",
+    "url": "https://www.icpdas.com/web/product/download/io_and_unit/rs-485/document/manual/7000/M-7000_address_mapping_table.pdf",
+    "sha256": "2e3aa76ac0393a594d0ab777192b96ffb2e940a61147640fa6d78d9cf1175556",
+    "bytes": 2101569,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "ICP DAS M-7018R",
+    "file": "ICP-comprehensive.pdf",
+    "url": "https://www.icpdas.com/web/product/download/io_and_unit/rs-485/document/manual/7000/I-7000_M-7000_Comprehensive-Manual_en.pdf",
+    "sha256": "119a14dd54e173f676f35d04482e99a9d0d93a4c56a6f315749b616db2059012",
+    "bytes": 18981505,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "80/20 2086",
+    "file": "8020-2086.png",
+    "url": "https://8020.net/media/catalog/product/2/0/2086_dimensional_13.png",
+    "sha256": "15740fdcb171a813e7a9f9928fce5f037a2a3034d566f275886689136ca30648",
+    "bytes": 52900,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "80/20 2116",
+    "file": "8020-2116.png",
+    "url": "https://8020.net/media/catalog/product/2/1/2116_dimensional.png",
+    "sha256": "f7709935e237ad489b74bc609442fbd38848a36a43c48f213b50bd335dd613d3",
+    "bytes": 18043,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "80/20 1010",
+    "file": "8020-1010.png",
+    "url": "https://8020.net/media/catalog/product/1/0/1010_dimensional_4.jpg",
+    "sha256": "d34c4230bde9a270fd213a41612eb1c40ef27e23592668c190b811821f1046e8",
+    "bytes": 74044,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Durham HDWB-3660-95",
+    "file": "Durham-workbenches.pdf",
+    "url": "https://www.durhammfg.com/wp-content/uploads/2023/05/2023-Workbenches-Workstations-section.pdf",
+    "sha256": "b07843a91522134ea19e5365b97f5f9c61cab0fcbb0470acfd203847c86fb35f",
+    "bytes": 5424118,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Banner SI-RF",
+    "file": "Banner-SI-RF.pdf",
+    "url": "https://info.bannerengineering.com/cs/groups/public/documents/literature/208885.pdf",
+    "sha256": "218d4acfe55ab4a49910a47f5334598e9125e2c5d7b2679ea416513ff6cc2c1b",
+    "bytes": 784522,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Altech PC3625-16-m",
+    "file": "Altech-enclosures.pdf",
+    "url": "https://legacy.altechcorp.com/PDFS/IndustEnclosure2025-Final.pdf",
+    "sha256": "caad326ef633e4e373539153ddc7aa12f6874ec36062c894d8f6a0e4db501fbc",
+    "bytes": 52452023,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Festo MS4-LFR",
+    "file": "Festo-MS-LFR.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/EN_US/MS_LFR_ENUS.PDF",
+    "sha256": "eedd5b05711c116788938472ec738462dd752d5fe7d946310efb5107a155d551",
+    "bytes": 5057144,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Festo QS fittings",
+    "file": "Festo-QS.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/PT/QS_EN.PDF",
+    "sha256": "b17b56d421dc4de8beec372aa59e097d120334c2ce8f182a603b2695012bfdd7",
+    "bytes": 8514124,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Festo HE-3-QS-6",
+    "file": "Festo-HE.pdf",
+    "url": "https://ftp.festo.com/public/pneumatic/SOFTWARE_SERVICE/Documentation/2023/US/HE_VB_ENUS.PDF",
+    "sha256": "68ec5a15451a02f989e47f19ae7f1868a4255b28e281d941dcdea7ea383134e3",
+    "bytes": 846511,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Festo PUN-H-6X1-BL",
+    "file": "Festo-PUN-H.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/197384.pdf",
+    "sha256": "1230d8a7e2f0017783b6d1c76046935b7f61531f975271f75866b7267ec6c7cc",
+    "bytes": 52037,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "Festo MS4-WR",
+    "file": "Festo-MS4-WR.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/526064.pdf",
+    "sha256": "62882363a64262897d953f97dba8318512d825423fe5c746654841a6f09a9b8e",
+    "bytes": 40379,
+    "retrieved": "2026-11-07"
+  },
+  {
+    "part": "ICP tM-7561",
+    "file": "ICP-tM7561.pdf",
+    "url": "https://www.icpdas.com/web/product/download/industrial_communication/uart/converter/document/data_sheet/tM-7561_en.pdf",
+    "sha256": "2854e7c857affba4a4344bd4761b399c5401cab1aff22b065e8bb6ba64023117",
+    "bytes": 316465,
+    "retrieved": "2026-11-13"
+  },
+  {
+    "part": "Festo MS mounting accessories",
+    "file": "Festo-MS-accessories.pdf",
+    "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2023/US/MS-ACC_ENUS.PDF",
+    "sha256": "b60f49cc17e8535edf0a713823e4ad8bfe093c9a5bb8faea93052ae7ae59f401",
+    "bytes": 2913374,
+    "retrieved": "2026-11-13"
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FOR_MODELED_SAMPLES_ONLY",
+  "angles_deg": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180
+  ],
+  "exact_intersections": 1,
+  "collisions": [],
+  "excluded": [
+    "Hoses, cables and fasteners not yet represented",
+    "Actual phone geometry and compound hinge motion",
+    "Clearance between angular samples",
+    "Compliance-stage displaced positions",
+    "Intentional permanent mounting contacts within each group"
+  ]
+}

@@ -1,0 +1,28 @@
+[Unit]
+Description=foldatron Rev C supervised folding bench
+After=network.target
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=foldatron
+Group=foldatron
+SupplementaryGroups=dialout
+WorkingDirectory=/opt/foldatron
+EnvironmentFile=/etc/foldatron/revc.env
+Environment=FOLDATRON_C_DATA=/var/lib/foldatron-revc
+ExecStart=/opt/foldatron/.venv/bin/python -m foldbench.revc
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+StateDirectory=foldatron-revc
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/foldatron-revc
+
+[Install]
+WantedBy=multi-user.target

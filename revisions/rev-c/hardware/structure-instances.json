@@ -3,7 +3,7 @@
     "name": "base-x--1",
     "part": "C101",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       381.0,
@@ -17,7 +17,7 @@
     "name": "base-y--1",
     "part": "C102",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       -355.6,
@@ -31,7 +31,7 @@
     "name": "base-x-1",
     "part": "C101",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       381.0,
@@ -45,7 +45,7 @@
     "name": "base-y-1",
     "part": "C102",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       355.6,
       381.0,
@@ -59,7 +59,7 @@
     "name": "roof-x--1",
     "part": "C101",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       381.0,
@@ -73,7 +73,7 @@
     "name": "roof-y--1",
     "part": "C102",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       -355.6,
@@ -87,7 +87,7 @@
     "name": "roof-x-1",
     "part": "C101",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       381.0,
@@ -101,7 +101,7 @@
     "name": "roof-y-1",
     "part": "C102",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       355.6,
       381.0,
@@ -115,7 +115,7 @@
     "name": "post--368.3--368.3",
     "part": "C103",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       -355.6,
@@ -129,7 +129,7 @@
     "name": "post--368.3-368.3",
     "part": "C103",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -381.0,
       -355.6,
@@ -143,7 +143,7 @@
     "name": "post-368.3--368.3",
     "part": "C103",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       355.6,
       381.0,
@@ -157,7 +157,7 @@
     "name": "post-368.3-368.3",
     "part": "C103",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       355.6,
       381.0,
@@ -171,7 +171,7 @@
     "name": "breadboard-support--275",
     "part": "C104",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -355.6,
       355.6,
@@ -185,7 +185,7 @@
     "name": "breadboard-support-275",
     "part": "C104",
     "group": "frame",
-    "geometry": "Catalog envelope / indicative slot relief",
+    "geometry": "Drawing-derived 1010 section; small radii omitted",
     "bounds_mm": [
       -355.6,
       355.6,
@@ -203,8 +203,8 @@
     "bounds_mm": [
       -381.0,
       -304.8,
-      -385.7752,
-      -381.0,
+      -355.6,
+      -350.8248,
       0.0,
       76.2
     ]
@@ -217,8 +217,8 @@
     "bounds_mm": [
       -381.0,
       -304.8,
-      -385.7752,
-      -381.0,
+      -355.6,
+      -350.8248,
       584.2,
       660.4
     ]
@@ -287,8 +287,8 @@
     "bounds_mm": [
       304.8,
       381.0,
-      -385.7752,
-      -381.0,
+      -355.6,
+      -350.8248,
       0.0,
       76.2
     ]
@@ -301,8 +301,8 @@
     "bounds_mm": [
       304.8,
       381.0,
-      -385.7752,
-      -381.0,
+      -355.6,
+      -350.8248,
       584.2,
       660.4
     ]

@@ -5,6 +5,7 @@ The phone-contact fixture and electrical cabinet are deliberately absent.
 """
 
 import json
+import math
 from pathlib import Path
 
 import cadquery as cq
@@ -17,6 +18,7 @@ VIEWS = DATA / "views"
 SILVER = cq.Color(0.70, 0.74, 0.77)
 BLACK = cq.Color(0.16, 0.19, 0.21)
 BLUE = cq.Color(0.18, 0.42, 0.52)
+STRUCTURE_PARTS = []
 
 
 def box(x, y, z, center=(0, 0, 0)):
@@ -24,10 +26,25 @@ def box(x, y, z, center=(0, 0, 0)):
 
 
 def extrusion(length):
-    """Catalog envelope; indicative slots, not a manufacturer section."""
+    """1010 drawing-derived section; small radii and tooth details omitted.
+
+    Slot mouth, lip depth, undercut and core bore follow the pinned 80/20
+    drawing. This is a reconstructed interface, not vendor-native CAD.
+    """
     result = box(25.4, 25.4, length)
+    result = result.cut(cq.Solid.makeCylinder(
+        5.207 / 2, length + 2, cq.Vector(0, 0, -length / 2 - 1)))
+    # Profile top is y=12.7. Outer lip ends 2.2098 below that face.
+    mouth = box(6.5024, 2.3098, length + 2,
+                (0, 12.7 - 2.2098 / 2 + 0.05, 0))
+    outline = [(-7.4168, 10.4902), (7.4168, 10.4902),
+               (7.4168, 7.399), (4.5212, 4.4958),
+               (-4.5212, 4.4958), (-7.4168, 7.399)]
+    cavity = (cq.Workplane("XY").polyline(outline).close()
+              .extrude(length + 2).translate((0, 0, -length / 2 - 1))
+              .val())
+    relief = mouth.fuse(cavity)
     for angle in (0, 90, 180, 270):
-        relief = box(6.5, 7.5, length + 2, (0, 10.5, 0))
         result = result.cut(relief.rotate((0, 0, 0), (0, 0, 1), angle))
     return result
 
@@ -55,6 +72,14 @@ def vendor(part):
 
 
 def image(shape, filename, direction, width=1200, height=800):
+    from OCP.gp import gp_Ax2, gp_Dir, gp_Pnt
+
+    axes = gp_Ax2(gp_Pnt(), gp_Dir(*direction))
+    up_x = axes.XDirection().Z()
+    up_y = axes.YDirection().Z()
+    if math.hypot(up_x, up_y) > 1e-8:
+        angle = math.degrees(math.atan2(up_x, up_y))
+        shape = shape.rotate((0, 0, 0), direction, angle)
     cq.exporters.export(
         shape,
         str(VIEWS / filename),
@@ -74,6 +99,7 @@ def image(shape, filename, direction, width=1200, height=800):
 
 
 def main():
+    STRUCTURE_PARTS.clear()
     CAD.mkdir(parents=True, exist_ok=True)
     VIEWS.mkdir(parents=True, exist_ok=True)
     assembly = cq.Assembly(name="foldatron-rev-c-structure-study")
@@ -82,6 +108,10 @@ def main():
 
     def add(name, part, shape, group, evidence, color=SILVER):
         assembly.add(shape, name=name, color=color)
+        STRUCTURE_PARTS.append({
+            "name": name, "part": part, "shape": shape, "group": group,
+            "evidence": evidence, "color": color.toTuple()[:3],
+        })
         bounds = shape.BoundingBox()
         instances.append(
             {
@@ -116,7 +146,7 @@ def main():
                 "C101",
                 shape,
                 "frame",
-                "Catalog envelope / indicative slot relief",
+                "Drawing-derived 1010 section; small radii omitted",
             )
             shape = (
                 extrusion(711.2)
@@ -128,7 +158,7 @@ def main():
                 "C102",
                 shape,
                 "frame",
-                "Catalog envelope / indicative slot relief",
+                "Drawing-derived 1010 section; small radii omitted",
             )
     for x in [-368.3, 368.3]:
         for y in [-368.3, 368.3]:
@@ -138,7 +168,7 @@ def main():
                 "C103",
                 shape,
                 "frame",
-                "Catalog envelope / indicative slot relief",
+                "Drawing-derived 1010 section; small radii omitted",
             )
     for y in [-275, 275]:
         shape = (
@@ -151,7 +181,7 @@ def main():
             "C104",
             shape,
             "frame",
-            "Catalog envelope / indicative slot relief",
+            "Drawing-derived 1010 section; small radii omitted",
         )
 
     # External plates avoid notching the side and rear guard panels.
@@ -166,7 +196,12 @@ def main():
                 p = p.rotate((0, 0, 0), (1, 0, 0), 90)
                 if sy == 1:
                     p = p.mirror("XZ")
-                p = p.translate((sx * 368.3, sy * 381, z))
+                if sy == -1:
+                    # Front plates must sit behind the door. On the front
+                    # face they would obstruct its outward swing.
+                    p = p.mirror("XZ")
+                face_y = -355.6 if sy == -1 else 381
+                p = p.translate((sx * 368.3, face_y, z))
                 add(
                     f"upright-plate-{sx}-{sy}-{z}",
                     "C105",

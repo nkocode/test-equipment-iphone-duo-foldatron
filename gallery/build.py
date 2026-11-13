@@ -69,7 +69,10 @@ def build(output):
         )
         document_links = []
         for label, path in revision["documents"]:
-            if revision.get("local_downloads"):
+            local_file = ROOT / path
+            # Large STEP files exceed the static host's per-file limit.
+            if (revision.get("local_downloads")
+                    and local_file.stat().st_size < 24 * 1024 * 1024):
                 target = folder / "files" / Path(path).name
                 target.parent.mkdir(exist_ok=True)
                 shutil.copy2(ROOT / path, target)

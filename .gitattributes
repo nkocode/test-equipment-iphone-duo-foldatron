@@ -12,3 +12,6 @@ revisions/rev-c/hardware/views/** -whitespace linguist-generated=true
 revisions/rev-c/hardware/procurement-status.csv -whitespace
 # Preserve third-party attribution and license text as received.
 hardware/rev-b/third-party/** -whitespace
+revisions/rev-c/hardware/fixture-model.json -diff linguist-generated=true
+revisions/rev-c/visualization/index.html -diff -whitespace linguist-generated=true
+revisions/rev-c/hardware/bench-model.json -diff linguist-generated=true

@@ -1,0 +1,78 @@
+id	qty	unit	vendor	part_number	description	status	source
+C101	4	ea	80/20	1010	762 mm frame rails; supplier cut	Selected	https://8020.net/1010.html
+C102	6	ea	80/20	1010	711.2 mm rails; includes 2 breadboard supports	Selected	https://8020.net/1010.html
+C103	4	ea	80/20	1010	609.6 mm posts; supplier cut	Selected	https://8020.net/1010.html
+C104	2	ea	80/20	1010	606.425 mm door stiles; supplier cut	Selected	https://8020.net/1010.html
+C105	2	ea	80/20	1010	643.7252 mm door crossbars; supplier cut	Selected	https://8020.net/1010.html
+C106	2	ea	80/20	1010	762 mm cabinet support rails; supplier cut	Mounting detail hold M04	https://8020.net/1010.html
+C107	1	ea	80/20	1010	200 mm moving grip mast; supplier cut	Selected	https://8020.net/1010.html
+C108	1	ea	80/20	1010	300 mm fixed grip mast; supplier cut	Selected	https://8020.net/1010.html
+C110	16	ea	80/20	4151	12 frame plates plus 4 door plates	Selected	https://8020.net/4151.html
+C111	80	set	80/20	3321	Five screw/nut sets per 4151	Selected; CAD omits screws	https://8020.net/3321.html
+C112	12	ea	80/20	4119	8 base/support plus 4 cabinet corner brackets	Placement hold M04	https://8020.net/4119.html
+C113	24	pair	80/20	3061 + 3382	Two screw/nut pairs per 4119	Stack review M04	https://8020.net/4119.html
+C114	16	ea	80/20	3873	M6 T-nuts: 4 board + 4 mast angles + 8 cup plates	Selected	https://8020.net/3873.html
+C115	4	ea	80/20	3666	M4 T-nuts for guard pair	Selected	https://8020.net/3666.html
+C116	2	ea	80/20	2086	Metal door hinge	Selected	https://8020.net/2086.html
+C117	8	set	80/20	3386	Hinge screw/nut assemblies	Selected	https://8020.net/3386.html
+C118	1	ea	80/20	2062	Door handle; 75.006 mm hole pitch	Selected	https://8020.net/2062.html
+C119	2	set	80/20	3491	Handle fastener assemblies	Selected	https://8020.net/3491.html
+C120	3	ea	80/20	2643	723.2 x 621.6 x nominal 3 mm panels	Gasket fit hold M03	https://8020.net/2643.html
+C121	1	ea	80/20	2643	723.2 x 723.2 x nominal 3 mm roof	Gasket fit hold M03	https://8020.net/2643.html
+C122	1	ea	80/20	2643	655.7252 x 567.625 x nominal 3 mm door	Gasket fit hold M03	https://8020.net/2643.html
+C123	50	ft	80/20	2116	Push-in gasket; allowance includes corners	Panel retention hold M03	https://8020.net/2116.html
+C124	1	ea	80/20	2053	Catalog deadbolt latch candidate	NOT SELECTED; gap fit M03	https://8020.net/2053.html
+C125	1	ea	80/20	4483	Catalog door stop candidate	NOT SELECTED; mounting M03	https://8020.net/4483.html
+C130	1	ea	Thorlabs	MB6060/M	600 x 600 x 12.7 breadboard; M6 25 mm grid	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=MB6060/M
+C131	1	ea	Zaber	X-RSW60A-E03	60 mm rotary stage; vertical rotation axis in model	Vendor STEP obtained	https://www.zaber.com/products/rotary-stages/X-RSW-E
+C132	2	ea	Thorlabs	RLA300/M	300 mm rail; existing M6 mounting features	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=RLA300/M
+C133	2	ea	Thorlabs	RC2/M	Locked setup carriers; M4 top threads	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=RC2/M
+C134	1	ea	Thorlabs	BA2/M	Moving stage adapter; existing slots	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=BA2/M
+C135	4	ea	Thorlabs	BA1/M	Cup-holder mounting plates	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=BA1/M
+C136	2	ea	Thorlabs	AB90	Fixed and moving right-angle supports	Vendor STEP obtained	https://www.thorlabs.com/thorproduct.cfm?partnumber=AB90
+C137	6	ea	Thorlabs	SD1	Counterbore adapters; order pack sufficient for 6	Two #6 applications hold M02	https://www.thorlabs.com/thorproduct.cfm?partnumber=SD1
+C138	1	ea	Del-Tron	R451P-XY	Imperial plain XY; no micrometers springs or brackets	Factory configuration; drawing reconstruction	https://deltron.com/search/micrometer_positioning_stages_model.aspx?pkid=2788
+C140	2	ea	Bolt Depot	6395	M4 x 14 socket head; BA2 to moving RC2	Nominal stack checked	https://www.boltdepot.com/Product-Details?product=6395
+C141	2	ea	Bolt Depot	6396	M4 x 16 socket head; fixed AB90 to RC2	Nominal stack checked	https://www.boltdepot.com/Product-Details?product=6396
+C142	2	ea	Bolt Depot	15052	#6-32 x 5/8 socket head; moving AB90 to XY	Adapter bearing hold M02	https://www.boltdepot.com/Product-Details?product=15052
+C143	2	ea	Bolt Depot	15054	#6-32 x 7/8 socket head; XY base through BA2	Nut/washer stack hold M02	https://www.boltdepot.com/Product-Details?product=15054
+C144	4	ea	Bolt Depot	6417	M6 x 12 socket head; cup holder mount	Blind depth inspection M02	https://www.boltdepot.com/Product-Details?product=6417
+C145	1	lot	Catalog fasteners	See fastener schedule	Remaining M6 and guard fasteners	Exact order-code/quantity hold M02	https://www.boltdepot.com/metric-socket-products
+C150	1	ea	Durham	HDWB-3660-95	60 x 36 inch welded commercial workbench	Anchoring hold M05	https://www.durhammfg.com/
+C151	4	ea	Bessey	TG4.012	12 inch capacity; 4 inch throat clamp candidate	NOT SELECTED; vendor drawing M05	https://bessey.de/en-us
+C201	1	ea	Banner	SC10-2roe / 806222	45 W x 115 H x 100 D safety controller	Configuration export hold E04	https://www.bannerengineering.com/us/en/products/part.806222.html
+C202	1	ea	Schmersal	BNS 260-02Z-L / 101184385	Non-LED dual NC guard switch	Selected	https://products.schmersal.com/en_IO/bns-260-02z-l-101184385
+C203	1	ea	Schmersal	BPS 260-1 / 101184395	Matching guard actuator	Selected	https://products.schmersal.com/en_IO/bps-260-1-101184395
+C204	1	ea	Schneider	XALK178FH29	Complete dual-NC E-stop station	Mounting hold M04	https://www.se.com/se/sv/product/XALK178FH29/
+C205	1	ea	Schneider	XALD102	Complete green NO reset station	Mounting hold M04	https://www.proface.com/en/product/spec/XALD102
+C206	1	ea	Waveshare	26244	Modbus RTU IO 8CH; 72 x 121 x 34	Selected	https://www.waveshare.com/product/modbus-rtu-io-8ch.htm
+C207	1	ea	ICP DAS	M-7018R	TC input; 76 x 120 x 42	Firmware/readback qualification Q03	https://icpdasusa.com/m-7018r
+C208	1	5-pack	Omega	SA1-K	Use two self-adhesive Type K probes	Exact lead-length option at order	https://br.omega.com/omegaFiles/temperature/pdf/SA1.pdf
+C209	1	ea	ICP DAS	tM-7561	Isolated USB to RS485	Bus detail hold E03	https://www.icpdas.com/en/download/file.php?num=2724
+C210	1	ea	Raspberry Pi	SC0022 / 3 Model B	Headless controller; 85.6 x 56.5 board	Selected	https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
+C211	1	ea	Phoenix Contact	2202874	RPI-BC 107.6 DEV-KIT KMGY; DIN case	Mounting hold M04	https://www.phoenixcontact.com/us/products/2202874
+C212	1	ea	Adafruit	1995	5 V 2.5 A factory micro-USB Pi supply	Selected	https://www.adafruit.com/product/1995
+C213	2	ea	Zaber	PS12S-24V30	24 V 3 A; separate motor and control supplies	Output connector hold E01	https://www.zaber.com/products/accessories/PS12S-24V30
+C214	1	ea	Zaber	PTB2	Stage power terminal connector	Verify mating E01	https://www.zaber.com/products/accessories/PTB2
+C215	1	ea	Zaber	X-USBDC	Factory USB to RS232 stage lead	Selected; not T-USBDC	https://www.zaber.com/products/accessories/X-USBDC
+C220	1	ea	Altech	127-912 / PC3625-16-m	Factory metric knockout enclosure; 361 x 254 x 165	Factory boss/mount hold M04	https://legacy.altechcorp.com/PDFS/IndustEnclosure2025-Final.pdf
+C221	1	set	Altech	194-001 / MT1	Four mounting tabs	Mounting hold M04	https://legacy.altechcorp.com/PDFS/IndustEnclosure2025-Final.pdf
+C222	1	set	Altech	190-005 / HK2	Catalog hinge kit	Selected	https://legacy.altechcorp.com/PDFS/IndustEnclosure2025-Final.pdf
+C223	2	ea	Altech	198-336 / TS35/336	Precut 336 mm DIN rails	Factory boss layout hold M04	https://legacy.altechcorp.com/PDFS/IndustEnclosure2025-Final.pdf
+C224	38	ea	Phoenix Contact	3209510 / PT 2,5	20 distribution + 18 signal terminals; provisional	Final terminal allocation E02	https://www.phoenixcontact.com/us/products/3209510
+C225	2	ea	Phoenix Contact	3030213 / FBS 10-5	Separate +24 V and 0 V bridges	Selected	https://www.phoenixcontact.com/us/products/3030213
+C226	2	ea	Phoenix Contact	3211861 / PT4-HESI (5X20)	Fuse holders; 6.2 mm wide; fuses separate	Fuse selection E02	https://www.phoenixcontact.com/us/products/3211861
+C227	1	lot	Catalog electrical	See electrical schedule	End plates clamps fuses glands wire labels microSD and cables	Unfinished order codes E02/E03	https://www.digikey.com/
+C301	4	ea	Festo	189294 / ESS-20-SN	20 mm flat NBR suction cup	Phone surface qualification Q01	https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189294.pdf
+C302	4	ea	Festo	189209 / ESH-HB-4-QS	28 mm M6 holder; 6 mm tube port	Blind mounting depth M02	https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/189209.pdf
+C303	2	ea	Festo	193488 / VN-05-H-T3-PQ2-VQ2-RO1	Continuous ejector; 14 mm wide; 97.6 mm long	Mounting hold P02	https://www.festo.com/us/en/a/193488/
+C304	4	ea	Festo	153463 / H-QS-6	Individual cup check valves	Selected	https://www.festo.com/us/en/a/153463/
+C305	5	ea	Festo	153475 / HE-3-QS-6	Four cup releases plus one supply shutoff	Mounting hold P02	https://www.festo.com/us/en/a/153475/
+C306	7	ea	Festo	153129 / QST-6	6 mm tee; air and vacuum distribution	Selected	https://www.festo.com/us/en/a/153129/
+C307	4	ea	Festo	527461 / SDE5-V1-O-Q6E-P-M8	One-port PNP normally-open vacuum switch	Threshold qualification P03	https://www.festo.com/us/en/a/527461/
+C308	4	ea	Festo	8078223 / NEBA-M8G3-U-2.5-N-LE3	Factory straight M8 3-core 2.5 m cable	Selected	https://www.festo.com/us/en/a/8078223/
+C309	20	m	Festo	197384 / PUN-H-6X1-BL	6 OD / 4 ID tubing procurement allowance	Final route lengths P02	https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/197384.pdf
+C310	1	ea	Festo	529152 / MS4-LFR-1/4-D7-CRM-AS	G1/4 regulator; 5 um filter; gauge; manual drain	Bracket interface P01	https://www.festo.com/us/en/a/529152/
+C311	1	ea	Festo	526064 / MS4-WR	Regulator bracket	Bracket interface P01	https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/526064.pdf
+C312	1	ea	Festo	532187 / MS4-WRS	Separate bracket nut	Selected	https://www.festo.com/us/en/a/532187/
+C313	2	ea	Festo	186097 / QS-G1/4-6	Regulator fittings; verify purchasing pack size	Selected	https://www.festo.com/us/en/a/186097/

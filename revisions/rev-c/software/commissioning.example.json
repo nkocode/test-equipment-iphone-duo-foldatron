@@ -1,0 +1,26 @@
+{
+  "released": false,
+  "evidence_record": "",
+  "phone_id": "",
+  "operator": "",
+  "stage_serial": 0,
+  "open_steps": 0,
+  "closed_steps": 768000,
+  "max_speed_deg_s": 2.0,
+  "segment_deg": 0.25,
+  "max_temperature_c": 40.0,
+  "run_current_units": 0,
+  "hold_current_units": 0,
+  "acceleration_units": 0,
+  "stage_version": "",
+  "thermocouple_firmware_words": [
+    0,
+    0
+  ],
+  "hardware_acceptance": false,
+  "full_closure_verified": false,
+  "vacuum_loss_tested": false,
+  "stop_circuit_tested": false,
+  "hose_sweep_tested": false,
+  "load_limit_tested": false
+}
